@@ -1,0 +1,22 @@
+{
+    "displayName": "",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "mms_xvi_drone",
+    "hullMods": [],
+    "permaMods": [
+        "mms_droneEMP"
+    ],
+    "quality": 0.0,
+    "variantId": "mms_xvi_drone_wpn",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "gravitonbeam"
+            }
+        }
+    ]
+}

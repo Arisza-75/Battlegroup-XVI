@@ -1,0 +1,22 @@
+{
+    "displayName": "Interceptor",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "mms_interceptor",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_interceptor_laser",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "mms_neutronCannon",
+                "WS 000": "mms_neutronCannon",
+                "WS 003": "mms_neutronCannon",
+                "WS 001": "mms_neutronCannon"
+            }
+        }
+    ]
+}

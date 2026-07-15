@@ -1,0 +1,57 @@
+{
+	
+	"combatSmall":{
+		"mms_xvi_beam_frigate_ranged":7,
+		"mms_udf_alliance_standard":7,
+	},
+	"combatMedium":{
+		"mms_udf_alliance_standard":4,
+		"mms_xvi_cruiser_standard":6,
+		"mms_udf_ixion_standard":6,
+		},
+	"combatLarge":{
+		"mms_helena_prototype":4,
+		"mms_xvi_cruiser_standard":6,
+	},
+	"combatCapital":{
+				"mms_omega_capital1_standard":5,
+				"mms_rahksha_missile":2,
+				"mms_xvi_onslaught_standard":4,
+				"mms_onslaught_outdated":5,
+				"mms_xvi_onslaught_missile":3,
+				"mms_udf_flagship_standard":2,
+				
+				"mms_hikari_yo_adv":5,
+	},
+	"combatFreighterSmall":{
+	},
+	"combatFreighterMedium":{
+	},
+	"combatFreighterLarge":{
+	},
+	"carrierSmall":{
+	},
+	"carrierMedium":{
+		"mms_mora_standard":5,
+	},
+	"carrierLarge":{
+		"mms_legion_standard":5,
+		"mms_rahksha_missile":2,		
+		"mms_hikari_yo_adv":5,
+		"mms_udf_flagship_standard":2,
+	},
+	"phaseSmall":{
+	},
+	"phaseMedium":{
+	},
+	"freighterMedium":{
+		"mms_atlas_milspec":5,
+		"mms_llama_standard":2,
+		"mms_cargo_shuttle_standard":2,
+	},
+	"tankerMedium":{
+		"mms_atlas_milspec":5,
+	},
+}
+
+		

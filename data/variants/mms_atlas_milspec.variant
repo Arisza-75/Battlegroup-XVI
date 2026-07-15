@@ -1,0 +1,27 @@
+{
+    "displayName": "Militarized",
+    "fluxCapacitors": 0,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "mms_atlas",
+    "hullMods": [
+        "auxiliarythrusters",
+        "expanded_cargo_holds"
+    ],
+    "quality": 1.0,
+    "variantId": "mms_atlas_milspec",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "mms_xvi_canister",
+                "WS 000": "mms_xvi_canister",
+                "WS 002": "mms_xvi_pdburst",
+                "WS 003": "mms_xvi_pdburst",
+                "WS 004": "mms_xvi_pdburst",
+                "WS 005": "mms_xvi_pdburst"
+            }
+        }
+    ]
+}

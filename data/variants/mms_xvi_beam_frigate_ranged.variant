@@ -1,0 +1,25 @@
+{
+    "displayName": "Long Range",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "mms_xvi_beam_frigate",
+    "hullMods": [
+        "targetingunit",
+        "fluxcoil",
+        "hardenedshieldemitter",
+        "advancedoptics"
+    ],
+    "quality": 0.0,
+    "variantId": "mms_xvi_beam_frigate_ranged",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "xvi_frigate_cannon",
+                "WS 001": "mms_xvi_pdburst"
+            }
+        }
+    ]
+}

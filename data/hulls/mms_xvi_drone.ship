@@ -1,0 +1,85 @@
+{
+    "hullName": "nebula lantern",
+    "hullId": "mms_xvi_drone",
+    "hullSize": "FIGHTER",
+    "style": "MMS_XVI",
+    "spriteName": "graphics/ships/fighters/mms_xvi_drone.png",
+    "height": 21,
+    "width": 18,
+    "center": [
+        9, 10.5
+    ],
+    "collisionRadius": 11.5,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 14,
+    "viewOffset": 0,
+    "builtInMods": [
+        "mms_droneEMP"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "MEDIUM",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                       2,        0
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -4.5, -5.5
+            ],
+            "length": 5,
+            "width": 2,
+            "angle": 200,
+            "contrailSize": 0,
+            "style": "MMS_CYBER"
+        },
+        {
+            "location": [
+                -4.5, 5.5
+            ],
+            "length": 5,
+            "width": 2,
+            "angle": 160,
+            "contrailSize": 0,
+            "style": "MMS_CYBER"
+        },
+        {
+            "location": [
+                -2, -4
+            ],
+            "length": 2,
+            "width": 2,
+            "angle": 180,
+            "contrailSize": 0,
+            "style": "MMS_CYBER"
+        },
+        {
+            "location": [
+                -2, 4
+            ],
+            "length": 2,
+            "width": 2,
+            "angle": 180,
+            "contrailSize": 0,
+            "style": "MMS_CYBER"
+        }
+    ],
+    "bounds": [
+             9.5,        0,
+              -3,     -5.5,
+              -9,        0,
+              -3,      5.5
+    ]
+}

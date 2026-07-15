@@ -1,0 +1,26 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": false,
+    "hullId": "mms_lost_escort_destroyer",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_lost_escort_destroyer_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "dualflak",
+                "WS 007": "dualflak",
+                "WS 001": "vulcan",
+                "WS 003": "vulcan",
+                "WS 005": "vulcan",
+                "WS 004": "vulcan",
+                "WS 002": "vulcan",
+                "WS 000": "vulcan"
+            }
+        }
+    ]
+}

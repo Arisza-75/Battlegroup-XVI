@@ -1,0 +1,194 @@
+{
+    "hullName": "Hikari Front",
+    "hullId": "mms_hikari_front",
+    "hullSize": "FRIGATE",
+    "style": "HIGH_TECH",
+    "spriteName": "graphics/ships/remnant/mms_hikari_yo_front.png",
+    "height": 270,
+    "width": 256,
+    "center": [
+        128, 135
+    ],
+    "collisionRadius": 167.5,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 207.5,
+    "viewOffset": 0,
+    "builtInMods": [
+        "never_detaches"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "MEDIUM",
+            "type": "ENERGY",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     105,      -70
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "MEDIUM",
+            "type": "ENERGY",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     105,       70
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "MEDIUM",
+            "type": "ENERGY",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     116,       50
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "MEDIUM",
+            "type": "ENERGY",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     116,      -50
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     124,       17
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     124,      -17
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "TURRET",
+            "arc": 142,
+            "angle": 290.5,
+            "locations": [
+                      -3,      -43
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "LARGE",
+            "type": "SYNERGY",
+            "mount": "TURRET",
+            "arc": 142,
+            "angle": 69.5,
+            "locations": [
+                      -3,       43
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 139,
+            "angle": 53.5,
+            "locations": [
+                      83,       28
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 139,
+            "angle": 306.5,
+            "locations": [
+                      83,      -28
+            ]
+        },
+        {
+            "id": "LB 000",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   -28.5,    -71.5,
+                   -20.5,      -83,
+                     -27,      -86,
+                     -37,      -79
+            ]
+        },
+        {
+            "id": "LB 004",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     -30,     78.5,
+                     -18,       82,
+                   -23.5,     88.5,
+                     -35,     83.5
+            ]
+        }
+    ],
+    "engineSlots": [],
+    "bounds": [
+            -103,       10,
+           -87.5,       19,
+             -84,       41,
+           -75.5,       69,
+             -68,       87,
+        
+           -39.5,       93,
+               7,     90.5,
+            38.5,       75,
+            72.5,       75,
+              88,       81,
+        
+             109,     31.5,
+             109,    -31.5,
+              88,      -81,
+            72.5,      -75,
+            38.5,      -75,
+        
+               7,    -90.5,
+           -39.5,      -93,
+             -68,      -87,
+           -75.5,      -69,
+             -84,      -41,
+        
+           -87.5,      -19,
+            -103,      -10
+    # 22 points total.
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "displayName": "Standard Type",
+    "fluxCapacitors": 50,
+    "fluxVents": 25,
+    "goalVariant": true,
+    "hullId": "mms_xvi_onslaught",
+    "hullMods": [
+        "targetingunit",
+        "advancedshieldemitter"
+    ],
+    "quality": 0.0,
+    "variantId": "mms_xvi_onslaught_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 020": "xvi_onslaught_maingun",
+                "WS 021": "xvi_onslaught_maingun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 014": "mms_blitz",
+                "WS 013": "mms_blitz",
+                "WS 012": "mms_blitz",
+                "WS 015": "mms_blitz"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 019": "mms_neutronCannon",
+                "WS 011": "mms_neutronCannon",
+                "WS 018": "mms_neutronCannon",
+                "WS 010": "mms_neutronCannon",
+                "WS 016": "mms_neutronCannon",
+                "WS 017": "mms_neutronCannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "mms_particle_cannon",
+                "WS 009": "mms_particle_cannon",
+                "WS 008": "mms_particle_cannon",
+                "WS 004": "mms_particle_cannon",
+                "WS 007": "mms_particle_cannon",
+                "WS 005": "mms_particle_cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "mms_xvi_heavy_pulsar",
+                "WS 000": "mms_xvi_heavy_pulsar"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 002": "mms_spike_large",
+                "WS 003": "mms_spike_large"
+            }
+        }
+    ],
+    "wings": [
+        "mms_lightchaser_wing"
+    ]
+}

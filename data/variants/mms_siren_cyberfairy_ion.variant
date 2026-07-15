@@ -1,0 +1,28 @@
+{
+    "displayName": "Heavy Fighter",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "mms_siren_cyberfairy",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_siren_cyberfairy_ion",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "mms_swarm_fighter",
+                "WS 001": "mms_swarm_fighter"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "mms_neutronCannon",
+                "WS0002": "mms_neutronCannon"
+            }
+        }
+    ]
+}

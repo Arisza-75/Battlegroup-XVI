@@ -1,0 +1,249 @@
+{
+    "hullName": "Mora",
+    "hullId": "mms_mora",
+    "hullSize": "CRUISER",
+    "style": "MMS_XVI",
+    "spriteName": "graphics/ships/XVI/mms_mora.png",
+    "height": 190,
+    "width": 220,
+    "center": [
+        111, 88
+    ],
+    "collisionRadius": 150,
+    "coversColor": "",
+    "shieldCenter": [
+        1, 1
+    ],
+    "shieldRadius": 140,
+    "viewOffset": 0,
+    "builtInMods": [
+        "mms_MateriaHull"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HARDPOINT",
+            "arc": 12,
+            "angle": 0,
+            "locations": [
+                      53,       81
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "MEDIUM",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 200,
+            "angle": 40,
+            "locations": [
+                    27.5,       80
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "MEDIUM",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 200,
+            "angle": -50,
+            "locations": [
+                      20,      -80
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": 20,
+            "locations": [
+                      50,       44
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 200,
+            "angle": -20,
+            "locations": [
+                      68,      -42
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": -80,
+            "locations": [
+                       1,     -101
+            ]
+        },
+        {
+            "id": "WS 011",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": 80,
+            "locations": [
+                       2,      103
+            ]
+        },
+        {
+            "id": "WS 012",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 160,
+            "angle": -45,
+            "locations": [
+                      51,      -68
+            ]
+        },
+        {
+            "id": "WS 013",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 110,
+            "angle": 0,
+            "locations": [
+                      46,       64
+            ]
+        },
+        {
+            "id": "WS 014",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 150,
+            "angle": 180,
+            "locations": [
+                     -58,       -2
+            ]
+        },
+        {
+            "id": "WS 015",
+            "size": "LARGE",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 300,
+            "angle": 0,
+            "locations": [
+                      43,        2,
+                     -34,       17,
+                     -50,      -21,
+                      56,       15
+            ]
+        },
+        {
+            "id": "WS 016",
+            "size": "LARGE",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 300,
+            "angle": 0,
+            "locations": [
+                     -47,       26,
+                      33,       14,
+                      78,      -10,
+                      55,      -10
+            ]
+        },
+        {
+            "id": "WS 017",
+            "size": "LARGE",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 300,
+            "angle": 0,
+            "locations": [
+                     -35,      -17,
+                     -48,       13,
+                      66,        3,
+                      27,       -6
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -62, 77
+            ],
+            "length": 64,
+            "width": 32,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -63, 66
+            ],
+            "length": 64,
+            "width": 32,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -63, -64
+            ],
+            "length": 64,
+            "width": 32,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -63, -75
+            ],
+            "length": 64,
+            "width": 32,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "MMS_XVI_engine"
+        }
+    ],
+    "bounds": [
+              50,       87,
+              59,       36,
+              72,       33,
+            91.5,     -0.5,
+            78.5,    -25.5,
+        
+              95,      -38,
+              50,      -66,
+              24,     -101,
+             -22,     -102,
+             -70,    -78.5,
+        
+           -69.5,      -54,
+             -35,      -48,
+             -80,      -32,
+           -58.5,    -24.5,
+           -58.5,     24.5,
+        
+             -81,       34,
+             -44,       43,
+             -34,       54,
+           -69.5,       54,
+             -58,       88,
+        
+             -20,      104,
+              23,      105
+    # 22 points total.
+    ]
+}

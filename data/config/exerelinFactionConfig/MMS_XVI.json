@@ -1,0 +1,102 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":false,   
+	"asteroidMiningFleetName":"Mining Division",
+    "gasMiningFleetName":"Harvester Division",
+    "invasionFleetName":"Invasion Force",
+    "responseFleetName":"Responder Fleet",
+    "invasionSupportFleetName":"Secondary Support Division",
+	"suppressionFleetName":"Suppresion Division",
+    "defenceFleetName":"Defense Division",
+	"noSyncRelations":false,
+	"noStartingContact":false,
+	
+    "rebelFleetSuffix":"Defectors",
+    
+    "directoryUseShortName":true,
+
+    "startRelationships":{ 
+	"hegemony":-0.7,
+	"remnant":0.5,
+	"luddic_church":-0.5,
+	"luddic_path":-1,
+    "ORA":0.4,
+	"dpl_phase_lab":1.0,
+	"ae_ixbattlegroup":-0.9, 
+	"tritachyon":-0.2, 
+	"sylphon":-0.3,	
+    },
+
+    "morality":"neutral",
+
+    "diplomacyTraits":["paranoid","likes_ai","helps_allies", "law_and_order"],
+
+    "alignments":{
+            "Technocratic":0.7,
+            "militarist":1,
+            "diplomatic":0.5
+    },
+
+    "isPirateNeutral":false,
+
+    "vengeanceLevelNames":["Distruption", "Attack", "Annihilation"],
+    "vengeanceFleetNames":["Distruptor", "Attack", "Annihilation"],
+    "vengeanceFleetNamesSingle":["A Distruptor Unit", "Attack Fleet", "Annihilation Fleet"],
+
+ 
+    
+    "startShipsSolo":[
+		["mms_atlas_standard"]
+    ],
+
+    "startShipsCombatSmall":[
+		["mms_atlas_standard"]
+    ],
+
+    "startShipsCombatLarge":[
+		["mms_atlas_standard"]
+    ],
+
+    "startShipsTradeSmall":[
+	["mms_atlas_standard"]
+    ],
+	"startShipsTradeLarge":[
+	["mms_atlas_standard"]
+	],
+	"startShipsCarrierSmall":[
+	["mms_atlas_standard"]
+    ],
+
+    "startShipsCarrierLarge":[
+	["mms_atlas_standard"]
+    ],
+
+    "startShipsSuper":[
+	["mms_xvi_onslaught_standard"]
+    ],
+	"startShipsGrandFleet":[
+	["mms_xvi_onslaught_standard","mms_xvi_onslaught_missile","mms_xvi_cruiser_standard","mms_xvi_cruiser_standard",]
+    ],	
+	 "startSpecialItems":[
+    [["high_tech_package", ""]], [["low_tech_package", ""]]
+    ],
+
+    "colonyExpeditionChance":1.5,	
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",	
+    "maxColonyDistance": 35,	
+ 
+    "defenceStations":[
+        {"ids":["orbitalstation_high", "battlestation_high", "starfortress_high"]},
+    ],
+   
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.3},
+        {"id":"militarybase", "mult":0.7},
+		{"id":"fuelprod", "mult":0.05}
+    ],
+
+    "bonusSeeds":[
+        {"id":"nanoforge_pristine", "count":1}
+      
+    ]
+}

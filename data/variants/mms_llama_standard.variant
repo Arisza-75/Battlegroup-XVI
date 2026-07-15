@@ -1,0 +1,24 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "mms_llama",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_llama_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "mms_xvi_pdburst",
+                "WS 000": "mms_xvi_pdburst",
+                "WS 002": "mms_neutronCannon"
+            }
+        }
+    ],
+    "modules": {
+        "WS 003": "mms_module_shield_Standard"
+    }
+}

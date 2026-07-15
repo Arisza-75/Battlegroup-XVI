@@ -1,0 +1,10 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+mms_siren_ksg_ion_wing,mms_siren_cyberfairy_ion,"xvi_bp,attack_at_an_angle",2,0.5,10,12,V,4000,700,300,3,FIGHTER,Fighter,10,2000,,,,,,,,,,,,,1
+mms_interceptor_wing,mms_interceptor_laser,"xvi_bp,attack_at_an_angle",0,0.1,6,6,DIAMOND,4000,600,30,5,INTERCEPTOR,Interceptor,10,2000,,,,,,,,,,,,,1
+mms_ex_fighter_wing,mms_ex_fighter_standard,"xvi_bp,attack_at_an_angle",3,2,12,15,V,4000,300,300,3,FIGHTER,Fighter,12,20000,,,,,,,,,,,,,1
+mms_stormblade_wing,mms_stormblade_standard,"xvi_bp,attack_at_an_angle",2,0.6,10,18,DIAMOND,4000,1500,750,2,BOMBER,Heavy Bomber,5,2000,,,,,,,,,,,,,
+mms_lightchaser_wing,mms_xvi_lightchaser_standard,"xvi_bp,attack_at_an_angle",2,1,15,20,DIAMOND,3500,750,300,1,BOMBER,Gunship,20,50000,,,,,,,,,,,,,
+mms_lost_x1raider_wing,mms_lost_x1raider_standard,"xvi_bp,attack_at_an_angle",0,0.1,6,4,V,4000,600,30,5,INTERCEPTOR,Interceptor,6,2000,,,,,,,,,,,,,1
+mms_xvi_drone_wing,mms_xvi_drone_standard,"xvi_bp,attack_at_an_angle,auto_fighter",1,0.1,6,4,CLAW,4000,600,30,5,INTERCEPTOR,Combat Drone ,6,2000,,,,,,,,,,,,,1
+mms_xvi_wpn_drone_wing,mms_xvi_drone_wpn,"no_drop, no_sell, xvi_bp, attack_at_an_angle,",0,0.1,6,0,CLAW,4000,600,30,2,SUPPORT,Combat Drone ,6,2000,,,,,,,,,,,,,1
+mms_xvi_talon_wing,mms_xvi_talon_Interceptor,"interceptor1, interceptor, low, merc, ind",0,,3,2,V,4000,200,600,4,INTERCEPTOR,Interceptor,5,2000,,,,,,,,,,,,,6

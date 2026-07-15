@@ -1,0 +1,22 @@
+{
+    "displayName": "Experimental Fighter",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "mms_ex_fighter",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_ex_fighter_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "mms_flak_charge",
+                "WS 003": "mms_flak_charge",
+                "WS 000": "mms_neutronCannon",
+                "WS 001": "mms_neutronCannon"
+            }
+        }
+    ]
+}

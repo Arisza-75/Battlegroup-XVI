@@ -1,0 +1,24 @@
+{
+"id":"mms_HVC",
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"displayArcRadius":600,
+	"turretSprite":"graphics/weapons/plasma_cannon_turret_base.png",
+	"hardpointSprite":"graphics/weapons/plasma_cannon_hardpoint_base.png",
+	"turretOffsets":[35,0,35,-5,35,5,35,10, 35,-10],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[50, 0, 50, -5,50, 5,50, 10,50, -10],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":20.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":120.0,
+					   "particleSizeMin":15.0,
+					   "particleSizeRange":30.0,
+					   "particleDuration":0.75,
+					   "particleCount":50,
+					   "particleColor":[13,95,230,255]},
+	"projectileSpecId":"mms_hyper_velocity",  # projectile that will be fired
+	"fireSoundTwo":"plasma_cannon_fire",
+}

@@ -1,0 +1,166 @@
+{
+    "hullName": "B-20 Stormblade",
+    "hullId": "mms_stormblade",
+    "hullSize": "FIGHTER",
+    "style": "MMS_CYBER",
+    "spriteName": "graphics/ships/fighters/mms_heavy_bomber.png",
+    "height": 43,
+    "width": 48,
+    "center": [
+        24, 21.5
+    ],
+    "collisionRadius": 28,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 45,
+    "viewOffset": 0,
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     1.5,      -11
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     1.5,       11
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                       6,     -6.5
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                       6,      6.5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -15.5, -16.5
+            ],
+            "length": 30,
+            "width": 15,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_CYBER"
+        },
+        {
+            "location": [
+                -15.5, 16.5
+            ],
+            "length": 30,
+            "width": 15,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_CYBER"
+        },
+        {
+            "location": [
+                -17, -5
+            ],
+            "length": 24,
+            "width": 9,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_CYBER"
+        },
+        {
+            "location": [
+                -17, 5
+            ],
+            "length": 24,
+            "width": 9,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_CYBER"
+        },
+        {
+            "location": [
+                -16.5, -16.5
+            ],
+            "length": 7.5,
+            "width": 15,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -16.5, 16.5
+            ],
+            "length": 7.5,
+            "width": 15,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -6.5, 22
+            ],
+            "length": 30,
+            "width": 5,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_CYBER"
+        },
+        {
+            "location": [
+                -6.5, -22
+            ],
+            "length": 30,
+            "width": 5,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_CYBER"
+        }
+    ],
+    "bounds": [
+              -7,        0,
+             -18,        5,
+           -12.5,      8.5,
+           -16.5,       19,
+              14,     21.5,
+        
+             3.5,       11,
+              21,        0,
+             3.5,      -11,
+              14,    -21.5,
+           -16.5,      -19,
+        
+           -12.5,       -7,
+             -18,       -5
+    # 12 points total.
+    ]
+}

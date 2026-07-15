@@ -1,0 +1,37 @@
+{
+    "hullName": "Shield Module",
+    "hullId": "mms_module_shield",
+    "hullSize": "FIGHTER",
+    "style": "MMS_CYBER",
+    "spriteName": "graphics/ships/module/mms_module_shield.png",
+    "height": 100,
+    "width": 128,
+    "center": [
+        64, 50
+    ],
+    "moduleAnchor": [
+        0, 0
+    ],
+    "collisionRadius": 0,
+    "coversColor": "",
+    "shieldCenter": [
+        -65.5, 0
+    ],
+    "shieldRadius": 124,
+    "viewOffset": 0,
+    "builtInMods": [
+        "shield_always_on",
+        "reduced_explosion",
+        "always_detaches"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [],
+    "engineSlots": [],
+    "bounds": [
+           -14.5,       52,
+            -5.5,       41,
+            -5.5,      -41,
+           -14.5,      -52
+    ]
+}

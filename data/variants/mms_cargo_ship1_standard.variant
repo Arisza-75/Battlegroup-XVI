@@ -1,0 +1,38 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "mms_cargo_ship1",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_cargo_ship1_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 014": "guardian",
+                "WS 015": "guardian",
+                "WS 013": "plasma",
+                "WS 012": "plasma",
+                "WS 016": "lightdualmg",
+                "WS 018": "lightdualmg",
+                "WS 017": "lightdualmg",
+                "WS 019": "lightdualmg",
+                "WS 001": "dualflak",
+                "WS 003": "dualflak",
+                "WS 009": "salamanderpod",
+                "WS 008": "salamanderpod",
+                "WS 007": "salamanderpod",
+                "WS 006": "salamanderpod",
+                "WS 004": "dualflak",
+                "WS 005": "dualflak",
+                "WS 002": "dualflak",
+                "WS 000": "dualflak",
+                "WS 010": "flak",
+                "WS 011": "flak"
+            }
+        }
+    ]
+}

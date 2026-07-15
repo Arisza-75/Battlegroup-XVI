@@ -1,0 +1,23 @@
+{
+	"id":"mms_WarpCannon_proj",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":140.0,
+	"hitGlowRadius":750,
+	"width":22.0,
+	"fadeTime":0.5,
+	"fringeColor":[100,100,255,255],
+	#"coreColor":[255,225,175,225],
+	"coreColor":[69,255,255,200],
+	"glowColor":[69,255,255,200],
+	"glowRadius":100,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"passThroughFightersOnlyWhenDestroyed":true,
+	"bulletSprite":"graphics/missiles/shell_hellbore.png"
+	#"bulletSprite":"graphics/missiles/shell_round_lrg.png"
+}

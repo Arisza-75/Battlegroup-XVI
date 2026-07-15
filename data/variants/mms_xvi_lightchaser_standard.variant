@@ -1,0 +1,33 @@
+{
+    "displayName": "Gunship",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "mms_xvi_lightchaser",
+    "hullMods": [],
+    "quality": 1.0,
+    "variantId": "mms_xvi_lightchaser_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "gravitonbeam",
+                "WS 005": "gravitonbeam",
+                "WS 008": "mms_drone_constructor",
+                "WS 007": "mms_drone_constructor",
+                "WS 001": "mms_xvi_canister_S",
+                "WS 003": "mms_xvi_canister_S",
+                "WS 000": "mms_xvi_canister_S",
+                "WS 002": "mms_xvi_canister_S"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "mms_neutronCannon"
+            }
+        }
+    ]
+}

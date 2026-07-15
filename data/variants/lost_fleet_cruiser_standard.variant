@@ -1,0 +1,50 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "mms_lost_cruiser",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_lost_cruiser_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "heavyac",
+                "WS 001": "heavyac",
+                "WS 000": "shredder"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "lightneedler",
+                "WS 008": "lightneedler",
+                "WS 007": "lightneedler",
+                "WS 012": "lightneedler",
+                "WS 004": "lightneedler",
+                "WS 003": "lightneedler",
+                "WS 005": "lightneedler",
+                "WS 013": "lightneedler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 010": "heatseeker",
+                "WS 011": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "pilum"
+            }
+        }
+    ]
+}

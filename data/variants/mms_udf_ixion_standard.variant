@@ -1,0 +1,22 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 20,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "mms_udf_ixion",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_udf_ixion_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "shockrepeater",
+                "WS 000": "shockrepeater",
+                "WS 003": "shockrepeater",
+                "WS 001": "shockrepeater"
+            }
+        }
+    ]
+}

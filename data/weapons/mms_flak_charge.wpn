@@ -1,0 +1,55 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointSprite": "",
+  "id": "mms_flak_charge",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "particleColor": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "particleCount": 10,
+    "particleDuration": 0.5,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "spread": 20
+  },
+  "projectileSpecId": "flak_charge",
+  "requiresFullCharge": false,
+  "size": "SMALL",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "turretOffsets": [
+    10,
+    0,
+    9,
+    4,
+    7,
+    7,
+    9,
+    -4,
+    7,
+    -7
+  ],
+  "turretSprite": "graphics/weapons/mms_flak_charge_turret.png",
+  "type": "ENERGY",
+  "visualRecoil": 1
+}

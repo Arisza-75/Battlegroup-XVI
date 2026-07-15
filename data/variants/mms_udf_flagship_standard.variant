@@ -1,0 +1,105 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 23,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "mms_udf_flagship",
+    "hullMods": [
+        "missleracks",
+        "ecm",
+        "eccm"
+    ],
+    "permaMods": [
+        "bdeck"
+    ],
+    "quality": 0.0,
+    "variantId": "mms_udf_flagship_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 038": "swarmer",
+                "WS 039": "swarmer"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 041": "squall",
+                "WS 040": "squall"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "mms_xvi_canister",
+                "WS 002": "mms_xvi_canister",
+                "WS 005": "mms_xvi_canister",
+                "WS 007": "mms_xvi_canister",
+                "WS 003": "mms_xvi_canister",
+                "WS 000": "mms_xvi_canister",
+                "WS 004": "mms_xvi_canister",
+                "WS 001": "mms_xvi_canister"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 020": "mms_xvi_pdburst",
+                "WS 032": "mms_xvi_pdburst",
+                "WS 036": "mms_xvi_pdburst",
+                "WS 018": "mms_xvi_pdburst",
+                "WS 014": "mms_xvi_pdburst",
+                "WS 021": "mms_xvi_pdburst",
+                "WS 024": "mms_xvi_pdburst",
+                "WS 025": "mms_xvi_pdburst",
+                "WS 017": "mms_xvi_pdburst",
+                "WS 016": "mms_xvi_pdburst",
+                "WS 019": "mms_xvi_pdburst",
+                "WS 026": "mms_xvi_pdburst",
+                "WS 027": "mms_xvi_pdburst",
+                "WS 028": "mms_xvi_pdburst",
+                "WS 030": "mms_xvi_pdburst",
+                "WS 029": "mms_xvi_pdburst",
+                "WS 023": "mms_xvi_pdburst",
+                "WS 015": "mms_xvi_pdburst",
+                "WS 022": "mms_xvi_pdburst",
+                "WS 033": "mms_xvi_pdburst",
+                "WS 031": "mms_xvi_pdburst",
+                "WS 037": "mms_xvi_pdburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "mms_particle_cannon",
+                "WS 008": "mms_particle_cannon",
+                "WS 011": "mms_particle_cannon",
+                "WS 012": "mms_particle_cannon",
+                "WS 009": "mms_particle_cannon",
+                "WS 013": "mms_particle_cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 035": "mms_xvi_heavy_pulsar",
+                "WS 034": "mms_xvi_heavy_pulsar"
+            }
+        }
+    ],
+    "wings": [
+        "mms_ex_fighter_wing",
+        "mms_siren_ksg_ion_wing",
+        "mms_siren_ksg_ion_wing",
+        "mms_interceptor_wing",
+        "mms_stormblade_wing",
+        "mms_stormblade_wing"
+    ]
+}

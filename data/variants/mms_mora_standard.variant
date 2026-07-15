@@ -1,0 +1,41 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 15,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "mms_mora",
+    "hullMods": [
+        "targetingunit"
+    ],
+    "quality": 0.0,
+    "variantId": "mms_mora_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "mms_xvi_pdburst",
+                "WS 013": "mms_xvi_pdburst",
+                "WS 014": "mms_xvi_pdburst",
+                "WS 008": "mms_xvi_pdburst",
+                "WS 011": "mms_xvi_pdburst",
+                "WS 007": "mms_xvi_pdburst",
+                "WS 012": "mms_xvi_pdburst",
+                "WS 002": "mms_xvi_pdburst"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "mms_xvi_canister",
+                "WS 003": "mms_xvi_canister"
+            }
+        }
+    ],
+    "wings": [
+        "mms_siren_ksg_ion_wing",
+        "mms_interceptor_wing",
+        "mms_interceptor_wing"
+    ]
+}

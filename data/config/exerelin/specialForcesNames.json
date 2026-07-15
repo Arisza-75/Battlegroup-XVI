@@ -1,0 +1,44 @@
+{
+	"numSuffixes":{
+		"st":"st",	# "twenty-first"
+		"nd":"nd",	# "twenty-second"
+		"rd":"rd",	# "twenty-third"
+		"th":"th",	# "twenty-forth" (but also "eleventh"), etc.
+	},
+	
+	"MMS_XVI_nameFormat":"$one $preposition $two",
+	
+	# commented out all the silly ones
+	"MMS_XVI_names1":[
+		"Field",
+		"System",
+		"Light",
+		"Protocol",
+		"Divergence",
+		"Process",
+		"Tower",
+		"Rose"
+	],
+	"MMS_XVI_names2":[
+		"Transcendance",
+		"The Ascendant",
+		"Inverse Light",
+		"The Reversed Moon",
+		"Opposite Color",
+		"The Chessboard",
+		"Substellar Sky",
+		"Compilation",
+		"Silence",
+		"Fire in the Sky",
+		"The Sky Realm",
+		"Hyperspace",
+		"Illusion",
+		"The Snowrealm",
+		"Light and Dark",
+		"The High Tower"
+	],
+	"MMS_XVI_prepositions":[
+		"of",
+		"in"
+	],
+}

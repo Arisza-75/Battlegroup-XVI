@@ -1,0 +1,7 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+XVI Targeting Array,CHM_XVI,,,Battlegroup XVI,,,,,TRUE,,0,0,0,0,Arisza.mms.hullmods.CHM_XVI,"Your fleet has been granted access to the newest line of SG-type Subspace Targeting Systems. All weapon range is increased by %s/%s/%s/%s, depending on hull size.
+
+""Access Granted to: MK.XV SG-Type Advanced Targeting Array.""",Increase Weapon range.,graphics/hullmods/chm_XVI.png
+Advanced Fire Control System,mms_xvi_FCS,,,Battlegroup XVI,,,,,TRUE,,0,0,0,0,Arisza.mms.hullmods.mms_xvi_FCS," All Energy weapon range is increased by %s/%s/%s/%s, depending on hull size.","Increase energy weapon, reloading, fire rate and range.",graphics/hullmods/XVI_fire_control.png
+Materia Hull Structure,mms_MateriaHull,,,Battlegroup XVI,,,,,TRUE,,0,0,0,0,Arisza.mms.hullmods.mms_MateriaHull,increase reduce damage from energy weapon by %s/%s/%s/%s and increases armor by 10 percent,and Armor is increased the ship is more resistant to Energy Weapons ,graphics/hullmods/materiahull.png
+Unstable Core,mms_droneEMP,,,Battlegroup XVI,,,,,TRUE,,0,0,0,0,Arisza.mms.hullmods.droneEMP,,Increase Weapon range.,graphics/hullmods/chm_XVI.png

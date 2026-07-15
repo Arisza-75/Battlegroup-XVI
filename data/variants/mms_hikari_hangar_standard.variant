@@ -1,0 +1,38 @@
+{
+    "displayName": "standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "mms_hikari_hangar",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_hikari_hangar_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "gravitonbeam",
+                "WS 000": "gravitonbeam",
+                "WS 003": "gravitonbeam",
+                "WS 002": "gravitonbeam",
+                "WS 010": "pdlaser",
+                "WS 011": "pdlaser",
+                "WS 006": "pdburst",
+                "WS 007": "pdburst",
+                "WS 005": "taclaser",
+                "WS 004": "taclaser"
+            }
+        }
+    ],
+    "wings": [
+        "lux_wing",
+        "lux_wing",
+        "lux_wing",
+        "flash_wing",
+        "flash_wing",
+        "spark_wing",
+        "spark_wing",
+        "spark_wing"
+    ]
+}

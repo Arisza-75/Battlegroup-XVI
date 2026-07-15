@@ -1,0 +1,41 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "mms_onslaught",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_onslaught_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 016": "tpc",
+                "WS 017": "tpc",
+                "WS 019": "mms_xvi_heavy_pulsar",
+                "WS 018": "mms_xvi_heavy_pulsar",
+                "WS 020": "mms_xvi_heavy_pulsar",
+                "WS 011": "mms_particle_cannon",
+                "WS 001": "mms_particle_cannon",
+                "WS 003": "mms_particle_cannon",
+                "WS 007": "mms_particle_cannon",
+                "WS 022": "mms_xvi_canister",
+                "WS 021": "mms_xvi_canister",
+                "WS 023": "mms_xvi_canister",
+                "WS 024": "mms_xvi_canister",
+                "WS 005": "mms_xvi_pdburst",
+                "WS 002": "mms_xvi_pdburst",
+                "WS 012": "mms_particle_cannon",
+                "WS 013": "mms_particle_cannon",
+                "WS 014": "mms_particle_cannon",
+                "WS 015": "mms_particle_cannon",
+                "WS 009": "mms_xvi_pdburst",
+                "WS 008": "mms_xvi_pdburst",
+                "WS 006": "mms_xvi_pdburst",
+                "WS 004": "mms_xvi_pdburst"
+            }
+        }
+    ]
+}

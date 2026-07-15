@@ -1,0 +1,33 @@
+{
+	"id":"xvi_onslaught_maingun",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+    "turretSprite": "graphics/weapons/xvi_maingun.png",
+	"turretGlowSprite":"graphics/weapons/xvi_maingun_glow.png",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"graphics/weapons/xvi_maingun_glow.png",
+	"turretAngleOffsets": [0],
+	"turretOffsets": [5,0],
+	"hardpointAngleOffsets": [0],
+	"hardpointOffsets": [5,0],
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"glowColor":[20,96,190,255],
+	"muzzleFlashSpec":{"length":20.0,
+					   "spread":50.0,
+					   "particleSizeMin":15.0,
+					   "particleSizeRange":20.0,
+					   "particleDuration":0.12,
+					   "particleCount":10,
+					   "particleColor":[20,96,190,255]},		
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"plasma_bolt",  # projectile that will be fired
+	"fireSoundTwo": "mjolnir_fire"
+  
+  
+
+
+
+
+}

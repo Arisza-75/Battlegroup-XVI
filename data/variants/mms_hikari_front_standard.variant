@@ -1,0 +1,32 @@
+{
+    "displayName": "standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": false,
+    "hullId": "mms_hikari_front",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_hikari_front_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 007": "guardian",
+                "WS 006": "guardian",
+                "WS 005": "autopulse",
+                "WS 004": "autopulse",
+                "WS 002": "heavyburst",
+                "WS 001": "heavyburst",
+                "WS 003": "heavyburst",
+                "WS 000": "heavyburst",
+                "WS 008": "taclaser",
+                "WS 009": "taclaser"
+            }
+        }
+    ],
+    "wings": [
+        "spark_wing",
+        "spark_wing"
+    ]
+}

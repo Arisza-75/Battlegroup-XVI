@@ -1,0 +1,254 @@
+{
+	"id":"MMS_LF",
+	"color":[91,28,21,255],
+	"secondaryUIColor":[137,149,169,255],
+    "secondarySegments":3,
+	"baseUIColor": [190,6,75,255],
+    "darkUIColor": [91,28,21,255],
+    "gridUIColor": [190,6,75,255],	
+	"displayName":"The Lost Fleet",
+	"displayNameWithArticle":"Kingdom of Vestalria",
+	"displayNameLong":"",
+	"entityNamePrefix":"Royal Navy",
+	"displayNameLongWithArticle":"",
+	"entityName":"",
+	"personNamePrefix":"",
+	"personNamePrefixAOrAn":"a",
+	"displayNameIsOrAre":"is",
+	"logo":"graphics/factions/vestaflag.png",
+	"crest":"graphics/factions/vestacrest.png",
+	"shipNamePrefix":"RNS",
+	"shipNameSources":{
+		"NORSE":2,
+		"CELTIC":3,
+		"GERMANIC":5,
+	},
+	"description":"No description yet.",
+	"names":{
+		"ai":2,
+		"world":1,
+		"future":1,
+	},
+	
+	"music":{
+
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{	
+		},
+		"hulls":{
+			
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["mms"],  
+		"hulls":[
+		
+		
+		],
+	},
+	"knownShips":{
+		"tags":["mms"],
+		"hulls":[
+			"onslaught",
+			"invictus",
+			"",
+			"dram",
+			"phaeton",
+			"prometheus",
+			"gemini",
+			"atlas",
+			"mercury",
+			"hermes",
+			"kite_original",
+			"mudskipper",
+			"wayfarer",
+			"nebula",
+			"mule",
+			"starliner",
+			"buffalo",
+			"tarsus",
+			"colossus",
+			"salvage",
+			
+	
+			
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["mms"],
+		"hulls":[
+			"mms_rahksha",
+			"apogee",
+			"phaeton",
+			"gemini",
+			"tarsus",
+			"atlas",
+			"kite_original"
+
+		],
+	},
+	"knownFighters":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "independent","mms"],
+		"fighters":[
+			
+		],
+	},
+	"priorityFighters":{
+		"tags":["mms"],
+		"fighters":[
+		
+		],
+	},
+	"knownWeapons":{	
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "hightech_bp", "independent","mms"],
+		"weapons":[
+			
+		],
+	},
+	"priorityWeapons":{
+		"tags":["mms"],
+		"weapons":[
+		
+		
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "independent","MMS"],
+		"hullMods":[
+			
+		],
+	},
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":2,
+		"phaseShips":2,
+		
+		"officerQuality":3,
+		"shipQuality":5,
+		"numShips":4,
+		
+		"shipSize":4,
+		
+		"aggression":2,
+		
+		"combatFreighterProbability":0.1,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.3,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.3,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.2,
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"fighter_uplink",
+			"carrier_group",
+			"flux_regulation",
+		],
+	},
+	"illegalCommodities":[
+		"drugs",
+		"organs",
+	],
+	"portraits":{
+	
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Arbiter"},
+			
+			"citizen":{"name":"personel"},
+			"agent":{"name":"Agent"},
+			"specialAgent":{"name":"Special Agent"},
+			"spaceEnsign":{"name":"Esign"},
+			"spaceLieutenant":{"name":"Lieutenant"},
+			"spaceCommander":{"name":"Commander"},
+			"spaceCaptain":{"name":"Captain"},
+			"spaceAdmiral":{"name":"Admiral"},
+			"spaceMarshal":{"name":"Admiral"},
+		
+			"groundPrivate":{"name":"type_01 Mass Production Combat Unit"},
+			"groundSergeant":{"name":"Type_02 Sub-Command unit"},
+			"groundLieutenant":{"name":"Type_03 High Level Sub-Command unit"},
+			"groundCaptain":{"name":"Type_04 Command Unit"},
+			"groundMajor":{"name":"Major"},
+			"groundColonel":{"name":"Colonel"},
+			"groundGeneral":{"name":"TYPE_ZERO Strategist Unit"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Arbiter"},
+			"patrolCommander":{"name":"Lieutenant"},
+			"fleetCommander":{"name":"Fleet Commander"},
+			"baseCommander":{"name":"base Operations Commander"},
+			"stationCommander":{"name":"Starbase Commander"},
+			"outpostCommander":{"name":"Outpost Command Unit"},
+			"portmaster":{"name":"Port Operations"},
+		
+			"supplyOfficer":{"name":"Logistics command unit"},
+			"supplyManager":{"name":"Supply Manager"},
+			"medicalSupplier":{"name":"Medical Supplier"},
+			"administrator":{"name":"Administration Unit"},
+		},
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"faithful":5,		
+			"spacer":10,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"business":10,
+			"official":5,
+		},
+		"HIGH":{
+			"soldier":10,
+			"faithful":5,
+			"official":10,
+		},
+	},
+	"custom":{
+		"allowsTransponderOffTrade":true,
+		"offersCommissions":True,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":4,
+		"AICoreRepMult":2,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":false,
+		"caresAboutAtrocities":false,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":false,
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"Mercantile Convoy",
+		"tradeLiner":"Liner Convoy",
+		"tradeSmuggler":"Smuggler",
+		"smallTrader":"Trader",
+		
+		"patrolSmall":"Light Patrol Unit",
+		"patrolMedium":"Combat Squadron",
+		"patrolLarge":"Heavy Task Group",
+		
+		"foodReliefFleet":"Relief Convoy",
+		
+		"mercScout":"Hunter-Seeker",
+		"mercBountyHunter":"Hunter Fleet",
+		"mercPrivateer":"Privateer",
+		"mercPatrol":"Patrol",
+		"mercArmada":"Subcompany",
+	},
+},	

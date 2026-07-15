@@ -1,0 +1,49 @@
+{
+    "displayName": "Prototype",
+    "fluxCapacitors": 18,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "mms_helena",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_helena_prototype",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "mms_flak_charge",
+                "WS 001": "mms_flak_charge",
+                "WS 000": "mms_flak_charge",
+                "WS 010": "mms_flak_charge",
+                "WS 002": "mms_flak_charge",
+                "WS 012": "mms_flak_charge"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 008": "mms_particle_cannon",
+                "WS 004": "mms_particle_cannon",
+                "WS 005": "mms_particle_cannon",
+                "WS 009": "mms_particle_cannon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 017": "typhoon",
+                "WS 016": "typhoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 018": "mms_HVC"
+            }
+        }
+    ]
+}

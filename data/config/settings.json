@@ -1,0 +1,15 @@
+{
+"designTypeColors":{
+        "Materia Systems":[15,213,223,255],
+		"Lost Fleet Tech":[218,179,107,255],
+		"Battlegroup XVI":[10,240,255,255],
+    },
+"graphics":{
+        "fx":{
+            #Ship Lights
+            "mms_ayakashi_highlight":"graphics/ships/mms_ayakashi_glow1.png",
+            "mms_ayakashi_diffuse":"graphics/ships/mms_ayakashi_glow2.png",
+			"mms_UDFbeam_glow":"graphics/missiles/mms_UDFbeam_glow.png"
+        },
+	}
+}	

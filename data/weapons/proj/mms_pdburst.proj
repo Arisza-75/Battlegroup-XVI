@@ -1,0 +1,18 @@
+{
+	"id":"mms_pdburst",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"hitGlowRadius":35,
+	"length":47.0,
+	"width":10.0,
+	"fadeTime":0.25,
+	"glowRadius":2,
+	"onHitEffect":"com.fs.starfarer.api.impl.combat.IonCannonOnHitEffect",
+	"fringeColor":[0,0,155,255],
+	"coreColor":[0,229,255,200],
+	"textureType":["graphics/fx/emp_arcs.png","graphics/fx/beam_weave_core.png"],
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0
+}

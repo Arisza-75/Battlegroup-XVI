@@ -1,0 +1,68 @@
+{
+    "displayName": "Missile Type",
+    "fluxCapacitors": 20,
+    "fluxVents": 40,
+    "goalVariant": true,
+    "hullId": "mms_xvi_onslaught",
+    "hullMods": [
+        "missleracks",
+        "eccm",
+        "advancedshieldemitter"
+    ],
+    "quality": 0.0,
+    "variantId": "mms_xvi_onslaught_missile",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 020": "xvi_onslaught_maingun",
+                "WS 021": "xvi_onslaught_maingun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "mms_spike_large",
+                "WS 002": "mms_spike_large"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "mms_xvi_heavy_pulsar",
+                "WS 000": "mms_xvi_heavy_pulsar"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "mms_xvi_canister",
+                "WS 006": "mms_xvi_canister",
+                "WS 009": "mms_xvi_canister",
+                "WS 008": "mms_xvi_canister",
+                "WS 007": "mms_xvi_canister",
+                "WS 015": "mms_xvi_canister",
+                "WS 014": "mms_xvi_canister",
+                "WS 013": "mms_xvi_canister",
+                "WS 012": "mms_xvi_canister",
+                "WS 004": "mms_xvi_canister"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 019": "mms_xvi_pdburst",
+                "WS 018": "mms_xvi_pdburst",
+                "WS 017": "mms_xvi_pdburst",
+                "WS 016": "mms_xvi_pdburst",
+                "WS 011": "mms_xvi_pdburst",
+                "WS 010": "mms_xvi_pdburst"
+            }
+        }
+    ]
+}

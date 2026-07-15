@@ -1,0 +1,28 @@
+{
+    "displayName": "Heavy Torpedo Bomber",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "mms_stormblade",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_stormblade_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "swarmer_fighter",
+                "WS 002": "swarmer_fighter"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "mms_blitz_single",
+                "WS 001": "mms_blitz_single"
+            }
+        }
+    ]
+}

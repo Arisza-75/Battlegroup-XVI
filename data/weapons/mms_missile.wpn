@@ -1,0 +1,25 @@
+{
+  "animationType": "GLOW",
+  "turretGlowSprite":"graphics/weapons/mms_missile_launcher_glow.png",
+  "barrelMode": "ALTERNATING",
+  "glowColor": [
+    64,
+    223,
+    239,
+    255
+  ],
+  "hardpointSprite": "",
+  "id": "mms_missile",
+  "projectileSpecId": "mms_missile_proj",
+  "requiresFullCharge": false,
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+	"hardpointOffsets":[12, -5, 12, 5],
+	"turretOffsets":[8, -5, 8, 5],
+	"hardpointAngleOffsets":[0, 0],
+	"turretAngleOffsets":[0, 0],
+  "turretSprite": "graphics/weapons/mms_missile_launcher_base.png",
+  "type": "MISSILE",
+  "fireSoundTwo":"atropos_fire",
+}

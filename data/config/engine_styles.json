@@ -1,0 +1,81 @@
+{
+	"MMS_CYBER":{
+		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"contrailDuration":1.2,
+		"contrailWidthMult":0.65,
+		"contrailWidthAddedFractionAtEnd":5f,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":5, # min segment length, in pixels
+		"contrailMaxSpeedMult":1f,
+		"contrailAngularVelocityMult":0.5f,
+		"contrailColor":[50,200,255,65],
+		"type":"GLOW", # GLOW or SMOKE; additive or regular blend mode
+						
+		"glowSprite":"graphics/fx/engineglow23.png",
+		"glowOutline":"graphics/fx/engineflare.png",
+
+		"omegaMode":false,
+		"glowSizeMult":0.7,
+		"glowAlternateColor":[50,250,255,255],
+		"engineColor":[50,200,255,255],
+	},
+		"MMS_LOST":{
+			
+		"glowAlternateColor":[181,6,69,255],
+		"engineColor":[232,130,32,255],
+		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"contrailDuration":0.5,
+		"contrailWidthMult":0.25,
+		"contrailWidthAddedFractionAtEnd":5f,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":5, # min segment length, in pixels
+		"contrailMaxSpeedMult":1f,
+		"contrailAngularVelocityMult":1f,	
+		"contrailColor":[181,6,69,255],
+		"type":"GLOW", # GLOW or SMOKE; additive or regular blend mode
+						
+		"glowSprite":"graphics/fx/engineglow23.png",
+		"glowOutline":"graphics/fx/engineflare.png",
+
+		"omegaMode":false,
+		"glowSizeMult":0.7,
+	},
+	"MMS_XVI_engine":{
+		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"contrailDuration":1.2,
+		"contrailWidthMult":0,
+		"contrailWidthAddedFractionAtEnd":5f,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":5, # min segment length, in pixels
+		"contrailMaxSpeedMult":1f,
+		"contrailAngularVelocityMult":0.5f,
+		"contrailColor":[50,200,255,65],
+		"type":"GLOW", # GLOW or SMOKE; additive or regular blend mode
+						
+		"glowSprite":"graphics/fx/engineglow32b.png",
+		"glowOutline":"graphics/fx/engineflame32.png",
+
+		"omegaMode":false,
+		"glowSizeMult":.7,
+		"glowAlternateColor":[30,141,255,255],
+		"engineColor":[30,141,255,255],
+	},
+	
+		"MMS_UDF_engine":{
+		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"contrailDuration":1.2,
+		"contrailWidthMult":0,
+		"contrailWidthAddedFractionAtEnd":5f,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":5, # min segment length, in pixels
+		"contrailMaxSpeedMult":1f,
+		"contrailAngularVelocityMult":0.5f,
+		"contrailColor":[74,119,242,255],
+		"type":"GLOW", # GLOW or SMOKE; additive or regular blend mode
+						
+		"glowSprite":"graphics/fx/engineglow32b.png",
+		"glowOutline":"graphics/fx/engineflame32.png",
+
+		"omegaMode":false,
+		"glowSizeMult":.7,
+		"glowAlternateColor":[74,119,242,255],
+		"engineColor":[74,119,242,255],
+	},
+}
+

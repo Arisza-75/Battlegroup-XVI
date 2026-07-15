@@ -1,0 +1,229 @@
+{
+    "hullName": "ryuuhou",
+    "hullId": "mms_xvi_ryuuhou",
+    "hullSize": "DESTROYER",
+    "style": "MMS_XVI",
+    "spriteName": "graphics/ships/XVI/mms_xvi_ryuuhou.png",
+    "height": 234,
+    "width": 128,
+    "center": [
+        64, 117
+    ],
+    "collisionRadius": 148.5,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 156,
+    "viewOffset": 0,
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "SYNERGY",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      84,      -27
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "SYNERGY",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      82,       27
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "MEDIUM",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                    54.5,        0
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 173,
+            "angle": 290,
+            "locations": [
+                      12,      -38
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 173,
+            "angle": 70,
+            "locations": [
+                      12,       38
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": 247.5,
+            "locations": [
+                   -64.5,      -38
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 210,
+            "angle": 112.5,
+            "locations": [
+                   -64.5,       38
+            ]
+        },
+        {
+            "id": "LB 000",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   -32.5,    -42.5,
+                   -47.5,    -42.5,
+                   -47.5,     42.5,
+                     -11,    -48.5,
+                     -11,     48.5
+            ]
+        },
+        {
+            "id": "LB 001",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   -32.5,     42.5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -72.5, -10
+            ],
+            "length": 70,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -72.5, 10
+            ],
+            "length": 70,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -76, 28.5
+            ],
+            "length": 70,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -76, -28.5
+            ],
+            "length": 70,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -85, -37
+            ],
+            "length": 70,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -85, 37
+            ],
+            "length": 70,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        }
+    ],
+    "bounds": [
+           -71.5,      3.5,
+             -90,        4,
+             -77,        7,
+             -77,       15,
+           -94.5,       20,
+        
+             -94,       35,
+           -78.5,       45,
+            -103,       51,
+           -66.5,       50,
+            -2.5,       50,
+        
+              16,     49.5,
+           109.5,       35,
+              83,     33.5,
+              85,     17.5,
+              60,       17,
+        
+            67.5,     11.5,
+            67.5,    -11.5,
+              60,      -17,
+              85,    -17.5,
+              83,    -33.5,
+        
+           109.5,      -35,
+              16,    -49.5,
+            -2.5,      -50,
+           -66.5,      -50,
+            -103,      -51,
+        
+           -78.5,      -45,
+             -94,      -35,
+           -94.5,      -20,
+             -77,      -15,
+             -77,       -7,
+        
+             -90,       -4,
+           -71.5,     -3.5
+    # 32 points total.
+    ]
+}

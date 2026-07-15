@@ -1,0 +1,247 @@
+{
+    "hullName": "Escort Destroyer",
+    "hullId": "mms_lost_escort_destroyer",
+    "hullSize": "DESTROYER",
+    "style": "LOW_TECH",
+    "spriteName": "graphics/ships/mms_lost_escortPD.png",
+    "height": 212,
+    "width": 98,
+    "center": [
+        49, 106
+    ],
+    "collisionRadius": 147.5,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 176.5,
+    "viewOffset": 0,
+    "builtInMods": [
+        "pointdefenseai",
+        "escort_package",
+        "defective_manufactory",
+        "degraded_shields",
+        "degraded_life_support"
+    ],
+    "builtInWeapons": {
+        "WS 008": "blinker_red"
+    },
+	    "builtInWings": [
+        "mms_lost_x1raider_wing",
+    ],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 160,
+            "angle": 296,
+            "locations": [
+                      30,      -31
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 160,
+            "angle": 64,
+            "locations": [
+                      30,       31
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 162,
+            "angle": 259.5,
+            "locations": [
+                     -55,      -36
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 162,
+            "angle": 100.5,
+            "locations": [
+                     -55,       36
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 124,
+            "angle": 270,
+            "locations": [
+                     -28,      -24
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 124,
+            "angle": 90,
+            "locations": [
+                     -28,       24
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "MEDIUM",
+            "type": "COMPOSITE",
+            "mount": "TURRET",
+            "arc": 272,
+            "angle": 0,
+            "locations": [
+                      37,        0
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "MEDIUM",
+            "type": "COMPOSITE",
+            "mount": "TURRET",
+            "arc": 275,
+            "angle": 180,
+            "locations": [
+                     -38,        0
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     104,      -24
+            ]
+        },
+        {
+            "id": "LB 000",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     9.5,    -42.5,
+                     -12,    -42.5
+            ]
+        },
+        {
+            "id": "LB 001",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      10,     42.5,
+                   -10.5,     42.5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -104.5, -10.5
+            ],
+            "length": 45,
+            "width": 30,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_LOST"
+        },
+        {
+            "location": [
+                -104.5, 10.5
+            ],
+            "length": 45,
+            "width": 30,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_LOST"
+        },
+        {
+            "location": [
+                -85.5, 38
+            ],
+            "length": 45,
+            "width": 30,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_LOST"
+        },
+        {
+            "location": [
+                -85.5, -38
+            ],
+            "length": 45,
+            "width": 30,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_LOST"
+        }
+    ],
+    "bounds": [
+          -102.5,        3,
+          -102.5,       18,
+           -97.5,       18,
+           -97.5,     26.5,
+           -83.5,     31.5,
+        
+             -82,       43,
+             -74,     45.5,
+           -47.5,     45.5,
+             -42,     41.5,
+             -28,     41.5,
+        
+           -24.5,       46,
+              27,       46,
+              46,     37.5,
+              53,       17,
+            54.5,     10.5,
+        
+            54.5,    -10.5,
+              53,      -17,
+              63,      -17,
+              68,      -23,
+             106,      -24,
+        
+            70.5,    -26.5,
+              51,      -30,
+              46,    -37.5,
+              27,      -46,
+           -24.5,      -46,
+        
+             -28,    -41.5,
+             -42,    -41.5,
+           -47.5,    -45.5,
+             -74,    -45.5,
+             -82,      -43,
+        
+           -83.5,    -31.5,
+           -97.5,    -26.5,
+           -97.5,      -18,
+          -102.5,      -18,
+          -102.5,       -3,
+        
+             -79,       -3,
+             -79,        3
+    # 37 points total.
+    ]
+}

@@ -1,0 +1,138 @@
+{
+    "hullName": "X1 Raider",
+    "hullId": "mms_lost_x1raider",
+    "hullSize": "FIGHTER",
+    "style": "LOW_TECH",
+    "spriteName": "graphics/ships/fighters/mms_lost_bomber.png",
+    "height": 25,
+    "width": 44,
+    "center": [
+        22, 12.5
+    ],
+    "collisionRadius": 24,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 26,
+    "viewOffset": 0,
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      10,      -11
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      10,       11
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                       9,      -14
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                       9,       14
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                       6,     -4.5
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                       6,      4.5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -1.5, -4.5
+            ],
+            "length": 10,
+            "width": 2,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -1.5, 4.5
+            ],
+            "length": 10,
+            "width": 2,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -6, -2.5
+            ],
+            "length": 10,
+            "width": 2,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -6, 2.5
+            ],
+            "length": 10,
+            "width": 2,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "LOW_TECH"
+        }
+    ],
+    "bounds": [
+              -5,      2.5,
+               3,     18.5,
+               8,        0,
+               3,    -18.5,
+              -5,     -2.5
+    ]
+}

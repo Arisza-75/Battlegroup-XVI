@@ -1,0 +1,267 @@
+	{
+	"id":"MMS_XVI",
+	"color":[15,213,223,255],
+	"secondaryUIColor":[0,51,170,255],
+    "secondarySegments":3,
+	"baseUIColor": [86,214,239,255],
+    "darkUIColor": [60,66,76,255],
+    "gridUIColor": [51,204,255,255],
+#   "gridUIColor": [51,204,169,255],
+	"displayName":"Battlegroup XVI",
+	"displayNameWithArticle":"Battlegroup XVI",
+	"displayNameLong":"Domain Battlegroup XVI - Tower of Babylon",
+	"entityNamePrefix":"Battlegroup XVI",
+	"displayNameLongWithArticle":"Domain Battlegroup XVI - Tower of Babylon",
+	"entityName":"Battlegroup XVI",
+	"personNamePrefix":"",
+	"personNamePrefixAOrAn":"a",
+	"displayNameIsOrAre":"is",
+	"logo":"graphics/factions/XVIflag.png",	
+	"crest":"graphics/factions/XVIcrest.png",
+	"shipNamePrefix":"XVI",
+	"shipNameSources":{
+		"JAPANESE":4,
+	},
+	
+	"description":"No description yet.",
+	"names":{
+		"ai":2,
+		"world":1,
+		"future":1,
+	},
+	
+	"music":{
+
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{	
+			"xvi_bp":0.8,
+			"xvi_old_bp":1,
+		},
+		"hulls":{
+			"mms_xvi_onslaught":0.4,
+			"mms_xvi_cruiser":0.5,
+			"mms_xvi_beam_frigate":0.6,
+			"mms_onslaught":0.5,			
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["xvi_bp","mms"],
+		"hulls":[
+			"mms_xvi_onslaught",
+			"mms_xvi_cruiser",
+			"mms_mora",
+			"mms_legion",
+			"mms_xvi_beam_frigate",
+			"mms_onslaught",
+			"mms_atlas"
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["xvi_bp"],
+		"hulls":[
+			"mms_xvi_onslaught",
+			"mms_xvi_cruiser",
+			"mms_xvi_beam_frigate",
+			"mms_onslaught",
+			],
+	},
+	"knownFighters":{
+		"tags":["xvi_bp","rare_bp","hightech_bp","ind"],
+		"fighters":[
+			"mms_ex_fighter_wing",
+			"mms_interceptor_wing",
+			"mms_siren_ksg_ion_wing",
+			"mms_stormblade_wing",
+			"mms_xvi_drone_wing",
+			"mms_lightchaser_wing",
+			"mms_xvi_talon_wing"
+		],
+	},
+	"priorityFighters":{
+		"tags":["xvi_bp"],
+		"fighters":[
+				"mms_xvi_drone_wing",
+				"mms_ex_fighter_wing",
+				"mms_lightchaser_wing"
+		],
+	},
+	"knownWeapons":{	
+		"tags":["xvi_bp","rare_bp","hightech_bp","ind"],
+		"weapons":[
+		"mms_xvi_canister",
+		"mms_neutronCannon",
+		"mms_xvi_heavy_pulsar",
+		"mms_xvi_pdburst",
+		"mms_spike_large",	
+		"mms_xvi_canister_S",
+		"mms_drone_constructor"
+		],
+	},
+	"priorityWeapons":{
+		"tags":["xvi_bp"],
+		"weapons":[
+		"mms_xvi_canister",
+		"mms_neutronCannon",
+		"mms_xvi_heavy_pulsar",
+		"mms_xvi_pdburst",
+		"mms_spike_large"		
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "independent",],
+		"hullMods":[
+			
+		],
+	},
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":4,
+		"phaseShips":2,	
+		
+		"officerQuality":5,
+		"shipQuality":5,
+		"numShips":5,
+		
+		"shipSize":5,
+		
+		"aggression":4,
+			
+		"combatFreighterProbability":0.1,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0.1,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.3,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.2,
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"fighter_uplink",
+			"carrier_group",
+			"flux_regulation",
+		],
+	},
+	"illegalCommodities":[
+		"drugs",
+		"organs",
+	],
+	"portraits":{
+
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Arbiter Zero"},
+			
+			"citizen":{"name":"personel"},
+			"agent":{"name":"Agent"},
+			"specialAgent":{"name":"Special Agent"},
+			"spaceEnsign":{"name":"Esign"},
+			"spaceLieutenant":{"name":"Lieutenant"},
+			"spaceCommander":{"name":"Commander"},
+			"spaceCaptain":{"name":"Captain"},
+			"spaceAdmiral":{"name":"Admiral"},
+			"spaceMarshal":{"name":"Admiral"},
+		
+			"groundPrivate":{"name":"type_01 Mass Production Combat Unit"},
+			"groundSergeant":{"name":"Type_02 Sub-Command unit"},
+			"groundLieutenant":{"name":"Type_03 High Level Sub-Command unit"},
+			"groundCaptain":{"name":""},
+			"groundMajor":{"name":"Major"},
+			"groundColonel":{"name":"Colonel"},
+			"groundGeneral":{"name":"TYPE_ZERO Strategist Unit"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Arbiter Zero"},
+			"patrolCommander":{"name":"Lieutenant"},
+			"fleetCommander":{"name":"Fleet Commander"},
+			"baseCommander":{"name":"base Operations Commander"},
+			"stationCommander":{"name":"Starbase Commander"},
+			"outpostCommander":{"name":"Outpost Commander"},
+			"portmaster":{"name":"Port Operations"},
+		
+			"supplyOfficer":{"name":"Logistics command unit"},
+			"supplyManager":{"name":"Supply Manager"},
+			"medicalSupplier":{"name":"Medical Supplier"},
+			"administrator":{"name":"Administration Unit"},
+		},
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"faithful":5,		
+			"spacer":10,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"business":10,
+			"official":5,
+		},
+		"HIGH":{
+			"soldier":10,
+			"faithful":5,
+			"official":10,
+		},
+	},
+	"custom":{
+		"allowsTransponderOffTrade":true,
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":4,
+		"AICoreRepMult":2,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":false,
+		"caresAboutAtrocities":false,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":true,
+		},
+	},
+	"fleetTypeNames":{
+		
+		"scavengerSmall":"Wreckage Survey Unit",
+		"scavengerMedium":"Technology Recovery Unit",
+		"scavengerHeavy":"Data Retrieval Fleet",
+		
+		
+		"trade":"Merchent Convoy",
+		"tradeLiner":"Liner Convoy",
+		"tradeSmuggler":"Blocakde Runners",
+		"smallTrader":"Trader",
+		
+		"patrolSmall":"Light Patrol Unit",
+		"patrolMedium":"Combat Squadron",
+		"patrolLarge":"Battle Fleet",
+		
+		"foodReliefFleet":"Supply Runner Convoy",
+		
+		"mercScout":"Hunter-Seeker",
+		"mercBountyHunter":"Hunter Fleet",
+		"mercPrivateer":"Privateer Fleets",
+		"mercPatrol":"Patrol",
+		"mercArmada":"Subcompany",
+	},
+
+},	
+
+
+
+
+
+

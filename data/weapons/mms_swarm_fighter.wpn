@@ -1,0 +1,45 @@
+{
+  "animationType": "GLOW",
+  "barrelMode": "LINKED",
+  "glowColor": [
+    64,
+    223,
+    239,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    14,
+    3,
+    14,
+    0,
+    14,
+    -3
+  ],
+  "hardpointSprite": "graphics/weapons/mms_missile_launcher_barrel.png",
+  "id": "mms_swarm_fighter",
+  "projectileSpecId": "mms_itano_swarm",
+  "requiresFullCharge": false,
+  "size": "SMALL",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    45,
+    0,
+	-45
+  ],
+  "turretGlowSprite": "graphics/weapons/mms_missile_launcher_glow.png",
+  "turretOffsets": [
+    14,
+    3,
+    14,
+    0,
+    14,
+    -3
+  ],
+  "turretSprite": "graphics/weapons/mms_missile_launcher_barrel.png",
+  "type": "MISSILE"
+}

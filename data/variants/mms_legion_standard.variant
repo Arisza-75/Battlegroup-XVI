@@ -1,0 +1,55 @@
+{
+    "displayName": "Standard Type",
+    "fluxCapacitors": 24,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "mms_legion",
+    "hullMods": [
+        "expanded_deck_crew",
+        "recovery_shuttles",
+        "eccm"
+    ],
+    "quality": 0.0,
+    "variantId": "mms_legion_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 020": "lightdualac",
+                "WS 018": "lightdualac",
+                "WS 014": "lightdualac",
+                "WS 008": "lightdualac",
+                "WS 015": "lightdualac",
+                "WS 021": "lightdualac",
+                "WS 019": "lightdualac",
+                "WS 009": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 002": "mms_particle_cannon",
+                "WS 003": "mms_particle_cannon",
+                "WS 007": "mms_particle_cannon",
+                "WS 005": "mms_particle_cannon",
+                "WS 004": "mms_particle_cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "mms_xvi_heavy_pulsar",
+                "WS 000": "mms_xvi_heavy_pulsar"
+            }
+        }
+    ],
+    "wings": [
+        "mms_siren_ksg_ion_wing",
+        "mms_siren_ksg_ion_wing",
+        "mms_stormblade_wing",
+        "mms_stormblade_wing"
+    ]
+}

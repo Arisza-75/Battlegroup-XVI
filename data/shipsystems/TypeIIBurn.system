@@ -1,0 +1,28 @@
+{
+	"id":"TypeII_Burn",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"Arisza.mms.combat.StrikeBurnStats",
+	
+	"engineGlowLengthMult":1.5,
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":5,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":false,
+
+	"useSound":"system_plasma_burn",
+	"loopSound":"system_plasma_burn_loop",
+	"deactivateSound":"system_combat_burn_deactivate",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":100,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":100,
+	}
+}

@@ -1,0 +1,123 @@
+{
+    "hullName": "annoying fucker",
+    "hullId": "mms_torp",
+    "hullSize": "FRIGATE",
+    "style": "DWELLER",
+    "spriteName": "graphics/ships/mms_torpedo1.png",
+    "height": 80,
+    "width": 78,
+    "center": [
+        39, 40
+    ],
+    "collisionRadius": 46,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 44.5,
+    "viewOffset": 0,
+    "builtInMods": [
+        "dweller_hullmod",
+        "do_not_back_off",
+        "no_weapon_flux"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                       3,    -30.5
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                       3,     30.5
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      22,    -13.5
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      22,     13.5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -26, -15
+            ],
+            "length": 10,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "DWELLER"
+        },
+        {
+            "location": [
+                -26, 15
+            ],
+            "length": 10,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "DWELLER"
+        },
+        {
+            "location": [
+                -19, 28.5
+            ],
+            "length": 10,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "DWELLER"
+        },
+        {
+            "location": [
+                -19, -28.5
+            ],
+            "length": 10,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "DWELLER"
+        }
+    ],
+    "bounds": [
+           -31.5,     22.5,
+              -9,     37.5,
+            36.5,       12,
+            36.5,      -12,
+              -9,    -37.5,
+        
+           -31.5,    -22.5
+    ]
+}

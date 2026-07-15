@@ -1,0 +1,1011 @@
+{
+  "bounds": [
+    244,
+    -5,
+    281.5,
+    -10,
+    278,
+    -42.5,
+    261.5,
+    -42,
+    248.5,
+    -47.5,
+    241,
+    -60,
+    108.5,
+    -63.5,
+    94.5,
+    -80,
+    70.5,
+    -62.5,
+    49,
+    -78.5,
+    28,
+    -62.5,
+    13.5,
+    -79,
+    -15,
+    -57,
+    -126.5,
+    -126,
+    -177,
+    -119,
+    -205.5,
+    -67.5,
+    -263,
+    -61,
+    -263,
+    61,
+    -205.5,
+    67.5,
+    -177,
+    119,
+    -126.5,
+    126,
+    -15,
+    57,
+    13.5,
+    79,
+    28,
+    62.5,
+    49,
+    78.5,
+    70.5,
+    62.5,
+    94.5,
+    80,
+    108.5,
+    63.5,
+    241,
+    60,
+    248.5,
+    47.5,
+    261.5,
+    42,
+    278,
+    42.5,
+    281.5,
+    10,
+    244,
+    5
+  ],
+  "builtInWings": [],
+  "center": [
+    125,
+    282.5
+  ],
+  "collisionRadius": 401.5,
+  "engineSlots": [
+    {
+      "angle": 165,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -212,
+        104.5
+      ],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "contrailAngularVelocityMult": 0,
+        "contrailCampaignColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailMaxSpeedMult": 20,
+        "contrailParticleDuration": 20,	
+        "contrailParticleSizeMult": 20,
+        "engineColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "type": "SMOKE"
+      },
+      "width": 10
+    },
+    {
+      "angle": -165,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -212,
+        -104.5
+      ],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "contrailAngularVelocityMult": 0,
+        "contrailCampaignColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailMaxSpeedMult": 20,
+        "contrailParticleDuration": 20,	
+        "contrailParticleSizeMult": 20,
+        "engineColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "type": "SMOKE"
+      },
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -279,
+        51
+      ],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "contrailAngularVelocityMult": 20,
+        "contrailCampaignColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailMaxSpeedMult": 20,
+        "contrailParticleDuration": 20,	
+        "contrailParticleSizeMult": 20,
+        "engineColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "type": "SMOKE"
+      },
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -279,
+        -51
+      ],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "contrailAngularVelocityMult": 20,
+        "contrailCampaignColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailMaxSpeedMult": 20,
+        "contrailParticleDuration": 20,
+        "contrailParticleSizeMult": 20,
+        "engineColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "type": "SMOKE"
+      },
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -274.5,
+        13
+      ],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "contrailAngularVelocityMult": 20,
+        "contrailCampaignColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailMaxSpeedMult": 20,
+        "contrailParticleDuration": 20,
+        "contrailParticleSizeMult": 20,
+        "engineColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "type": "SMOKE"
+      },
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -274.5,
+        -13
+      ],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "contrailAngularVelocityMult": 20,
+        "contrailCampaignColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailMaxSpeedMult": 20,
+        "contrailParticleDuration": 20,
+        "contrailParticleSizeMult": 20,
+        "engineColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "type": "SMOKE"
+      },
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -277.5,
+        -40
+      ],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "contrailAngularVelocityMult": 20,
+        "contrailCampaignColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailMaxSpeedMult": 20,
+        "contrailParticleDuration": 20,
+        "contrailParticleSizeMult": 20,
+        "engineColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "type": "SMOKE"
+      },
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -277.5,
+        40
+      ],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "contrailAngularVelocityMult": 20,
+        "contrailCampaignColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailMaxSpeedMult": 20,
+        "contrailParticleDuration": 20,
+        "contrailParticleSizeMult": 20,
+        "engineColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "type": "SMOKE"
+      },
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -273,
+        -20
+      ],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "contrailAngularVelocityMult": 20,
+        "contrailCampaignColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailMaxSpeedMult": 20,
+        "contrailParticleDuration": 20,
+        "contrailParticleSizeMult": 20,
+        "engineColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "type": "SMOKE"
+      },
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -273,
+        20
+      ],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "contrailAngularVelocityMult": 20,
+        "contrailCampaignColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailMaxSpeedMult": 20,
+        "contrailParticleDuration": 20,
+        "contrailParticleSizeMult": 20,
+        "engineColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "type": "SMOKE"
+      },
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -273.5,
+        -5.5
+      ],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "contrailAngularVelocityMult": 20,
+        "contrailCampaignColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailMaxSpeedMult": 20,
+        "contrailParticleDuration": 20,
+        "contrailParticleSizeMult": 20,
+        "engineColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "type": "SMOKE"
+      },
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -273.5,
+        5.5
+      ],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "contrailAngularVelocityMult": 20,
+        "contrailCampaignColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailMaxSpeedMult": 20,
+        "contrailParticleDuration": 20,
+        "contrailParticleSizeMult": 20,
+        "engineColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "type": "SMOKE"
+      },
+      "width": 10
+    },
+    {
+      "angle": -165,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -218,
+        -80
+      ],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "contrailAngularVelocityMult": 20,
+        "contrailCampaignColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailMaxSpeedMult": 20,
+        "contrailParticleDuration": 20,
+        "contrailParticleSizeMult": 20,
+        "engineColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "type": "SMOKE"
+      },
+      "width": 10
+    },
+    {
+      "angle": 165,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -218,
+        80
+      ],
+      "style": "CUSTOM",
+      "styleSpec": {
+        "contrailAngularVelocityMult": 20,
+        "contrailCampaignColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "contrailMaxSpeedMult": 20,
+        "contrailParticleDuration": 20,
+        "contrailParticleSizeMult": 20,
+        "engineColor": [
+          64,
+          255,
+          255,
+          1
+        ],
+        "type": "SMOKE"
+      },
+      "width": 10
+    }
+  ],
+  "height": 565,
+  "hullId": "mms_rahksha_old",
+  "hullName": "Rahksha old",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 378,
+  "spriteName": "graphics/ships/mms_rahksha.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 62,
+      "id": "WS0001",
+      "locations": [
+        256,
+        24.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -0,
+      "arc": 62,
+      "id": "WS0002",
+      "locations": [
+        256,
+        -24.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 268,
+      "id": "WS0003",
+      "locations": [
+        205.5,
+        25
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -0,
+      "arc": 268,
+      "id": "WS0004",
+      "locations": [
+        205.5,
+        -25
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 128,
+      "arc": 210,
+      "id": "WS0005",
+      "locations": [
+        126.5,
+        31.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -128,
+      "arc": 210,
+      "id": "WS0006",
+      "locations": [
+        126.5,
+        -31.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 90,
+      "arc": 360,
+      "id": "WS0007",
+      "locations": [
+        100.5,
+        30
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 360,
+      "id": "WS0008",
+      "locations": [
+        100.5,
+        -30
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 360,
+      "id": "WS0009",
+      "locations": [
+        60.5,
+        30
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 360,
+      "id": "WS0010",
+      "locations": [
+        60.5,
+        -30
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 360,
+      "id": "WS0011",
+      "locations": [
+        20.5,
+        28.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 360,
+      "id": "WS0012",
+      "locations": [
+        20.5,
+        -28.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 360,
+      "id": "WS0013",
+      "locations": [
+        -19.5,
+        32.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 360,
+      "id": "WS0014",
+      "locations": [
+        -19.5,
+        -32.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 110.5,
+      "arc": 225,
+      "id": "WS0015",
+      "locations": [
+        -119.5,
+        98
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -110.5,
+      "arc": 225,
+      "id": "WS0016",
+      "locations": [
+        -119.5,
+        -98
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 153.5,
+      "arc": 225,
+      "id": "WS0017",
+      "locations": [
+        -210,
+        45.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -153.5,
+      "arc": 225,
+      "id": "WS0018",
+      "locations": [
+        -210,
+        -45.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        -78,
+        70,
+        -65.5,
+        86
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 2",
+      "locations": [
+        -61,
+        58,
+        -47.5,
+        76
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 3",
+      "locations": [
+        -3.5,
+        52.5,
+        12.5,
+        68
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 4",
+      "locations": [
+        39.5,
+        53,
+        53.5,
+        67
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 5",
+      "locations": [
+        82.5,
+        56,
+        92,
+        66
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 6",
+      "locations": [
+        80,
+        -53.5,
+        93.5,
+        -67
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 7",
+      "locations": [
+        36.5,
+        -50.5,
+        51,
+        -65
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 8",
+      "locations": [
+        -2.5,
+        -50.5,
+        12.5,
+        -66
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 9",
+      "locations": [
+        -59.5,
+        -55,
+        -47.5,
+        -70.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 10",
+      "locations": [
+        -79,
+        -69,
+        -67.5,
+        -86
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 11",
+      "locations": [
+        181.5,
+        -43.5,
+        181.5,
+        -51
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 12",
+      "locations": [
+        202,
+        -43.5,
+        201.5,
+        -50
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 13",
+      "locations": [
+        202.5,
+        44.5,
+        202.5,
+        54.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 14",
+      "locations": [
+        180.5,
+        46,
+        180.5,
+        54
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 250
+}

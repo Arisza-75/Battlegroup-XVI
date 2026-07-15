@@ -1,0 +1,46 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 7,
+    "goalVariant": false,
+    "hullId": "mms_xvi_cruiser",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_xvi_cruiser_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "mms_neutronCannon",
+                "WS 004": "mms_neutronCannon",
+                "WS 003": "mms_neutronCannon",
+                "WS 005": "mms_neutronCannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 009": "mms_particle_cannon",
+                "WS 008": "mms_particle_cannon",
+                "WS 007": "mms_particle_cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "mms_particle_cannon",
+                "WS 000": "mms_particle_cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "mms_xvi_heavy_pulsar"
+            }
+        }
+    ]
+}

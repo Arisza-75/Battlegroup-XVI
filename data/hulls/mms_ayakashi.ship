@@ -1,0 +1,221 @@
+{
+    "hullName": "Ayakashi-class",
+    "hullId": "mms_ayakashi",
+    "hullSize": "CRUISER",
+    "style": "MMS_CYBER",
+    "spriteName": "graphics/ships/mms_ayakashi.png",
+    "height": 304,
+    "width": 252,
+    "center": [
+        126, 152
+    ],
+    "collisionRadius": 183,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 190,
+    "viewOffset": 0,
+    "builtInWeapons": {
+        "WS 000": "tachyonlance"
+    },
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "LARGE",
+            "type": "BUILT_IN",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     7.5,        0
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "MEDIUM",
+            "type": "SYNERGY",
+            "mount": "TURRET",
+            "arc": 145,
+            "angle": 301,
+            "locations": [
+                     -30,      -49
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 144,
+            "angle": 45.5,
+            "locations": [
+                     106,       13
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 144,
+            "angle": 314.5,
+            "locations": [
+                     106,      -13
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "MEDIUM",
+            "type": "SYNERGY",
+            "mount": "TURRET",
+            "arc": 146,
+            "angle": 59,
+            "locations": [
+                     -30,       49
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -131.5, -10.5
+            ],
+            "length": 112.5,
+            "width": 42,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_CYBER"
+        },
+        {
+            "location": [
+                -131.5, 10.5
+            ],
+            "length": 112.5,
+            "width": 42,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_CYBER"
+        },
+        {
+            "location": [
+                -133.5, -33.5
+            ],
+            "length": 51.5,
+            "width": 29,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_CYBER"
+        },
+        {
+            "location": [
+                -133.5, 33.5
+            ],
+            "length": 51.5,
+            "width": 29,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_CYBER"
+        },
+        {
+            "location": [
+                65.5, -54
+            ],
+            "length": 40,
+            "width": 19,
+            "angle": 206.5,
+            "contrailSize": 12,
+            "style": "MMS_CYBER"
+        },
+        {
+            "location": [
+                65.5, 54
+            ],
+            "length": 40,
+            "width": 19,
+            "angle": 153.5,
+            "contrailSize": 12,
+            "style": "MMS_CYBER"
+        },
+        {
+            "location": [
+                -118.5, -93
+            ],
+            "length": 60,
+            "width": 20,
+            "angle": 204,
+            "contrailSize": 12,
+            "style": "MMS_CYBER"
+        },
+        {
+            "location": [
+                -118.5, 93
+            ],
+            "length": 60,
+            "width": 20,
+            "angle": 156,
+            "contrailSize": 12,
+            "style": "MMS_CYBER"
+        }
+    ],
+    "bounds": [
+          -126.5,      -66,
+          -130.5,    -75.5,
+          -144.5,      -93,
+          -136.5,     -115,
+          -128.5,   -120.5,
+        
+           -88.5,     -103,
+             -67,    -90.5,
+           -66.5,      -83,
+           -59.5,      -71,
+           -50.5,    -68.5,
+        
+           -32.5,      -74,
+           -21.5,    -66.5,
+              -4,    -68.5,
+              14,    -55.5,
+            48.5,    -45.5,
+        
+            58.5,      -51,
+              65,    -50.5,
+            69.5,    -56.5,
+            82.5,      -49,
+              91,      -33,
+        
+           146.5,    -14.5,
+             147,       -7,
+              58,       -9,
+              58,        9,
+             147,        7,
+        
+           146.5,     14.5,
+              91,       33,
+            82.5,       49,
+            69.5,     56.5,
+              65,     50.5,
+        
+            58.5,       51,
+            48.5,     45.5,
+              14,     55.5,
+              -4,     68.5,
+           -21.5,     66.5,
+        
+           -32.5,       74,
+           -50.5,     68.5,
+           -59.5,       71,
+           -66.5,       83,
+             -67,     90.5,
+        
+           -88.5,      103,
+          -128.5,    120.5,
+          -136.5,      115,
+          -144.5,       93,
+          -130.5,     75.5,
+        
+          -126.5,       66
+    # 46 points total.
+    ]
+}

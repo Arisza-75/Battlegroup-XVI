@@ -1,0 +1,24 @@
+{
+    "displayName": "Point Defense",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "mms_lost_x1raider",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_lost_x1raider_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 005": "lightac",
+                "WS 004": "lightac",
+                "WS 003": "lightac",
+                "WS 001": "lightac",
+                "WS 000": "lightac",
+                "WS 002": "lightac"
+            }
+        }
+    ]
+}

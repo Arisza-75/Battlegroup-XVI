@@ -1,0 +1,7 @@
+id,trigger,conditions,script,text,options,notes
+"#RULESET_NAME XVI_rules",,,,,,
+,,,,,,
+# ENCOUNTER,,,,,,
+Hostile,OpenCommLink,"IsSoughtByPatrols MMS_XVI",,"$Faction has deemed you a threat to this expedition, Lethal force is authorized against your fleet.",,
+"#END ENCOUNTER",,,,,,
+

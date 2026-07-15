@@ -1,0 +1,39 @@
+{
+    "displayName": "Command",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "mms_omega_capital1",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_omega_capital1_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "rifttorpedo",
+                "WS 010": "minipulser",
+                "WS 005": "realitydisruptor",
+                "WS 022": "cryoblaster",
+                "WS 017": "disintegrator",
+                "WS 007": "disintegrator",
+                "WS 018": "cryoflux",
+                "WS 004": "amsrm",
+                "WS 002": "amsrm",
+                "WS 000": "riftbeam",
+                "WS 012": "riftbeam",
+                "WS 003": "resonatormrm",
+                "WS 008": "shockrepeater",
+                "WS 009": "shockrepeater",
+                "WS 024": "shockrepeater",
+                "WS 015": "riftlance",
+                "WS 025": "riftlance",
+                "WS 016": "riftlance",
+                "WS 028": "minipulser",
+                "WS 027": "riftlance",
+                "WS 026": "cryoflux"
+            }
+        }
+    ]
+}

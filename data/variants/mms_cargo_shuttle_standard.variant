@@ -1,0 +1,23 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 4,
+    "fluxVents": 3,
+    "goalVariant": false,
+    "hullId": "mms_cargo_shuttle",
+    "hullMods": [
+        "expanded_cargo_holds"
+    ],
+    "quality": 0.0,
+    "variantId": "mms_cargo_shuttle_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "swarmer",
+                "WS 002": "swarmer",
+                "WS 001": "mininglaser"
+            }
+        }
+    ]
+}
