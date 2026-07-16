@@ -44,10 +44,7 @@
 			"xvi_old_bp":1,
 		},
 		"hulls":{
-			"mms_xvi_onslaught":0.4,
-			"mms_xvi_cruiser":0.5,
-			"mms_xvi_beam_frigate":0.6,
-			"mms_onslaught":0.5,			
+		
 		},
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
@@ -57,71 +54,43 @@
 		],
 	},
 	"knownShips":{
-		"tags":["xvi_bp","mms"],
+		"tags":["xvi_bp","xvi_old_bp","mms"],
 		"hulls":[
-			"mms_xvi_onslaught",
-			"mms_xvi_cruiser",
-			"mms_mora",
-			"mms_legion",
-			"mms_xvi_beam_frigate",
-			"mms_onslaught",
-			"mms_atlas"
+
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
 	"priorityShips":{
-		"tags":["xvi_bp"],
+		"tags":["xvi_bp","xvi_old_bp"],
 		"hulls":[
-			"mms_xvi_onslaught",
-			"mms_xvi_cruiser",
-			"mms_xvi_beam_frigate",
-			"mms_onslaught",
+
 			],
 	},
 	"knownFighters":{
-		"tags":["xvi_bp","rare_bp","hightech_bp","ind"],
+		"tags":["xvi_bp","hightech_bp","ind"],
 		"fighters":[
-			"mms_ex_fighter_wing",
-			"mms_interceptor_wing",
-			"mms_siren_ksg_ion_wing",
-			"mms_stormblade_wing",
-			"mms_xvi_drone_wing",
-			"mms_lightchaser_wing",
-			"mms_xvi_talon_wing"
+
 		],
 	},
 	"priorityFighters":{
 		"tags":["xvi_bp"],
 		"fighters":[
-				"mms_xvi_drone_wing",
-				"mms_ex_fighter_wing",
-				"mms_lightchaser_wing"
+
 		],
 	},
 	"knownWeapons":{	
-		"tags":["xvi_bp","rare_bp","hightech_bp","ind"],
+		"tags":["xvi_bp","rare_bp","hightech_bp","remnant"],
 		"weapons":[
-		"mms_xvi_canister",
-		"mms_neutronCannon",
-		"mms_xvi_heavy_pulsar",
-		"mms_xvi_pdburst",
-		"mms_spike_large",	
-		"mms_xvi_canister_S",
-		"mms_drone_constructor"
 		],
 	},
 	"priorityWeapons":{
 		"tags":["xvi_bp"],
 		"weapons":[
-		"mms_xvi_canister",
-		"mms_neutronCannon",
-		"mms_xvi_heavy_pulsar",
-		"mms_xvi_pdburst",
-		"mms_spike_large"		
+
 		],
 	},
 	"knownHullMods":{
-		"tags":["base_bp", "independent",],
+		"tags":["base_bp", "independent","remnant"],
 		"hullMods":[
 			
 		],

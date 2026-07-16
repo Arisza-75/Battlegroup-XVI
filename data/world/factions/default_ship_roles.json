@@ -1,5 +1,4 @@
 {
-	
 	"combatSmall":{
 		"mms_xvi_beam_frigate_ranged":7,
 		"mms_udf_alliance_standard":7,
@@ -19,9 +18,8 @@
 				"mms_xvi_onslaught_standard":4,
 				"mms_onslaught_outdated":5,
 				"mms_xvi_onslaught_missile":3,
-				"mms_udf_flagship_standard":2,
-				
-				"mms_hikari_yo_adv":5,
+				"mms_udf_flagship_standard":3,
+				"mms_hikari_yo_adv":6,
 	},
 	"combatFreighterSmall":{
 	},
@@ -33,24 +31,33 @@
 	},
 	"carrierMedium":{
 		"mms_mora_standard":5,
+		"mms_xvi_ryuuhou_standard":5,
 	},
 	"carrierLarge":{
 		"mms_legion_standard":5,
 		"mms_rahksha_missile":2,		
-		"mms_hikari_yo_adv":5,
-		"mms_udf_flagship_standard":2,
+		"mms_hikari_yo_adv":6,
+		"mms_udf_flagship_standard":3,
 	},
 	"phaseSmall":{
+		"mms_llama_standard":5,
 	},
 	"phaseMedium":{
 	},
-	"freighterMedium":{
-		"mms_atlas_milspec":5,
-		"mms_llama_standard":2,
+	"freighterSmall":{
 		"mms_cargo_shuttle_standard":2,
+	},
+	"freighterLarge":{
+		"mms_atlas_milspec":5,
+	},
+	"freighterMedium":{
+		"mms_llama_standard":5,	
 	},
 	"tankerMedium":{
 		"mms_atlas_milspec":5,
+	},
+		"personnelSmall":{
+		"mms_cargo_shuttle_standard":10,
 	},
 }
 

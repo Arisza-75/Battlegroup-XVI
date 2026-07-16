@@ -4,9 +4,9 @@
 	#"missileType":"ROCKET",
 	"missileType":"MISSILE_TWO_STAGE_SECOND_UNGUIDED",
 	"onFireEffect":"com.fs.starfarer.api.impl.combat.SquallOnFireEffect",
-	"sprite":"graphics/missiles/missile_squall.png",
-	"size":[6,20],	
-	"center":[3,10],
+	"sprite":"graphics/missiles/mms_torpedo1.png",
+	"size":[14,23],	
+	"center":[7,11],
 	"collisionRadius":15,
 	"collisionClass":"MISSILE_NO_FF",
 	"explosionColor":[35,255,255,255],  # purely visual, will get a white additively blended core on top of this color
@@ -20,6 +20,13 @@
 					 "particleSizeRange":3.0,
 					 "particleDuration":1,
 					 "particleCount":150,
+					  "useDetailedExplosion":true,
+									 "useDetailedExplosionColorAlpha":true,
+									 "detailedExplosionRadius":340,
+									 "detailedExplosionFlashRadius":400,
+									 "detailedExplosionFlashDuration":0.25,
+									 "detailedExplosionFlashColorFringe":[102,229,245,255],
+									 "detailedExplosionFlashColorCore":[46,151,255,255],
 					 "particleColor":[255,165,135,255]},
 		"flameoutTime":1, # total time from flameout to full fadeout
 	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered

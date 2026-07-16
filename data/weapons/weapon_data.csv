@@ -1,10 +1,10 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
-Arkadia LRM,mms_missile,1,,2000,3000,,200,,20,50,6,60,,0,ENERGY,10,,0,5,3,0.2,0,0,0,0,,1500,300,5,10,,,"DO_NOT_AIM, DIRECT_AIM"," mms,battlegroupxvi",,Materia Systems,,General,Medium,Good,,,,,,,,0
-Itano fighter Swam,mms_swarm_fighter,2,,2000,1200,,50,,10,50,4,,,3,HIGH_EXPLOSIVE,2,,0,5,1,0.1,0,0,0,0,,600,10,5,50,,,"DO_NOT_AIM,ANTI_FTR"," mms,battlegroupxvi",,Materia Systems,,Anti Armor,Fast,Excellent,,,,,,,,1
-Depth Charge Launcher,mms_flak_charge,2,,2000,500,,45,,10,120,4,,,3,FRAGMENTATION,5,,0,0.5,5,,30,30,0,0,,650,,,20,,,PD," mms,battlegroupxvi",,Materia Systems,,Point Defense (Area),,,,,,,,,,2
-Particle Cannon,mms_particle_cannon,2,,2000,1000,300,,,0,30,10,,,,ENERGY,,318.1818182,0.3,0.4,1,1,0,0,0,0,7000,,,,,,,GROUP_ALTERNATING,"energy14, beam10, rare_bp, merc, ind, mms,battlegroupxvi",,Materia Systems,,General,,,,,,,,,,3
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," mms,battlegroupxvi",,,,,,,,,,,,,,
-Light Neutron Gun,mms_neutronCannon,3,,25000,500,,10,,1,61,8,,2,20,ENERGY,5,,,0.35,5,,0,3,1,1,,1000,,,,,,,"energy9, codex_unlockable, mms,battlegroupxvi",,Materia Systems,,Anti Shield,,,,,,,,,,0.5
+Arkadia LRM,mms_missile,1,,2000,3000,,200,,20,50,6,60,,0,ENERGY,10,,0,5,3,0.2,0,0,0,0,,1500,300,5,10,,,"DO_NOT_AIM, DIRECT_AIM", xvi_bp,,Materia Systems,,General,Medium,Good,,,,,,,,0
+Itano fighter Swam,mms_swarm_fighter,2,,2000,1200,,50,,10,50,4,,,3,HIGH_EXPLOSIVE,2,,0,5,1,0.1,0,0,0,0,,600,10,5,50,,,"DO_NOT_AIM,ANTI_FTR", xvi_bp,,Materia Systems,,Anti Armor,Fast,Excellent,,,,,,,,1
+Depth Charge Launcher,mms_flak_charge,2,,2000,500,,45,,10,120,4,,,3,FRAGMENTATION,5,,0,0.5,5,,30,30,0,0,,650,,,20,,,PD, xvi_bp,,Materia Systems,,Point Defense (Area),,,,,,,,,,2
+Particle Cannon,mms_particle_cannon,2,,2000,1000,300,,,0,30,10,,,,ENERGY,,318.1818182,0.3,0.4,1,1,0,0,0,0,7000,,,,,,,GROUP_ALTERNATING,"energy14, beam10, rare_bp, merc, ind, ,xvi_bp",,Materia Systems,,General,,,,,,,,,,3
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, xvi_bp,,,,,,,,,,,,,,
+Light Neutron Gun,mms_neutronCannon,3,,25000,500,,10,,1,61,8,,2,20,ENERGY,5,,,0.35,5,,0,3,1,1,,1000,,,,,,,"energy9, codex_unlockable, ,xvi_bp",,Materia Systems,,Anti Shield,,,,,,,,,,0.5
 ,,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -20,18 +20,18 @@ Hyper Velocity Cannon,mms_HVC,2,,2000,500,,200,,0,0,0,,,,HIGH_EXPLOSIVE,100,,0,2
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Blitzstrahl-class Torpedo (Single),mms_blitz_single,1,,2000,1000,,1200,,20,30,1,1,,,HIGH_EXPLOSIVE,0,,0,1,,,0,0,0,0,,2400,100,3,300,,,"STRIKE, USE_VS_FRIGATES","mms,battlegroupxvi",,Materia Systems,,General,Extremely Fast,Special,,,,,,,,0
-Blitzstrahl-class Torpedo,mms_blitz,1,,2000,1000,,1200,,20,30,3,2,,,HIGH_EXPLOSIVE,0,,0,1,,,0,0,0,0,,2400,100,3,300,,,"STRIKE, USE_VS_FRIGATES","mms,battlegroupxvi",,Materia Systems,,General,Extremely Fast,Special,,,,,,,,0
+Blitzstrahl-class Torpedo (Single),mms_blitz_single,1,,2000,1000,,1200,,20,30,1,1,,,HIGH_EXPLOSIVE,0,,0,1,,,0,0,0,0,,2400,100,3,300,,,"STRIKE, USE_VS_FRIGATES",xvi_bp,,Materia Systems,,General,Extremely Fast,Special,,,,,,,,0
+Blitzstrahl-class Torpedo,mms_blitz,1,,2000,1000,,1200,,20,30,3,2,,,HIGH_EXPLOSIVE,0,,0,1,,,0,0,0,0,,2400,100,3,300,,,"STRIKE, USE_VS_FRIGATES",xvi_bp,,Materia Systems,,General,Extremely Fast,Special,,,,,,,,0
 Blitzstrahl-class Torpedo (Fighter),mms_blitz_ftr,1,,2000,1000,,1200,,20,30,3,2,,,HIGH_EXPLOSIVE,0,,0,3,,,0,0,0,0,,2400,100,3,300,,,"STRIKE, USE_VS_FRIGATES",,,Materia Systems,,General,Extremely Fast,Special,,,,,,,,0
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Decompilation Spike,mms_spike_large,1,,2000,6000,,100,2500,20,10,24,10,,,ENERGY,1000,,0,5,2,0.1,0,0,0,0,,4800,200,3,600,,,"STRIKE, USE_VS_FRIGATES",battlegroupxvi,,Battlegroup XVI,,General,Extremely Fast,Good,,,,,,,,0
+Decompilation Spike,mms_spike_large,1,,2000,6000,,100,2500,20,10,24,10,,,ENERGY,1000,,0,5,2,0.1,0,0,0,0,,4800,200,3,600,,,"STRIKE, USE_VS_FRIGATES",xvi_bp,,Battlegroup XVI,,General,Extremely Fast,Good,,,,,,,,0
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Heavy Vajra Cannon,xvi_onslaught_maingun,0,,100000,1500,,300,,10,0,,20,1,,ENERGY,250,,0,0.35,1,0,5,5,0,0,,1500,,,,,,"SYSTEM,SHOW_IN_CODEX",,,Battlegroup XVI,,General,,,,,,,,,,40
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MK.7 Pulsar Cannon,mms_xvi_heavy_pulsar,0,,2000,1500,,250,,0,20,25,15,1,15,ENERGY,,,,0.45,3,0.15,0,0,0,0,,2500,,,,,,,"energy14, rare_bp, battlegroupxvi",,Battlegroup XVI,,General,,,,,,,,,,3
+MK.7 Pulsar Cannon,mms_xvi_heavy_pulsar,0,,2000,1500,,250,,0,20,25,15,1,15,ENERGY,,,,0.45,3,0.15,0,0,0,0,,2500,,,,,,,"energy14, rare_bp, xvi_bp",,Battlegroup XVI,,General,,,,,,,,,,3
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -51,9 +51,9 @@ Warp Cannon,mms_WarpCannon,0,,3000,900,,950,,200,7,18,,,,HIGH_EXPLOSIVE,950,,0,5
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Drone Constructor Bay,mms_drone_constructor,0,,10000,3000,,0,0,0,0,8,1,0.06,,FRAGMENTATION,0,,0,1,,,0,0,0,0,,1,1,0.1,1,,,"DO_NOT_AIM, NO_MANUAL_FIRE","pd9, beam6, rare_bp, battlegroupxvi",,Battlegroup XVI,,Fire Support,,,,,"Launches a Shrouded Vortex, which will try to seek out and batter nearby targets and will eventually explode, dealing up to 2000 points of energy damage in an area.",Shrouded Vortex | 2000 | energy,,,,22.2
+Drone Constructor Bay,mms_drone_constructor,0,,10000,3000,,0,0,0,0,8,1,0.06,,FRAGMENTATION,0,,0,1,,,0,0,0,0,,1,1,0.1,1,,,"DO_NOT_AIM, NO_MANUAL_FIRE","pd9, beam6, rare_bp, xvi_bp",,Battlegroup XVI,,Fire Support,,,,,"Launches a Shrouded Vortex, which will try to seek out and batter nearby targets and will eventually explode, dealing up to 2000 points of energy damage in an area.",Shrouded Vortex | 2000 | energy,,,,22.2
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Type-6 EM Burst PD,mms_xvi_pdburst,2,,600,500,,25,250,0,100,6,,,,ENERGY,,40,,0.2,3,0.02,,,,,,1200,,,,,,"PD,ANTI_FTR","pd9, beam6, rare_bp, battlegroupxvi",,,,Suppression,,,,,"Hits on hull or armor periodically arc to weapons and engines, dealing extra EMP and energy damage. Hits on shields have a chance to generate a shield-penetrating arc based on the target's hard flux level.",,,,,22
+Type-6 EM Burst PD,mms_xvi_pdburst,2,,600,500,,25,250,0,100,6,,,,ENERGY,,40,,0.2,3,0.02,,,,,,1200,,,,,,"PD,ANTI_FTR","pd9, beam6, rare_bp, xvi_bp",,,,Suppression,,,,,"Hits on hull or armor periodically arc to weapons and engines, dealing extra EMP and energy damage. Hits on shields have a chance to generate a shield-penetrating arc based on the target's hard flux level.",,,,,22
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Onslaught Glow,onslaught_glow,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,46
 Beam Frigate Glow,beam_frigate_glow,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,46
@@ -72,7 +72,7 @@ Frigate-grade Positron Beam Cannon,xvi_frigate_cannon,2,,2000,1200,1000,,,0,0,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Kiri-type Canister Rack,mms_xvi_canister,1,,250,7500,,800,,15,30,8,15,0.1,5,ENERGY,0,,0.7,5,5,0.8,0,0,0,0,,300,575,12,250,,,"DO_NOT_AIM, DO_NOT_CONSERVE","missile8, strike4, damage_special, damage_soft_flux, battlegroupxvi",,,,Assault / Finisher,Medium,Good,,,"The missile fires a high-powered laser when it gets near the target, dealing approximately %s energy damage in a short burst. This damage is affected by missile damage modifiers and not energy weapon ones.",800,,,TRUE,11.9
+Kiri-type Canister Rack,mms_xvi_canister,1,,250,7500,,800,,15,30,8,15,0.1,5,ENERGY,0,,0.7,5,5,0.8,0,0,0,0,,300,575,12,250,,,"DO_NOT_AIM, DO_NOT_CONSERVE","missile8, strike4, damage_special, damage_soft_flux, xvi_bp",,,,Assault / Finisher,Medium,Good,,,"The missile fires a high-powered laser when it gets near the target, dealing approximately %s energy damage in a short burst. This damage is affected by missile damage modifiers and not energy weapon ones.",800,,,TRUE,11.9
     Canister - Payload,canister_payload,1,,0,900,900,,,,30,0,,,,ENERGY,0,,0.05,0.25,0.9,0.5,,,,,1000000,,,,,,,"SYSTEM, DANGEROUS",fires_one_burst,,,,,,,,,,,,,,11.91
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -85,7 +85,7 @@ Plasma Minelayer,plasma_minelayer,0,,200000,1000,,1000,750,25,30,12,30,,,ENERGY,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Kiri-type Canister pod,mms_xvi_canister_S,1,,250,7500,,800,,15,30,4,3,0.1,5,ENERGY,0,,0.7,5,1,0.8,0,0,0,0,,300,575,12,250,,,"DO_NOT_AIM, DO_NOT_CONSERVE","missile8, strike4, damage_special, damage_soft_flux, battlegroupxvi",,,,Assault / Finisher,Medium,Good,,,"The missile fires a high-powered laser when it gets near the target, dealing approximately %s energy damage in a short burst. This damage is affected by missile damage modifiers and not energy weapon ones.",800,,,TRUE,11.9
+Kiri-type Canister pod,mms_xvi_canister_S,1,,250,7500,,800,,15,30,4,3,0.1,5,ENERGY,0,,0.7,5,1,0.8,0,0,0,0,,300,575,12,250,,,"DO_NOT_AIM, DO_NOT_CONSERVE","missile8, strike4, damage_special, damage_soft_flux, xvi_bp",,,,Assault / Finisher,Medium,Good,,,"The missile fires a high-powered laser when it gets near the target, dealing approximately %s energy damage in a short burst. This damage is affected by missile damage modifiers and not energy weapon ones.",800,,,TRUE,11.9
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
