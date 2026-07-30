@@ -2,6 +2,7 @@
 	"combatSmall":{
 		"mms_xvi_beam_frigate_ranged":7,
 		"mms_udf_alliance_standard":7,
+		"mms_remnant_phaeton_standard":7
 	},
 	"combatMedium":{
 		"mms_udf_alliance_standard":4,
@@ -20,6 +21,7 @@
 				"mms_xvi_onslaught_missile":3,
 				"mms_udf_flagship_standard":3,
 				"mms_hikari_yo_adv":6,
+				"mms_remnant_tanker_standard":10,
 	},
 	"combatFreighterSmall":{
 	},

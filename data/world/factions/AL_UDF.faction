@@ -48,54 +48,46 @@
 	# multiplier for how often hulls show up in the faction's fleets
 	"hullFrequency":{
 		"tags":{
+		"udf_bp":1,
 		},
 		"hulls":{
-			"mms_udf_ixion":0.5,
-			"mms_udf_alliance":0.5,
-			"mms_udf_flagship":0.2,
-
-
 		},
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
 	"shipsWhenImporting":{
-		"tags":[""],
+		"tags":[],
 		"hulls":[
 
 
 		],
 	},
 	"knownShips":{
-		"tags":[],
+		"tags":["udf_bp"],
 		"hulls":[
-			"mms_udf_alliance",
-			"mms_udf_ixion",
-			"mms_udf_flagship",
+
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
 	"priorityShips":{
-		"tags":[],
+		"tags":["udf_bp"],
 		"hulls":[
-			"mms_udf_alliance",
-			"mms_udf_ixion",
-			"mms_udf_flagship",
+
 		],
 	},
 	"knownFighters":{
-		"tags":[],
+		"tags":["udf_bp"],
 		"fighters":[
 
 		],
 	},
 	"priorityFighters":{
-		"tags":[],
+		"tags":["udf_bp"],
 		"fighters":[
 
 		],
 	},
 	"knownWeapons":{
-		"tags":["tritachyon"],
+		"tags":["udf_bp"],
 		"weapons":[
 					"pdlaser",
 			"taclaser",
@@ -153,25 +145,25 @@
 		],
 	},
 	"priorityWeapons":{
-		"tags":[],
+		"tags":[udf_bp],
 		"weapons":[
 
 		],
 	},
 	"knownHullMods":{
-		"tags":[],
+		"tags":[udf_bp],
 		"hullMods":[
 			
 		],
 	},
 	"factionDoctrine":{
 		"warships":4,
-		"carriers":2,
+		"carriers":3,
 		"phaseShips":2,
 		
-		"officerQuality":3,
+		"officerQuality":5,
 		"shipQuality":4,
-		"numShips":5,
+		"numShips":4,
 		
 		"shipSize":3,
 		

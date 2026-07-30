@@ -2,7 +2,7 @@
     "hullName": "Ixion",
     "hullId": "mms_udf_ixion",
     "hullSize": "DESTROYER",
-    "style": "LOW_TECH",
+    "style": "MMS_UDF",
     "spriteName": "graphics/ships/UDF/mms_udf_ixion.png",
     "height": 157,
     "width": 148,

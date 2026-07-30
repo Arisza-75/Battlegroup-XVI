@@ -125,80 +125,80 @@
     "engineSlots": [
         {
             "location": [
-                -24.5, -37
+                -22.5, -37
             ],
-            "length": 60,
-            "width": 10,
+            "length": 90,
+            "width": 28,
             "angle": 180,
             "contrailSize": 12,
             "style": "MMS_XVI_engine"
         },
         {
             "location": [
-                -24.5, 37
+                -22.5, 37
             ],
-            "length": 60,
-            "width": 10,
+            "length": 90,
+            "width": 28,
             "angle": 180,
             "contrailSize": 12,
             "style": "MMS_XVI_engine"
         },
         {
             "location": [
-                -19, 22.5
+                -17, 22
             ],
             "length": 60,
-            "width": 10,
+            "width": 14,
             "angle": 180,
             "contrailSize": 12,
             "style": "MMS_XVI_engine"
         },
         {
             "location": [
-                -19, -22.5
+                -17, -22
             ],
             "length": 60,
-            "width": 10,
+            "width": 14,
             "angle": 180,
             "contrailSize": 12,
             "style": "MMS_XVI_engine"
         },
         {
             "location": [
-                -19, 11.5
+                -17, 12
             ],
             "length": 60,
-            "width": 10,
+            "width": 14,
             "angle": 180,
             "contrailSize": 12,
             "style": "MMS_XVI_engine"
         },
         {
             "location": [
-                -19, -11.5
+                -17, -12
             ],
             "length": 60,
-            "width": 10,
+            "width": 14,
             "angle": 180,
             "contrailSize": 12,
             "style": "MMS_XVI_engine"
         },
         {
             "location": [
-                -19, -17
+                -17, -17
             ],
             "length": 60,
-            "width": 10,
+            "width": 14,
             "angle": 180,
             "contrailSize": 12,
             "style": "MMS_XVI_engine"
         },
         {
             "location": [
-                -19, 17
+                -17, 17
             ],
             "length": 60,
-            "width": 10,
+            "width": 14,
             "angle": 180,
             "contrailSize": 12,
             "style": "MMS_XVI_engine"

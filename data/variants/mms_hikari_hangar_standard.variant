@@ -9,19 +9,27 @@
     "variantId": "mms_hikari_hangar_standard",
     "weaponGroups": [
         {
-            "autofire": true,
+            "autofire": false,
             "mode": "LINKED",
             "weapons": {
-                "WS 001": "gravitonbeam",
-                "WS 000": "gravitonbeam",
-                "WS 003": "gravitonbeam",
                 "WS 002": "gravitonbeam",
-                "WS 010": "pdlaser",
+                "WS 003": "gravitonbeam",
+                "WS 000": "gravitonbeam",
+                "WS 001": "gravitonbeam",
+                "WS 004": "taclaser",
+                "WS 005": "taclaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
                 "WS 011": "pdlaser",
-                "WS 006": "pdburst",
+                "WS 010": "pdlaser",
+                "WS 009": "pdburst",
+                "WS 008": "pdburst",
                 "WS 007": "pdburst",
-                "WS 005": "taclaser",
-                "WS 004": "taclaser"
+                "WS 006": "pdburst"
             }
         }
     ],

@@ -84,7 +84,7 @@
                 -79, -13.5
             ],
             "length": 80,
-            "width": 20,
+            "width": 30,
             "angle": 180,
             "contrailSize": 12,
             "style": "MMS_UDF_engine"
@@ -94,7 +94,7 @@
                 -79, 13.5
             ],
             "length": 80,
-            "width": 20,
+            "width": 30,
             "angle": 180,
             "contrailSize": 12,
             "style": "MMS_UDF_engine"

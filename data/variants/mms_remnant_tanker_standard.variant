@@ -1,0 +1,29 @@
+{
+    "displayName": "Heavy",
+    "fluxCapacitors": 46,
+    "fluxVents": 40,
+    "goalVariant": true,
+    "hullId": "mms_remnant_tanker",
+    "hullMods": [
+        "pointdefenseai"
+    ],
+    "quality": 0.0,
+    "variantId": "mms_remnant_tanker_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 005": "heavyburst",
+                "WS 001": "heavyburst",
+                "WS 007": "pdburst",
+                "WS 003": "pdburst",
+                "WS 006": "pdburst",
+                "WS 014": "mms_satbomb_gun",
+                "WS 000": "mms_ultraheavyburst",
+                "WS 002": "mms_ultraheavyburst",
+                "WS 004": "guardian"
+            }
+        }
+    ]
+}

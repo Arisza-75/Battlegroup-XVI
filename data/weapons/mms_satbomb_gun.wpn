@@ -1,0 +1,38 @@
+{
+	"id":"mms_satbomb_gun",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"turretSprite":"graphics/weapons/devastator_turret_base.png",
+	"hardpointSprite":"",
+	"visualRecoil":0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[0, -3,
+					0,0,
+					0, 3,
+					0,-3,
+					0, 3,
+					0, -3,
+					0,0
+					],
+	"turretAngleOffsets":[-45, 0, 45, 25,-25,5,-5],
+	"hardpointOffsets":[0, -3,
+					0,0,
+					0, 3,
+					0,-3,
+					0, 3,
+					0, -3,
+					0,0],
+	"hardpointAngleOffsets":[-45, 0, 45, 25,-25,5,-5],
+	"barrelMode":"ALTERNATING", # LINKED or ALTERNATING.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":25.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":45,
+					   "particleSizeMin":12.0,
+					   "particleSizeRange":32.0,
+					   "particleDuration":1.13,
+					   "particleCount":35,
+					   "particleColor":[150,100,255,175]},
+	"projectileSpecId":"mms_satbomb_shot",  # projectile that will be fired
+	"fireSoundTwo":"devastator_fire",	
+}

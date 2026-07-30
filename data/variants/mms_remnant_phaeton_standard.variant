@@ -1,0 +1,25 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 14,
+    "goalVariant": false,
+    "hullId": "mms_remnant_phaeton",
+    "hullMods": [
+        "auxiliarythrusters",
+        "auxiliary_fuel_tanks"
+    ],
+    "quality": 0.0,
+    "variantId": "mms_remnant_phaeton_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 002": "pdlaser",
+                "WS 001": "pdlaser",
+                "WS 000": "pdlaser",
+                "WS 003": "mms_phaeton_gun"
+            }
+        }
+    ]
+}
