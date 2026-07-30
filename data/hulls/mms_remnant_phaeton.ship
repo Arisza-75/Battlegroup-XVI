@@ -1,0 +1,208 @@
+{
+    "hullName": "MMS Phaeton",
+    "hullId": "mms_remnant_phaeton",
+    "hullSize": "DESTROYER",
+    "style": "HIGH_TECH",
+    "spriteName": "graphics/ships/remnant/mms_remnant_tanker_medium.png",
+    "height": 234,
+    "width": 120,
+    "center": [
+        60, 94
+    ],
+    "collisionRadius": 182,
+    "coversColor": "255,29,0,255",
+    "shieldCenter": [
+        21, 0
+    ],
+    "shieldRadius": 160,
+    "viewOffset": 0,
+    "builtInMods": [
+        "automated",
+        "safetyoverrides"
+    ],
+    "builtInWeapons": {
+        "WS 003": "mms_phaeton_gun"
+    },
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 150,
+            "angle": 180,
+            "locations": [
+                     -75,        0
+            ]
+        },
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 205,
+            "angle": 257,
+            "locations": [
+                     -45,    -41.5
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 205,
+            "angle": 103,
+            "locations": [
+                     -45,     41.5
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "MEDIUM",
+            "type": "BUILT_IN",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     123,        0
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -93, 9
+            ],
+            "length": 64,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -93, -9
+            ],
+            "length": 64,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -64, -46
+            ],
+            "length": 37,
+            "width": 7,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -60, -54
+            ],
+            "length": 37,
+            "width": 7,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -60, 54
+            ],
+            "length": 37,
+            "width": 7,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -62, -50
+            ],
+            "length": 37,
+            "width": 7,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -63.5, 46
+            ],
+            "length": 37,
+            "width": 7,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -62, 50
+            ],
+            "length": 37,
+            "width": 7,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -89, -36.5
+            ],
+            "length": 64,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        },
+        {
+            "location": [
+                -89, 36.5
+            ],
+            "length": 64,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "HIGH_TECH"
+        }
+    ],
+    "bounds": [
+             -41,       58,
+             -29,       35,
+              22,     42.5,
+              36,       48,
+            76.5,     35.5,
+        
+              93,       34,
+             103,       52,
+           132.5,       16,
+           124.5,      0.5,
+           132.5,      -16,
+        
+             119,      -33,
+             106,      -39,
+            76.5,    -35.5,
+            54.5,    -42.5,
+              22,    -42.5,
+        
+             -29,      -35,
+             -40,      -58,
+             -57,      -52,
+             -58,      -20,
+             -72,      -48,
+        
+           -91.5,    -39.5,
+           -91.5,     39.5,
+             -73,       49,
+             -59,       20,
+             -57,       54
+    # 25 points total.
+    ]
+}

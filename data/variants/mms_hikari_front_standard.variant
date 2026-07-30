@@ -14,14 +14,14 @@
             "weapons": {
                 "WS 007": "guardian",
                 "WS 006": "guardian",
-                "WS 005": "autopulse",
-                "WS 004": "autopulse",
                 "WS 002": "heavyburst",
                 "WS 001": "heavyburst",
                 "WS 003": "heavyburst",
                 "WS 000": "heavyburst",
                 "WS 008": "taclaser",
-                "WS 009": "taclaser"
+                "WS 009": "taclaser",
+                "WS 004": "mms_ultraheavyburst",
+                "WS 005": "mms_ultraheavyburst"
             }
         }
     ],

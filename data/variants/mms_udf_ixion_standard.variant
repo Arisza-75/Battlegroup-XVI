@@ -18,5 +18,10 @@
                 "WS 001": "shockrepeater"
             }
         }
+    ],
+    "wings": [
+        "mms_udf_heavyfighter_wing",
+        "mms_udf_bomber_wing",
+        "mms_udf_bomber_wing"
     ]
 }

@@ -16,9 +16,6 @@
     ],
     "shieldRadius": 14,
     "viewOffset": 0,
-    "builtInMods": [
-        "mms_droneEMP"
-    ],
     "builtInWings": [],
     "builtInModules": null,
     "weaponSlots": [
@@ -37,42 +34,22 @@
     "engineSlots": [
         {
             "location": [
-                -4.5, -5.5
+                -3, -2.5
             ],
-            "length": 5,
-            "width": 2,
-            "angle": 200,
-            "contrailSize": 0,
-            "style": "MMS_CYBER"
-        },
-        {
-            "location": [
-                -4.5, 5.5
-            ],
-            "length": 5,
-            "width": 2,
-            "angle": 160,
-            "contrailSize": 0,
-            "style": "MMS_CYBER"
-        },
-        {
-            "location": [
-                -2, -4
-            ],
-            "length": 2,
-            "width": 2,
+            "length": 10,
+            "width": 10,
             "angle": 180,
-            "contrailSize": 0,
+            "contrailSize": 12,
             "style": "MMS_CYBER"
         },
         {
             "location": [
-                -2, 4
+                -3, 2.5
             ],
-            "length": 2,
-            "width": 2,
+            "length": 10,
+            "width": 10,
             "angle": 180,
-            "contrailSize": 0,
+            "contrailSize": 12,
             "style": "MMS_CYBER"
         }
     ],

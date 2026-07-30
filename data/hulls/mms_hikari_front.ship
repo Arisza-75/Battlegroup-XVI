@@ -133,6 +133,28 @@
             ]
         },
         {
+            "id": "WS 010",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 271.5,
+            "locations": [
+                     -29,      -77
+            ]
+        },
+        {
+            "id": "WS 011",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 88.5,
+            "locations": [
+                     -29,       77
+            ]
+        },
+        {
             "id": "LB 000",
             "size": "SMALL",
             "type": "LAUNCH_BAY",

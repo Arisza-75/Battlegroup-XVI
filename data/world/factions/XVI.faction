@@ -54,7 +54,7 @@
 		],
 	},
 	"knownShips":{
-		"tags":["xvi_bp","xvi_old_bp","mms"],
+		"tags":["xvi_bp","xvi_old_bp","mms","midline_bp"],
 		"hulls":[
 
 		],
@@ -90,7 +90,7 @@
 		],
 	},
 	"knownHullMods":{
-		"tags":["base_bp", "independent","remnant"],
+		"tags":["base_bp", "hightech_bp", "independent","remnant"],
 		"hullMods":[
 			
 		],

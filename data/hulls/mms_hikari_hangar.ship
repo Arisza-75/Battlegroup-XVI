@@ -17,7 +17,8 @@
     "shieldRadius": 147,
     "viewOffset": 0,
     "builtInMods": [
-        "bdeck"
+        "bdeck",
+        "always_detaches"
     ],
     "builtInWings": [],
     "builtInModules": null,

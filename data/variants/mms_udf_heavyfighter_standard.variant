@@ -1,0 +1,27 @@
+{
+    "displayName": "Next Gen Multirole Fighter",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "mms_udf_heavyfighter",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_udf_heavyfighter_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "mms_udf_lightdual",
+                "WS 001": "mms_udf_lightdual"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "mms_udf_Light_swarm"
+            }
+        }
+    ]
+}

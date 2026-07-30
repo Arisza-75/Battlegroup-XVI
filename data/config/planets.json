@@ -31,7 +31,7 @@
 		"cloudTexture":"graphics/planets/clouds_white.png",
 		"cloudColor":[255,255,255,250],
 		"cloudRotation":-3,
-		"glowTexture":"graphics/planets/mms_azuren_glow.png",
+		"glowTexture":"graphics/planets/mms_planetary shield.png",
 		"icon":"graphics/warroom/icon_planet.png",
 		"iconColor":[225,225,255,255],
 		"isStar":false,

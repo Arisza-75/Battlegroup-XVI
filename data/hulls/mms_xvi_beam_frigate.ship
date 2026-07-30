@@ -63,30 +63,40 @@
     "engineSlots": [
         {
             "location": [
-                -50, -19.5
+                -47, -19.5
             ],
-            "length": 22,
-            "width": 8.5,
+            "length": 62,
+            "width": 14,
             "angle": 180,
             "contrailSize": 12,
             "style": "MMS_XVI_engine"
         },
         {
             "location": [
-                -50, 19.5
+                -47, 19.5
             ],
-            "length": 22,
-            "width": 8.5,
+            "length": 62,
+            "width": 14,
             "angle": 180,
             "contrailSize": 12,
             "style": "MMS_XVI_engine"
         },
         {
             "location": [
-                -41, 0
+                -37.5, 0
             ],
-            "length": 43,
-            "width": 13,
+            "length": 82,
+            "width": 18,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -49.5, 0
+            ],
+            "length": 8,
+            "width": 50,
             "angle": 180,
             "contrailSize": 12,
             "style": "MMS_XVI_engine"

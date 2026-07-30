@@ -32,7 +32,7 @@
 		"contrailColor":[181,6,69,255],
 		"type":"GLOW", # GLOW or SMOKE; additive or regular blend mode
 						
-		"glowSprite":"graphics/fx/engineglow23.png",
+		"glowSprite":"graphics/fx/engineglow32s.png",
 		"glowOutline":"graphics/fx/engineflare.png",
 
 		"omegaMode":false,
@@ -53,7 +53,7 @@
 		"glowOutline":"graphics/fx/engineflame32.png",
 
 		"omegaMode":false,
-		"glowSizeMult":.7,
+		"glowSizeMult":0.7,
 		"glowAlternateColor":[30,141,255,255],
 		"engineColor":[30,141,255,255],
 	},
@@ -69,11 +69,11 @@
 		"contrailColor":[74,119,242,255],
 		"type":"GLOW", # GLOW or SMOKE; additive or regular blend mode
 						
-		"glowSprite":"graphics/fx/engineglow32b.png",
+		"glowSprite":"graphics/fx/engineglow32s.png",
 		"glowOutline":"graphics/fx/engineflame32.png",
 
 		"omegaMode":false,
-		"glowSizeMult":.7,
+		"glowSizeMult":1,
 		"glowAlternateColor":[74,119,242,255],
 		"engineColor":[74,119,242,255],
 	},
