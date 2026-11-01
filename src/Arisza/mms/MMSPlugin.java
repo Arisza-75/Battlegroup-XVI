@@ -8,9 +8,10 @@ import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.SectorEntityToken;
 import com.fs.starfarer.api.campaign.StarSystemAPI;
 import exerelin.campaign.SectorManager;
-
-
+import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import Arisza.mms.world.MMSGen;
+import indevo.utils.helper.Settings;
+import org.magiclib.util.MagicSettings;
 
 import java.util.ArrayList;
 
@@ -47,7 +48,22 @@ public class MMSPlugin extends BaseModPlugin {
             }
         });
     }
-
+    // InDevo artillery
+//public void onNewGameAfterEconomyLoad()
+//    {
+//
+//
+//        MarketAPI market = Global.getSector().getEconomy().getMarket("malkuth");
+//        if (market != null) return;
+//        if (Global.getSettings().getModManager().isModEnabled("IndEvo") && Settings.getBoolean(Settings.ENABLE_ARTILLERY) && !Global.getSector().getMemoryWithoutUpdate().contains("$malkuth_placedArtillery"))
+//                {
+//                    market.addCondition("IndEvo_ArtilleryStationCondition");
+//                    market.addCondition("IndEvo_Artillery_railgun");
+//                    Global.getSector().getMemoryWithoutUpdate().set("$malkuth_placedArtillery", true);
+//                }
+//
+//
+//    }
     @Override
     public void onNewGame() {
 

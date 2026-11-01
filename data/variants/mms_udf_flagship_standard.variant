@@ -27,70 +27,70 @@
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
-                "WS 041": "squall",
-                "WS 040": "squall"
+                "WS 040": "mms_orochi_launcher",
+                "WS 041": "mms_orochi_launcher"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS 006": "mms_xvi_canister",
-                "WS 002": "mms_xvi_canister",
-                "WS 005": "mms_xvi_canister",
-                "WS 007": "mms_xvi_canister",
-                "WS 003": "mms_xvi_canister",
-                "WS 000": "mms_xvi_canister",
-                "WS 004": "mms_xvi_canister",
-                "WS 001": "mms_xvi_canister"
+                "WS 000": "mms_udf_Light_swarm",
+                "WS 002": "mms_udf_Light_swarm",
+                "WS 004": "mms_udf_Light_swarm",
+                "WS 006": "mms_udf_Light_swarm",
+                "WS 007": "mms_udf_Light_swarm",
+                "WS 001": "mms_udf_Light_swarm",
+                "WS 003": "mms_udf_Light_swarm",
+                "WS 005": "mms_udf_Light_swarm"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS 020": "mms_xvi_pdburst",
-                "WS 032": "mms_xvi_pdburst",
-                "WS 036": "mms_xvi_pdburst",
-                "WS 018": "mms_xvi_pdburst",
-                "WS 014": "mms_xvi_pdburst",
-                "WS 021": "mms_xvi_pdburst",
-                "WS 024": "mms_xvi_pdburst",
-                "WS 025": "mms_xvi_pdburst",
-                "WS 017": "mms_xvi_pdburst",
-                "WS 016": "mms_xvi_pdburst",
-                "WS 019": "mms_xvi_pdburst",
-                "WS 026": "mms_xvi_pdburst",
-                "WS 027": "mms_xvi_pdburst",
-                "WS 028": "mms_xvi_pdburst",
-                "WS 030": "mms_xvi_pdburst",
-                "WS 029": "mms_xvi_pdburst",
-                "WS 023": "mms_xvi_pdburst",
-                "WS 015": "mms_xvi_pdburst",
-                "WS 022": "mms_xvi_pdburst",
-                "WS 033": "mms_xvi_pdburst",
-                "WS 031": "mms_xvi_pdburst",
-                "WS 037": "mms_xvi_pdburst"
+                "WS 019": "mms_udf_lightdual",
+                "WS 017": "mms_udf_lightdual",
+                "WS 021": "mms_udf_lightdual",
+                "WS 023": "mms_udf_lightdual",
+                "WS 025": "mms_udf_lightdual",
+                "WS 028": "mms_udf_lightdual",
+                "WS 026": "mms_udf_lightdual",
+                "WS 024": "mms_udf_lightdual",
+                "WS 022": "mms_udf_lightdual",
+                "WS 020": "mms_udf_lightdual",
+                "WS 018": "mms_udf_lightdual",
+                "WS 016": "mms_udf_lightdual",
+                "WS 015": "mms_udf_lightdual",
+                "WS 037": "mms_udf_lightdual",
+                "WS 036": "mms_udf_lightdual",
+                "WS 014": "mms_udf_lightdual",
+                "WS 029": "mms_udf_lightdual",
+                "WS 027": "mms_udf_lightdual",
+                "WS 033": "mms_udf_lightdual",
+                "WS 031": "mms_udf_lightdual",
+                "WS 030": "mms_udf_lightdual",
+                "WS 032": "mms_udf_lightdual"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS 010": "mms_particle_cannon",
-                "WS 008": "mms_particle_cannon",
-                "WS 011": "mms_particle_cannon",
-                "WS 012": "mms_particle_cannon",
-                "WS 009": "mms_particle_cannon",
-                "WS 013": "mms_particle_cannon"
+                "WS 008": "mms_udf_scattergun",
+                "WS 010": "mms_udf_scattergun",
+                "WS 012": "mms_udf_scattergun",
+                "WS 013": "mms_udf_scattergun",
+                "WS 011": "mms_udf_scattergun",
+                "WS 009": "mms_udf_scattergun"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS 035": "mms_xvi_heavy_pulsar",
-                "WS 034": "mms_xvi_heavy_pulsar"
+                "WS 034": "mms_udf_yamatoGun",
+                "WS 035": "mms_udf_yamatoGun"
             }
         }
     ],

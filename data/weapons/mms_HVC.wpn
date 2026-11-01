@@ -1,15 +1,16 @@
 {
 "id":"mms_HVC",
 	"specClass":"projectile",
-	"type":"BALLISTIC",
+	"type":"ENERGY",
+	"mountTypeOverride":"HYBRID",
 	"size":"LARGE",
 	"displayArcRadius":600,
-	"turretSprite":"graphics/weapons/plasma_cannon_turret_base.png",
-	"hardpointSprite":"graphics/weapons/plasma_cannon_hardpoint_base.png",
-	"turretOffsets":[35,0,35,-5,35,5,35,10, 35,-10],
+	"turretSprite":"graphics/weapons/xvi_takogun.png",
+	"hardpointSprite":"",
+	"turretOffsets":[0,0],
 	"turretAngleOffsets":[0],
-	"hardpointOffsets":[50, 0, 50, -5,50, 5,50, 10,50, -10],
-	"hardpointAngleOffsets":[0],
+	"hardpointOffsets":[0,0, 0,-5, 0,-5, 0,-10 , 0,10],
+	"hardpointAngleOffsets":[0,0,0,0,0],
 	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
 	"animationType":"MUZZLE_FLASH",
 	"muzzleFlashSpec":{"length":20.0,   # only used if animationType = MUZZLE_FLASH

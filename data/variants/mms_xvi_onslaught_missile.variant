@@ -41,15 +41,15 @@
             "mode": "LINKED",
             "weapons": {
                 "WS 005": "mms_xvi_canister",
-                "WS 006": "mms_xvi_canister",
-                "WS 009": "mms_xvi_canister",
-                "WS 008": "mms_xvi_canister",
-                "WS 007": "mms_xvi_canister",
                 "WS 015": "mms_xvi_canister",
                 "WS 014": "mms_xvi_canister",
                 "WS 013": "mms_xvi_canister",
                 "WS 012": "mms_xvi_canister",
-                "WS 004": "mms_xvi_canister"
+                "WS 004": "mms_xvi_canister",
+                "WS 009": "mms_xvi_blaster",
+                "WS 006": "mms_xvi_blaster",
+                "WS 007": "mms_xvi_blaster",
+                "WS 008": "mms_xvi_blaster"
             }
         },
         {

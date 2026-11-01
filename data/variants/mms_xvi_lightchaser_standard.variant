@@ -14,12 +14,12 @@
             "weapons": {
                 "WS 004": "gravitonbeam",
                 "WS 005": "gravitonbeam",
-                "WS 008": "mms_drone_constructor",
-                "WS 007": "mms_drone_constructor",
                 "WS 001": "mms_xvi_canister_S",
                 "WS 003": "mms_xvi_canister_S",
                 "WS 000": "mms_xvi_canister_S",
-                "WS 002": "mms_xvi_canister_S"
+                "WS 002": "mms_xvi_canister_S",
+                "WS 008": "ioncannon_fighter",
+                "WS 007": "ioncannon_fighter"
             }
         },
         {

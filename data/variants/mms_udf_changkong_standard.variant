@@ -1,0 +1,56 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "mms_udf_changkong",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_udf_changkong_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "mms_udf_Light_swarm",
+                "WS 013": "mms_udf_Light_swarm"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 015": "mms_udf_scattergun",
+                "WS 017": "mms_udf_scattergun",
+                "WS 014": "mms_udf_scattergun",
+                "WS 016": "mms_udf_scattergun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "mms_udf_lightdual",
+                "WS 000": "mms_udf_lightdual",
+                "WS 001": "mms_udf_lightdual",
+                "WS 003": "mms_udf_lightdual",
+                "WS 004": "mms_udf_lightdual",
+                "WS 006": "mms_udf_lightdual",
+                "WS 008": "mms_udf_lightdual",
+                "WS 011": "mms_udf_lightdual",
+                "WS 010": "mms_udf_lightdual",
+                "WS 007": "mms_udf_lightdual",
+                "WS 009": "mms_udf_lightdual",
+                "WS 005": "mms_udf_lightdual"
+            }
+        }
+    ],
+    "wings": [
+        "mms_udf_bomber_wing",
+        "mms_udf_bomber_wing",
+        "mms_udf_bomber_wing",
+        "mms_udf_heavyfighter_wing",
+        "mms_udf_heavyfighter_wing",
+        "mms_udf_heavyfighter_wing"
+    ]
+}

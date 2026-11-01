@@ -29,16 +29,7 @@
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {
-                "WS0002": "mms_missile",
-                "WS0004": "mms_missile",
-                "WS0006": "mms_missile",
-                "WS0008": "mms_missile",
-                "WS0003": "mms_missile",
-                "WS0001": "mms_missile",
-                "WS0005": "mms_missile",
-                "WS0007": "mms_missile"
-            }
+            "weapons": { }
         }
     ],
     "wings": [

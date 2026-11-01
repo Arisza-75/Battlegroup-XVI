@@ -25,6 +25,7 @@ public class  MMSGen {
         FactionAPI derelict = sector.getFaction(Factions.DERELICT);
         FactionAPI udf = sector.getFaction("MMS_AL_UDF");
         FactionAPI fleetxvi = sector.getFaction("MMS_XVI");
+        FactionAPI voidstar = sector.getFaction("VOIDSTAR");
 
         udf.setRelationship(path.getId(), RepLevel.HOSTILE);
         udf.setRelationship(hegemony.getId(), RepLevel.FAVORABLE);
@@ -44,6 +45,17 @@ public class  MMSGen {
         fleetxvi.setRelationship(persean.getId(), RepLevel.INHOSPITABLE);
         fleetxvi.setRelationship(independent.getId(), RepLevel.COOPERATIVE);
         fleetxvi.setRelationship("MMS_AL_UDF",RepLevel.COOPERATIVE);
+
+
+        fleetxvi.setRelationship(path.getId(), RepLevel.HOSTILE);
+        fleetxvi.setRelationship(hegemony.getId(), RepLevel.HOSTILE);
+        fleetxvi.setRelationship(pirates.getId(), RepLevel.HOSTILE);
+        fleetxvi.setRelationship(tritachyon.getId(), RepLevel.HOSTILE);
+        fleetxvi.setRelationship(church.getId(), RepLevel.HOSTILE);
+        fleetxvi.setRelationship(kol.getId(), RepLevel.HOSTILE);
+        fleetxvi.setRelationship(persean.getId(), RepLevel.HOSTILE);
+        fleetxvi.setRelationship(independent.getId(), RepLevel.HOSTILE);
+        fleetxvi.setRelationship("MMS_AL_UDF",RepLevel.HOSTILE);
 
 
     }

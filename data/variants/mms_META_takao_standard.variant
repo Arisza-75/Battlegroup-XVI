@@ -1,0 +1,32 @@
+{
+    "displayName": "",
+    "fluxCapacitors": 30,
+    "fluxVents": 20,
+    "goalVariant": false,
+    "hullId": "mms_META_takao",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_META_takao_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 015": "mms_META_takaoGun",
+                "WS 013": "mms_takao_mrm",
+                "WS 014": "mms_takao_mrm",
+                "WS 004": "mms_particle_cannon",
+                "WS 003": "heavyac",
+                "WS 002": "heavyac",
+                "WS 001": "ionbeam",
+                "WS 000": "ionbeam",
+                "WS 008": "sabotpod",
+                "WS 007": "sabotpod",
+                "WS 006": "mms_xvi_pdburst",
+                "WS 005": "mms_xvi_pdburst",
+                "WS 010": "mms_xvi_pdburst",
+                "WS 009": "mms_xvi_pdburst"
+            }
+        }
+    ]
+}

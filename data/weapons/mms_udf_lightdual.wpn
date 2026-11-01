@@ -6,8 +6,8 @@
 	"displayArcRadius":600,
 	"turretSprite":"graphics/weapons/UDF/mms_udf_small_turret_base.png",
 	"turretGunSprite":"graphics/weapons/UDF/mms_udf_small_turret_recoil.png",
-	"hardpointSprite":"graphics/weapons/UDF/mms_udf_small_turret_base.png",
-	"hardpointGunSprite":"graphics/weapons/UDF/mms_udf_small_turret_recoil.png",	
+	"hardpointSprite":"graphics/weapons/UDF/mms_udf_small_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/weapons/UDF/mms_udf_small_hardpoint_recoil.png",	
 	"visualRecoil":7.0,  # the gun sprites are only used if this is non-0
 	"renderHints":["RENDER_BARREL_BELOW"],
 	"turretOffsets":[13, 3, 13, -3],
@@ -25,6 +25,6 @@
 					   "particleDuration":0.2,
 					   "particleCount":18,
 					   "particleColor":[165,225,185,175]},
-	"projectileSpecId":"mms_neutron",  # projectile that will be fired
+	"projectileSpecId":"light_dp_bolt",  # projectile that will be fired
 	"fireSoundTwo":"ion_pulser_fire",
 }

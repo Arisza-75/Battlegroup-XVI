@@ -60,7 +60,7 @@
 	
 		"MMS_UDF_engine":{
 		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
-		"contrailDuration":1.2,
+		"contrailDuration":0.7,
 		"contrailWidthMult":0,
 		"contrailWidthAddedFractionAtEnd":5f,  # can be negative. makes trail spread out/narrow at the end
 		"contrailMinSeg":5, # min segment length, in pixels
@@ -76,6 +76,68 @@
 		"glowSizeMult":1,
 		"glowAlternateColor":[74,119,242,255],
 		"engineColor":[74,119,242,255],
+	},
+	
+		"MMS_VOIDSTAR_ENGINE":{
+		"mode":"PARTICLES", # PARTICLES or QUAD_STRIP, determines which params are used
+		"contrailDuration":1.2,
+		"contrailParticleSizeMult":4,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0,
+		"contrailColor":[50,50,255,75],
+		"type":"GLOW", # GLOW or SMOKE; additive or regular blend mode
+						
+		"glowSprite":"graphics/fx/beam_laser_fringe.png",
+		"glowOutline":"graphics/fx/engineflame32.png",
+
+		"contrailCampaignColor":[133,9,255,255],
+		"omegaMode":false,
+		"glowSizeMult":1,
+		"glowAlternateColor":[232,118,255,255],
+		"engineColor":[170,84,255,255],
+	},
+	
+	"MMS_META_RED_FLAME":{
+		"mode":"PARTICLES", # PARTICLES or QUAD_STRIP, determines which params are used
+		"contrailDuration":3.2,
+		"contrailParticleSizeMult":3,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":3.5,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":5,
+		"contrailColor":[1,1,1,255],
+		"type":"SMOKE", # GLOW or SMOKE; additive or regular blend mode
+						
+		"glowSprite":"graphics/fx/engineglow32s.png",
+		"glowOutline":"graphics/fx/engineflame32.png",
+
+		"contrailCampaignColor":[213,0,36,255],
+		"omegaMode":false,
+		"glowSizeMult":1,
+		"glowAlternateColor":[213,0,36,255],
+		"engineColor":[213,50,84,255],
+	},
+		"MMS_META_BLUE_FLAME":{
+		"mode":"PARTICLES", # PARTICLES or QUAD_STRIP, determines which params are used
+		"contrailDuration":3.2,
+		"contrailParticleSizeMult":3,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":3.5,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":5,
+		"contrailColor":[1,1,10,255],
+		"type":"SMOKE", # GLOW or SMOKE; additive or regular blend mode
+						
+		"glowSprite":"graphics/fx/engineglow32s.png",
+		"glowOutline":"graphics/fx/engineflame32.png",
+
+		"contrailCampaignColor":[54,66,247,255],
+		"omegaMode":false,
+		"glowSizeMult":0.8,
+		"glowAlternateColor":[54,66,247,255],
+		"engineColor":[0,58,226,255],
 	},
 }
 

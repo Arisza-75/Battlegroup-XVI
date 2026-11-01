@@ -1,0 +1,263 @@
+{
+    "hullName": "Ra-class",
+    "hullId": "mms_voidstar_ra",
+    "hullSize": "DESTROYER",
+    "style": "OMEGA",
+    "spriteName": "graphics/ships/voidstar/mms_void_destroyer1.png",
+    "height": 124,
+    "width": 196,
+    "center": [
+        98, 62
+    ],
+    "collisionRadius": 155,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 138,
+    "viewOffset": 0,
+    "builtInMods": [
+        "automated",
+        "phasefield"
+    ],
+    "builtInWeapons": {
+        "WS 006": "irautolance"
+    },
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                     -10,    -61.5
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                     -10,     61.5
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                       8,      -33
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                       8,       33
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "SYNERGY",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                     3.5,    -12.5
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "SYNERGY",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                     3.5,     12.5
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "MEDIUM",
+            "type": "BUILT_IN",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      27,        0
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -16.5, -37
+            ],
+            "length": 130,
+            "width": 22,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_VOIDSTAR_ENGINE"
+        },
+        {
+            "location": [
+                -16.5, 37
+            ],
+            "length": 130,
+            "width": 22,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_VOIDSTAR_ENGINE"
+        },
+        {
+            "location": [
+                -33.5, -51
+            ],
+            "length": 70,
+            "width": 7,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_VOIDSTAR_ENGINE"
+        },
+        {
+            "location": [
+                -33.5, 51
+            ],
+            "length": 70,
+            "width": 7,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_VOIDSTAR_ENGINE"
+        },
+        {
+            "location": [
+                -39.5, 54.5
+            ],
+            "length": 70,
+            "width": 7,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_VOIDSTAR_ENGINE"
+        },
+        {
+            "location": [
+                -39.5, -54.5
+            ],
+            "length": 70,
+            "width": 7,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_VOIDSTAR_ENGINE"
+        },
+        {
+            "location": [
+                -44.5, -58.5
+            ],
+            "length": 70,
+            "width": 7,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_VOIDSTAR_ENGINE"
+        },
+        {
+            "location": [
+                -44.5, 58.5
+            ],
+            "length": 70,
+            "width": 7,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_VOIDSTAR_ENGINE"
+        },
+        {
+            "location": [
+                -16, -10
+            ],
+            "length": 50,
+            "width": 8,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_VOIDSTAR_ENGINE"
+        },
+        {
+            "location": [
+                -16, 10
+            ],
+            "length": 50,
+            "width": 8,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_VOIDSTAR_ENGINE"
+        }
+    ],
+    "bounds": [
+             -28,      5.5,
+             -14,       10,
+           -36.5,     13.5,
+           -34.5,       25,
+           -25.5,     33.5,
+        
+           -30.5,     48.5,
+           -47.5,       58,
+           -50.5,       73,
+           -53.5,     81.5,
+           -57.5,     94.5,
+        
+             -42,     93.5,
+           -16.5,     75.5,
+           -34.5,     78.5,
+             -30,     70.5,
+            -9.5,     65.5,
+        
+              29,     41.5,
+            -4.5,     48.5,
+             4.5,     39.5,
+            56.5,      9.5,
+             2.5,     18.5,
+        
+             8.5,       11,
+            39.5,        0,
+             8.5,      -11,
+             2.5,    -18.5,
+            56.5,     -9.5,
+        
+             4.5,    -39.5,
+            -4.5,    -48.5,
+              29,    -41.5,
+            -9.5,    -65.5,
+             -30,    -70.5,
+        
+           -34.5,    -78.5,
+           -16.5,    -75.5,
+             -42,    -93.5,
+           -57.5,    -94.5,
+           -53.5,    -81.5,
+        
+           -50.5,      -73,
+           -47.5,      -58,
+           -30.5,    -48.5,
+           -25.5,    -33.5,
+           -34.5,      -25,
+        
+           -36.5,    -13.5,
+             -14,      -10,
+             -28,     -5.5
+    # 43 points total.
+    ]
+}

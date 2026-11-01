@@ -1,7 +1,7 @@
 {
 	"id":"mms_orochi_launcher",
 	"specClass":"projectile",
-	"type":"SYNERGY",
+	"type":"MISSILE",
 	"size":"LARGE",
 	"turretUnderSprite":"graphics/weapons/UDF/mms_orochi_turret_under.png",
 	"turretSprite":"",

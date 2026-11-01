@@ -16,6 +16,7 @@
     "directoryUseShortName":true,
 
     "startRelationships":{ 
+"MMS_AL_UDF":0.1,
 	"hegemony":-0.7,
 	"remnant":0.5,
 	"luddic_church":-0.5,

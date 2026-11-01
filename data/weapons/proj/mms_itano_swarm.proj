@@ -7,36 +7,36 @@
 	"center":[4,7],
 	"collisionRadius":10,
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
-	"collisionClass":"MISSILE_NO_FF"
+	"collisionClass":"MISSILE_NO_FF",
 	"explosionColor":[15,94,230,255], # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":50, # purely visual
-	
 	#"alwaysAccelerate":true,
 	#"reduceDamageWhileFading":true,
-	"noCollisionWhileFading":true,
-	"useHitGlowWhenDealingDamage":true, # using the scripted rift explosion instead
+	"noCollisionWhileFading":false,
+	"useHitGlowWhenDealingDamage":false, # using the scripted rift explosion instead
 	"useHitGlowWhenDestroyed":false, # instead of the default explosion
 	"dudProbabilityOnFlameout":0,
+	"hitGlowRadius":0.01,
 	"fizzleOnReachingWeaponRange":false,					 
 	"armingTime":0.5,
 	"flameoutTime":0.2, # total time from flameout to full fadeout
 	"noEngineGlowTime":0.1, # time spent without the engine glow being rendered
 	"fadeTime":0.2, # fadeout duration			
-	"glowColor":[64,223,239,255],
+	"glowColor":[15,94,230,255],
 	"glowRadius":0.1,
-	"passThroughMissiles":true,
+	"passThroughMissiles":false,
 	"passThroughFighters":false,	
 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
 					"range":35,			 
-					"explosionSpec":{"duration":0.1f, # not visual
+					"explosionSpec":{"duration":20f, # not visual
 									 "radius":50,
-									 "coreRadius":75, # full damage within core radius
-									 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
-									 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+									 "coreRadius":25, # full damage within core radius
+									 "collisionClass":MISSILE_NO_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
 									 "particleSizeMin":5.0,
 									 "particleSizeRange":3.0,
-									 "particleDuration":1,
-									 "particleCount":0,
+									 "particleDuration":20,
+									 "particleCount":125,
 									 "particleColor":[15,94,230,255],
 									 "detailedExplosionFlashRadius":500,
 									 "useDetailedExplosion":true,

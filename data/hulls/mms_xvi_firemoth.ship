@@ -1,0 +1,129 @@
+{
+    "hullName": "Firemoth Drone",
+    "hullId": "mms_xvi_firemoth",
+    "hullSize": "FIGHTER",
+    "style": "MMS_XVI",
+    "spriteName": "graphics/ships/fighters/mms_xvi_drone_fighter.png",
+    "height": 64,
+    "width": 52,
+    "center": [
+        26, 32
+    ],
+    "collisionRadius": 46,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 42,
+    "viewOffset": 0,
+    "builtInWings": [
+        "mms_xvi_drone_wing"
+    ],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 18,
+            "angle": 0,
+            "locations": [
+                     8.5,       -3
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 18,
+            "angle": 0,
+            "locations": [
+                     8.5,        3
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 35,
+            "angle": 348.5,
+            "locations": [
+                     9.5,    -11.5
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "SYNERGY",
+            "mount": "HIDDEN",
+            "arc": 35,
+            "angle": 11.5,
+            "locations": [
+                     9.5,     11.5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -19, -4
+            ],
+            "length": 40,
+            "width": 6,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -19, 4
+            ],
+            "length": 40,
+            "width": 6,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -21, -4
+            ],
+            "length": 7,
+            "width": 31,
+            "angle": 244,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -21, 4
+            ],
+            "length": 7,
+            "width": 31,
+            "angle": 116,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        }
+    ],
+    "bounds": [
+           -22.5,       -3,
+           -11.5,     -7.5,
+           -27.5,      -10,
+               3,      -14,
+              30,       -5,
+        
+              -3,       -6,
+            14.5,        0,
+              -3,        6,
+              30,        5,
+               3,       14,
+        
+           -27.5,       10,
+           -11.5,      7.5,
+           -22.5,        3
+    # 13 points total.
+    ]
+}

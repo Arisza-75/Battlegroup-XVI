@@ -1,5 +1,5 @@
 {
-		"id":"mms_hyper_velocity",  # this id must match what's in the spreadsheet
+	"id":"mms_hyper_velocity",  # this id must match what's in the spreadsheet
 	"specClass":"projectile",
 	"spawnType":"BALLISTIC",
 	"collisionClass":"PROJECTILE_FF",

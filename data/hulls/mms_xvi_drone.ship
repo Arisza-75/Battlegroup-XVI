@@ -24,10 +24,21 @@
             "size": "MEDIUM",
             "type": "ENERGY",
             "mount": "HIDDEN",
-            "arc": 0,
+            "arc": 360,
             "angle": 0,
             "locations": [
                        2,        0
+            ]
+        },
+        {
+            "id": "LB 000",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   -23.5,       35
             ]
         }
     ],

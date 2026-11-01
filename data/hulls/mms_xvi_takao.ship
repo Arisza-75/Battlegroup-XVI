@@ -1,0 +1,395 @@
+{
+    "hullName": "Takao",
+    "hullId": "mms_xvi_takao",
+    "hullSize": "CRUISER",
+    "style": "MMS_XVI",
+    "spriteName": "graphics/ships/XVI/mms_xvi_takao.png",
+    "height": 357,
+    "width": 340,
+    "center": [
+        170, 178.5
+    ],
+    "collisionRadius": 355,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 350,
+    "viewOffset": 0,
+    "builtInMods": [
+        "mms_MateriaHull",
+        "mms_xvi_FCS"
+    ],
+    "builtInWeapons": {
+        "WS 014": "mms_HVC",
+        "WS 013": "glow_takao",
+        "WS 012": "takao_deco_L",
+        "WS 011": "takao_deco_R"
+    },
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "MEDIUM",
+            "type": "SYNERGY",
+            "mount": "TURRET",
+            "renderOrderMod": 100,
+            "arc": 140,
+            "angle": 297,
+            "locations": [
+                   -39.5,      -51
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "MEDIUM",
+            "type": "SYNERGY",
+            "mount": "TURRET",
+            "renderOrderMod": 100,
+            "arc": 140,
+            "angle": 63,
+            "locations": [
+                   -39.5,       51
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "MEDIUM",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 124,
+            "angle": 306.5,
+            "locations": [
+                    46.5,      -26
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "MEDIUM",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 124,
+            "angle": 53.5,
+            "locations": [
+                    46.5,       26
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "MEDIUM",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 224,
+            "angle": 0,
+            "locations": [
+                     7.5,        0
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 170,
+            "angle": 293,
+            "locations": [
+                    -0.5,      -42
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 170,
+            "angle": 67,
+            "locations": [
+                    -0.5,       42
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "MEDIUM",
+            "type": "SYNERGY",
+            "mount": "TURRET",
+            "arc": 60,
+            "angle": -45,
+            "locations": [
+                     -34,   -109.5
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "MEDIUM",
+            "type": "SYNERGY",
+            "mount": "TURRET",
+            "arc": 60,
+            "angle": 45,
+            "locations": [
+                     -34,    109.5
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 92,
+            "angle": 222.5,
+            "locations": [
+                   -70.5,      -38
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 92,
+            "angle": 137.5,
+            "locations": [
+                   -70.5,       38
+            ]
+        },
+        {
+            "id": "WS 011",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "renderOrderMod": 50,
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     -39,     -104
+            ]
+        },
+        {
+            "id": "WS 012",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "renderOrderMod": 50,
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     -39,      104
+            ]
+        },
+        {
+            "id": "WS 013",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   -30.5,        0
+            ]
+        },
+        {
+            "id": "WS 014",
+            "size": "LARGE",
+            "type": "BUILT_IN",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     110,        0
+            ]
+        },
+        {
+            "id": "LB 000",
+            "size": "MEDIUM",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    -106,        2,
+                    -106,        7,
+                    -106,       -7,
+                    -106,        9
+            ]
+        },
+        {
+            "id": "LB 001",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    -106,       -2
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -142.5, -11
+            ],
+            "length": 110,
+            "width": 35,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -142.5, 11
+            ],
+            "length": 110,
+            "width": 35,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -142.5, -21.5
+            ],
+            "length": 190,
+            "width": 50,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -142.5, 21.5
+            ],
+            "length": 190,
+            "width": 50,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -133.5, -51.5
+            ],
+            "length": 150,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -133.5, 51.5
+            ],
+            "length": 150,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -124.5, -56.5
+            ],
+            "length": 120,
+            "width": 25,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -124.5, 56.5
+            ],
+            "length": 120,
+            "width": 25,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -83.5, -103
+            ],
+            "length": 150,
+            "width": 25,
+            "angle": 221.5,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -83.5, 103
+            ],
+            "length": 150,
+            "width": 25,
+            "angle": 138.5,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -86, -93.5
+            ],
+            "length": 100,
+            "width": 20,
+            "angle": 221.5,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -86, 93.5
+            ],
+            "length": 100,
+            "width": 20,
+            "angle": 138.5,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        }
+    ],
+    "bounds": [
+          -129.5,      6.5,
+            -143,      7.5,
+            -153,     24.5,
+          -127.5,     30.5,
+            -177,       40,
+        
+          -142.5,       46,
+          -142.5,     62.5,
+             -90,     64.5,
+           -76.5,      118,
+          -109.5,      155,
+        
+           -80.5,      141,
+           -83.5,      166,
+           -24.5,      111,
+           -15.5,     68.5,
+            18.5,       49,
+        
+              -2,     84.5,
+           174.5,       13,
+            31.5,       10,
+            31.5,      -10,
+           174.5,      -13,
+        
+              -2,    -84.5,
+            18.5,      -49,
+           -15.5,    -68.5,
+           -24.5,     -111,
+           -83.5,     -166,
+        
+           -80.5,     -141,
+          -109.5,     -155,
+           -76.5,     -118,
+             -90,    -64.5,
+          -142.5,    -62.5,
+        
+          -142.5,      -46,
+            -177,      -40,
+          -127.5,    -30.5,
+            -153,    -24.5,
+            -143,     -7.5,
+        
+          -129.5,     -6.5
+    # 36 points total.
+    ]
+}

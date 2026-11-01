@@ -1,0 +1,22 @@
+{
+    "displayName": "Drone Fighter",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "mms_xvi_firemoth",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_xvi_firemoth_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "mms_neutronCannon",
+                "WS 002": "mms_neutronCannon",
+                "WS 001": "mms_neutronCannon",
+                "WS 000": "mms_neutronCannon"
+            }
+        }
+    ]
+}

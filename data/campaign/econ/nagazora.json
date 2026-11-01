@@ -51,7 +51,9 @@
 
             "startingConditions":[			
                 "population_5",
-				"thin_atmosphere"
+				"ruins_vast",
+				"habitable",
+				"cold"
             ],
 
             "industries":[

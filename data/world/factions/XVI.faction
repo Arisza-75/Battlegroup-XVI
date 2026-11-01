@@ -9,9 +9,9 @@
 #   "gridUIColor": [51,204,169,255],
 	"displayName":"Battlegroup XVI",
 	"displayNameWithArticle":"Battlegroup XVI",
-	"displayNameLong":"Domain Battlegroup XVI - Tower of Babylon",
+	"displayNameLong":"Domain Battlegroup XVI - The Tower",
 	"entityNamePrefix":"Battlegroup XVI",
-	"displayNameLongWithArticle":"Domain Battlegroup XVI - Tower of Babylon",
+	"displayNameLongWithArticle":"Domain Battlegroup XVI - The Tower",
 	"entityName":"Battlegroup XVI",
 	"personNamePrefix":"",
 	"personNamePrefixAOrAn":"a",
@@ -42,6 +42,7 @@
 		"tags":{	
 			"xvi_bp":0.8,
 			"xvi_old_bp":1,
+			"base_bp":0.3,
 		},
 		"hulls":{
 		
@@ -54,7 +55,7 @@
 		],
 	},
 	"knownShips":{
-		"tags":["xvi_bp","xvi_old_bp","mms","midline_bp"],
+		"tags":["xvi_bp","xvi_old_bp","base_bp"],
 		"hulls":[
 
 		],
@@ -67,7 +68,7 @@
 			],
 	},
 	"knownFighters":{
-		"tags":["xvi_bp","hightech_bp","ind"],
+		"tags":["xvi_bp"],
 		"fighters":[
 
 		],
@@ -78,13 +79,23 @@
 
 		],
 	},
+"weaponFrequency":{
+		"tags":{	
+			"xvi_weapon_bp":1,
+			"remnant":0.7,
+		},
+		"weapons":{
+		"mms_WarpCannon":0.1,
+		},
+	},
 	"knownWeapons":{	
-		"tags":["xvi_bp","rare_bp","hightech_bp","remnant"],
+		"tags":["xvi_weapon_bp","rare_bp","hightech_bp","remnant"],
 		"weapons":[
+				"mms_WarpCannon"
 		],
 	},
 	"priorityWeapons":{
-		"tags":["xvi_bp"],
+		"tags":["xvi_weapon_bp"],
 		"weapons":[
 
 		],
@@ -95,11 +106,12 @@
 			
 		],
 	},
+	
 	"factionDoctrine":{
 		"warships":5,
 		"carriers":4,
 		"phaseShips":2,	
-		
+			
 		"officerQuality":5,
 		"shipQuality":5,
 		"numShips":5,
@@ -129,6 +141,21 @@
 		"organs",
 	],
 	"portraits":{
+			"standard_male":[
+			"graphics/portraits/mms_portrait_generic.png",
+		],
+		"standard_female":[
+			"graphics/portraits/EoP/military_1.png",
+			"graphics/portraits/EoP/military_2.png",
+			"graphics/portraits/EoP/military_3.png",
+			"graphics/portraits/EoP/military_4.png",
+			"graphics/portraits/EoP/military_5.png",
+			"graphics/portraits/EoP/military_6.png",
+			"graphics/portraits/EoP/military_7.png",
+			"graphics/portraits/EoP/military_8.png",
+			"graphics/portraits/EoP/military_9.png",
+			"graphics/portraits/EoP/military_10.png",
+		],
 
 	},
 	"ranks":{

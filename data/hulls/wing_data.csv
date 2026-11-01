@@ -1,12 +1,14 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
 mms_siren_ksg_ion_wing,mms_siren_cyberfairy_ion,"xvi_bp,attack_at_an_angle",2,0.5,10,12,V,4000,700,300,3,FIGHTER,Fighter,10,2000,,,,,,,,,,,,,1
 mms_interceptor_wing,mms_interceptor_laser,"xvi_bp,attack_at_an_angle",0,0.1,6,6,DIAMOND,4000,600,30,5,INTERCEPTOR,Interceptor,10,2000,,,,,,,,,,,,,1
-mms_ex_fighter_wing,mms_ex_fighter_standard,"xvi_bp,attack_at_an_angle",3,2,12,15,V,4000,300,300,3,FIGHTER,Fighter,12,20000,,,,,,,,,,,,,1
+mms_ex_fighter_wing,mms_ex_fighter_standard,"xvi_bp,attack_at_an_angle",4,1,12,15,V,4000,300,300,3,FIGHTER,Fighter,12,20000,,,,,,,,,,,,,1
 mms_stormblade_wing,mms_stormblade_standard,"xvi_bp,attack_at_an_angle",2,0.6,10,18,DIAMOND,4000,1500,750,2,BOMBER,Heavy Bomber,5,2000,,,,,,,,,,,,,
-mms_lightchaser_wing,mms_xvi_lightchaser_standard,"xvi_bp,attack_at_an_angle",2,1,15,20,DIAMOND,3500,750,300,1,BOMBER,Gunship,20,50000,,,,,,,,,,,,,
-mms_lost_x1raider_wing,mms_lost_x1raider_standard,"xvi_bp,attack_at_an_angle",0,0.1,6,4,V,4000,600,30,5,INTERCEPTOR,Interceptor,6,2000,,,,,,,,,,,,,1
-mms_xvi_drone_wing,mms_xvi_drone_standard,"xvi_bp,attack_at_an_angle,auto_fighter",1,0.1,6,4,CLAW,4000,600,30,5,INTERCEPTOR,Combat Drone ,6,2000,,,,,,,,,,,,,1
-mms_xvi_wpn_drone_wing,mms_xvi_drone_wpn,"no_drop, no_sell, xvi_bp, attack_at_an_angle,",0,0.1,6,0,CLAW,4000,600,30,2,SUPPORT,Combat Drone ,6,2000,,,,,,,,,,,,,1
+mms_lightchaser_wing,mms_xvi_lightchaser_standard,"xvi_bp,attack_at_an_angle",2,0.8,15,20,DIAMOND,3500,750,300,1,BOMBER,Gunship,20,50000,,,,,,,,,,,,,
+mms_lost_x1raider_wing,mms_lost_x1raider_standard,"xvi_bp,attack_at_an_angle, match_leader_facing ",0,0.1,6,4,V,4000,600,30,5,INTERCEPTOR,Interceptor,6,2000,,,,,,,,,,,,,1
+mms_xvi_drone_wing,mms_xvi_drone_standard,"xvi_bp,attack_at_an_angle,auto_fighter, wingmen_no_swarm, rapid_reform, ",1,0.1,6,4,BOX,4000,500,30,6,INTERCEPTOR,Combat Drone ,6,2000,,,,,,,,,,,,,1
+mms_xvi_wpn_drone_wing,mms_xvi_drone_standard,"no_drop, no_sell, xvi_bp, attack_at_an_angle, wingmen_no_swarm, rapid_reform, ",0,0.1,6,0,BOX,2000,300,30,4,SUPPORT,Combat Drone ,6,2000,,,,,,,,,,,,,1
 mms_xvi_talon_wing,mms_xvi_talon_Interceptor,"interceptor1, interceptor, low, merc, ind",0,,3,2,V,4000,200,600,4,INTERCEPTOR,Interceptor,5,2000,,,,,,,,,,,,,6
-mms_udf_bomber_wing,mms_udf_bomber_standard,udf_bp,0,,3,2,V,4000,200,600,6,FIGHTER,Interceptor,5,2000,,,,,,,,,,,,,6
-mms_udf_heavyfighter_wing,mms_udf_heavyfighter_standard,"udf_bp,attack_at_an_angle",2,0.5,10,12,V,4000,700,300,3,FIGHTER,Fighter,10,2000,,,,,,,,,,,,,1
+mms_udf_bomber_wing,mms_udf_bomber_standard,"udf_bp,attack_at_an_angle, rapid_reform",0,,3,8,V,4000,200,600,6,FIGHTER,Interceptor,5,2000,,,,,,,,,,,,,6
+mms_udf_heavyfighter_wing,mms_udf_heavyfighter_standard,"udf_bp,attack_at_an_angle, rapid_reform",2,0.5,10,12,V,4000,700,300,3,FIGHTER,Fighter,10,2000,,,,,,,,,,,,,1
+not_a_battleship_wing,not_a_battleship_standard,independent_of_carrier ,,1,10,40,BOX,4000,1500,10,1,FIGHTER,Battleship,5,5000000,,,,,,,,,,,,,
+mms_xvi_firemoth_wing,mms_xvi_firemoth_standard,"xvi_bp,auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, match_leader_facing, attack_at_an_angle,",2,0.5,6,4,BOX,4000,600,30,3,INTERCEPTOR,Combat Drone ,6,2000,,,,,,,,,,,,,1

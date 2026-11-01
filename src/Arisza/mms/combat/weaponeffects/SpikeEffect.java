@@ -3,6 +3,7 @@ package Arisza.mms.combat.weaponeffects;
 import java.awt.Color;
 import java.lang.annotation.Target;
 
+import org.lazywizard.lazylib.MathUtils;
 import org.lwjgl.util.vector.Vector2f;
 
 import com.fs.starfarer.api.combat.CombatEngineAPI;
@@ -12,6 +13,7 @@ import com.fs.starfarer.api.combat.DamagingProjectileAPI;
 import com.fs.starfarer.api.combat.OnHitEffectPlugin;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
+import org.magiclib.util.MagicLensFlare;
 
 public class SpikeEffect implements OnHitEffectPlugin {
 
@@ -21,13 +23,15 @@ public class SpikeEffect implements OnHitEffectPlugin {
 
 	public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target,
 	                  Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
-		if (!shieldHit && target instanceof ShipAPI) {
-			ship = (ShipAPI)target;
-			ship.setCurrentCR(ship.getCurrentCR() - 0.05f);
-
+//		if (!shieldHit && target instanceof ShipAPI) {
+//			ship = (ShipAPI) target;
+//			ship.setCurrentCR(ship.getCurrentCR() - 0.05f);
+//			if (ship.getCaptain().isAICore() && ship.getCaptain() != null){
+//
+//				ship.setCaptain(null);
+//		}
 			float emp = 2000f;
 			float dam = projectile.getDamageAmount();
-
 
 			engine.spawnEmpArc(projectile.getSource(), point, target, target,
 					DamageType.ENERGY,
@@ -36,14 +40,12 @@ public class SpikeEffect implements OnHitEffectPlugin {
 					100000f, // max range
 					"tachyon_lance_emp_impact",
 					20f, // thickness
+
 					new Color(25,100,155,255),
 					new Color(60,255, 232, 218)
 			);
-		if (ship.getVariant().hasHullMod(automated)  && target instanceof ShipAPI)
-		{
-			engine.spawnProjectile(null, null, "plasma", point, 0, new Vector2f(0, 0));
-		}
+
 			//engine.spawnProjectile(null, null, "plasma", point, 0, new Vector2f(0, 0));
 		}
 	}
-}
+

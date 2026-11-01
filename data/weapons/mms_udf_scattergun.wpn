@@ -6,8 +6,8 @@
 	"displayArcRadius":400,
 	"turretSprite":"graphics/weapons/UDF/mms_udf_scattergun_turret_base.png",
 	"turretGunSprite":"graphics/weapons/UDF/mms_udf_scattergun_turret_recoil.png",
-	"hardpointSprite":"graphics/weapons/UDF/mms_udf_scattergun_turret_base.png",
-	"hardpointGunSprite":"graphics/weapons/UDF/mms_udf_scattergun_turret_recoil.png",	
+	"hardpointSprite":"graphics/weapons/UDF/mms_udf_scattergun_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/weapons/UDF/mms_udf_scattergun_hardpoint_recoil.png",	
 	"visualRecoil":5.0,  # the gun sprites are only used if this is non-0
 	"renderHints":[RENDER_BARREL_BELOW],
 	"turretOffsets":[23, -7,23, -7,23, -7, 23, 7, 23, 7, 23, 7],

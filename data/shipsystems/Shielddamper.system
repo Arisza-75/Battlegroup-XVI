@@ -1,0 +1,28 @@
+{
+	"id":"shielddamper",
+	"type":"SHIELD_MOD",
+	"aiType":"FORTRESS_SHIELD",
+
+	"statsScript":"data.shipsystems.scripts.FortressShieldStats",
+	
+	"shieldRingColor":[157,255,255,255],
+	"shieldInnerColor":[49,111,255,205],
+	"shieldThicknessMult":5,
+	"shieldFluctuationMult":2,
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.25,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_damper",
+	"loopSound":"system_damper_loop",
+	"deactivateSound":"system_damper_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+

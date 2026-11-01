@@ -15,9 +15,9 @@
   #  "gridUIColor": [15,213,223,255],	
 	"displayName":"United Council",
 	"displayNameWithArticle":"United Council",
-	"displayNameLong":"United Council 5th Task Force",
+	"displayNameLong":"United Council",
 	"entityNamePrefix":"United Council",
-	"displayNameLongWithArticle":"United Council 5th Task Force",
+	"displayNameLongWithArticle":"The United Council",
 	"entityName":"United Council",
 	"personNamePrefix":"",
 	"personNamePrefixAOrAn":"a",
@@ -49,6 +49,7 @@
 	"hullFrequency":{
 		"tags":{
 		"udf_bp":1,
+		"META":0.3,
 		},
 		"hulls":{
 		},
@@ -64,7 +65,7 @@
 	"knownShips":{
 		"tags":["udf_bp"],
 		"hulls":[
-
+	
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -157,17 +158,17 @@
 		],
 	},
 	"factionDoctrine":{
-		"warships":4,
+		"warships":5,
 		"carriers":3,
 		"phaseShips":2,
 		
 		"officerQuality":5,
 		"shipQuality":4,
-		"numShips":4,
+		"numShips":3,
 		
-		"shipSize":3,
+		"shipSize":4,
 		
-		"aggression":2,
+		"aggression":3,
 		
 		"combatFreighterProbability":0.3,     				# instead of some portion of the freighters in a fleet
 		"combatFreighterCombatUseFraction":0.2,				# as part of the normal combat lineup
@@ -184,17 +185,22 @@
 			"carrier_group",
 			"flux_regulation",
 		],
+		
+
 	},
+	
+	
 	"illegalCommodities":[
 		"drugs",
 		"organs",
 	],
 
-		"portraits":{
+"portraits":{
 		"standard_male":[
-
+			"graphics/portraits/mms_portrait_generic.png",
 		],
 		"standard_female":[
+			"graphics/portraits/EoP/military_10.png",		
 
 		],
 	},
@@ -203,7 +209,7 @@
 		"ranks":{
 			"factionLeader":{"name":"Council"},
 			
-			"citizen":{"name":"Class-1 Cyberangel"},
+			"citizen":{"name":"ENforcer"},
 			"agent":{"name":"Agent"},
 			"specialAgent":{"name":"Special Agent"},
 			"spaceEnsign":{"name":"Esign"},
@@ -213,9 +219,9 @@
 			"spaceAdmiral":{"name":"Admiral"},
 			"spaceMarshal":{"name":"High Command"},
 		
-			"groundPrivate":{"name":"type_01 Mass Production Combat Unit"},
-			"groundSergeant":{"name":"Type_02 Sub-Command unit"},
-			"groundLieutenant":{"name":"Type_03 High Level Sub-Command unit"},
+			"groundPrivate":{"name":"Enforcer-class Siren"},
+			"groundSergeant":{"name":"Experimentation-class Siren"},
+			"groundLieutenant":{"name":"Enforcer-class Siren"},
 			"groundCaptain":{"name":"Type_04 Command Unit"},
 			"groundMajor":{"name":"Major"},
 			"groundColonel":{"name":"Colonel"},
@@ -270,6 +276,7 @@
 			"territorial":false,
 		},
 	},
+	
 	"fleetTypeNames":{
 		
 		
@@ -300,4 +307,8 @@
 		"mercPatrol":"PMC Patrol Unit",
 		"mercArmada":"PMC Fleet",
 	},
+	
+
+
+
 },	

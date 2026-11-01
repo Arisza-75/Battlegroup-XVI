@@ -33,5 +33,9 @@
                 "WS 006": "mms_xvi_pdburst"
             }
         }
+    ],
+    "wings": [
+        "mms_stormblade_wing",
+        "mms_siren_ksg_ion_wing"
     ]
 }

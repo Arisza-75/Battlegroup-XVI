@@ -1,0 +1,25 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "remnant_sniper",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "remnant_sniper_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "tachyonlance",
+                "WS 004": "tachyonlance",
+                "WS 000": "tachyonlance",
+                "WS 003": "tachyonlance",
+                "WS 002": "tachyonlance",
+                "WS 006": "heavymauler",
+                "WS 005": "heavymauler"
+            }
+        }
+    ]
+}

@@ -2,7 +2,6 @@
 	"id":"mms_neutronCannon",  # this id must match what's in the spreadsheet
 	"specClass":"projectile",
 	"type":"ENERGY",
-	"mountTypeOverride":"SYNERGY",
 	"size":"SMALL",
 	"turretSprite":"graphics/weapons/minipulser_turret_base.png",
 	"turretGlowSprite":"graphics/weapons/minipulser_turret_glow.png",

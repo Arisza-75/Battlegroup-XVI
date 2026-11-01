@@ -1,13 +1,13 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,logistics n/a reason,codex variant id,rarity,breakProb,minPieces,maxPieces,travel drive,number
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Phaeton,mms_remnant_phaeton,Tanker,Remnant,burndrive,6,2000,470,5000,2500,450,45,,100,70,20,25,15,400,FRONT,,120,0.2,0.7,,,0,0,20,800,2,400,8,22000,5,20,300,0.25,4,4,,,200,400,,,TANKER,"remnant, auto_rec, codex_unlockable",,,,0.75,3,4,,311
+Invictus (XVI),mms_invictus,Dreadnought,Battlegroup XVI,lidararray,38,30000,8200,30000,15000,600,470,4,40,15,10,7,4,3000,OMNI,,280,0.7,0.7,,,550,6000,1200,200,20,40,7,400000,3,15,600,0.25,60,50,,,,,,,NEVER_DODGE_MISSILES,"rare_bp, xvi_old_bp",,,,0.6,2,4,,501
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Helena,mms_helena,Heavy Cruiser,Materia Systems,plasmajets,22,8000,1250,12000,15000,1000,175,2,75,105,40,15,20,1200,OMNI,,180,0.3,0.4,,,70,150,160,150,3,50,8,250000,4,30,420,0.25,35,35,,,,,,,COMBAT,mms,,,0.5,0.5,2,3,,4
+Arclight,mms_arclight,Drone Battlecruiser,Remnant,phaseteleporter,25,11000,1200,18000,25000,1200,300,2,130,70,50,12,18,2800,FRONT,,180,0.25,0.6,,,0,0,100,550,8,56,9,360000,3,15,600,0.25,45,30,,,,,,,,"remnant, auto_rec, codex_unlockable",,,,0.5,2,4,,505
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Buffalo (XVI),mms_llama,Freighter,Battlegroup XVI,damper,7,4500,250,1000,,70,58,2,70,15,20,15,10,600,OMNI,,140,0.5,1,,,20,30,600,80,2,50,8,50000,5,20,240,0.25,3,3,133,200,,,,,"CIVILIAN, FREIGHTER, SHIP_WITH_MODULES",xvi_bp,,,,0.6,2,3,,6
-Llama ,mms_cargo_shuttle,Cargo Shuttle,Battlegroup XVI,flux_sink,3,900,150,1400,,80,35,2,140,150,75,45,85,120,OMNI,,170,0.5,0.8,,,2,7,40,15,1,15,9,4000,5,20,180,0.25,2,2,133,200,,,,,,xvi_bp,,,,0.6,2,3,,6
+Llama ,mms_cargo_shuttle,Cargo Shuttle,Battlegroup XVI,mms_drone_pd,3,900,150,1400,,80,35,2,140,150,75,45,85,120,OMNI,,170,0.5,0.8,,,2,7,40,15,1,15,9,4000,5,20,180,0.25,2,2,133,200,,,,,,xvi_bp,,,,0.6,2,3,,6
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Starshine,remnant_sniper,Beam Cruiser,Remnant,displacer,22,1200,2000,17000,15000,2200,205,0,75,90,40,15,20,1300,NONE,,,,,,,120,250,270,140,4,50,8,250000,4,30,420,0.25,35,35,,,,,,,COMBAT,LF,,,0.5,0.5,2,3,,4
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # [REDACTED],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -15,31 +15,31 @@ Llama ,mms_cargo_shuttle,Cargo Shuttle,Battlegroup XVI,flux_sink,3,900,150,1400,
 AFWL ADV,mms_torp,annoying fuck,55 4e 4b 4e 4f 57 4e,plasmajets,12,70,5,1200,,7500,10000,,700,1000,100,250,50,300,OMNI,,360,,0.7,,,0,0,,,,,,,,,,,,,,,,,,,ALWAYS_PANIC,"dweller, dweller_vortex, no_armor_schematic, codex_unlockable, show_in_codex_as_ship, monster, module_hull_bar_only, limited_tooltip_if_locked, no_battle_salvage",,,,0,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,mms_microlayer,Microlayer Cloud,,,,5000,1,0,,0,1000,,10,10,100,5,100,300,NONE,,0,0,0.7,,,0,0,,,,,,,,,,,,,,,,,,,,"no_armor_schematic, codex_unlockable, module_hull_bar_only, limited_tooltip_if_locked, no_battle_salvage, microlayer_tag",Not available,,,0,,,,121
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ra,mms_voidstar_ra,Phase Destroyer,Voidstar Tech,displacer,15,4000,650,5000,10000,500,85,,140,105,50,60,60,400,PHASE,phasecloak,,,,0.5,0.1,25,50,60,100,2,50,9,120000,5,30,300,0.25,18,18,,,,,,,,voidstar_bp,,,,0.5,2,3,,314
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Prometheus (RD) MK.II,mms_remnant_tanker,Siege Tanker,Remnant,flarelauncher,12,12500,1500,7000,7500,600,195,,50,15,10,4,4,4000,FRONT,,120,0.5,0.6,,,0,0,200,3000,6,500,6,80000,2,20,720,0.25,10,10,,,300,500,,,"CIVILIAN, TANKER","rare_bp, remnant",,,,0.75,3,5,,506
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Phaeton,mms_remnant_phaeton,Tanker,Remnant,burndrive,6,2000,470,5000,2500,450,45,,100,70,20,25,15,400,FRONT,,120,0.2,0.7,,,0,0,20,800,2,400,8,22000,5,20,300,0.25,4,4,,,200,400,,,TANKER,"remnant, auto_rec, codex_unlockable",,,,0.75,3,4,,311
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Takao,mms_xvi_takao,Heavy Cruiser,Battlegroup XVI,shielddamper,22,11000,1250,12000,15000,1000,175,2,45,10,10,30,30,2400,OMNI,,180,0.3,0.7,,,70,150,160,150,3,50,8,250000,4,30,420,0.25,35,35,,,,,,,COMBAT,xvi_bp,,,0.5,0.5,2,3,,4
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Prometheus (RD) MK.II,mms_remnant_tanker,Siege Tanker,Remnant,flarelauncher,12,12500,1500,7000,7500,600,195,,50,15,10,4,4,4000,OMNI,,180,0.5,0.6,,,0,0,200,3000,6,500,6,80000,2,20,720,0.25,10,10,,,300,500,,,"CIVILIAN, TANKER","rare_bp, remnant",,,,0.75,3,5,,506
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-B-20 Stormblade,mms_stormblade,Heavy Bomber,Battlegroup XVI,,10,350,100,100,,50,0,,350,500,550,550,55,40,OMNI,,270,,0.2,,,2,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"EX-016 ""Moon Halo""",mms_ex_fighter,Heavy Fighter,Battlegroup XVI,displacer,12,850,120,500,,75,0,,550,1400,1400,750,50,25,FRONT,,240,,0.5,,,1,1,0,,,,,,,,,,,,,,,,,,,xvi_bp,,,,,,,,5
-"SF-16 Siren ""Cyberfairy"" Type",mms_siren_cyberfairy,Fighter,Battlegroup XVI,maneuveringjets,10,500,100,170,,50,0,,400,700,600,400,51,30,FRONT,,270,,0.3,,,2,2,0,,,,,,,,,,,,,,,,,,,xvi_bp,,,,,,,,2
-Thunderbolt,mms_interceptor,Interceptor,Battlegroup XVI,canister_flak,10,250,50,170,,50,0,,500,600,700,550,52,20,NONE,,,,,,,1,1,0,,,,,,,,,,,,,,,,,,,xvi_bp,,,,,,,,3
-Lightchaser,mms_xvi_lightchaser,Gunship,Battlegroup XVI,maneuveringjets,10,850,200,1200,,120,0,,270,500,550,450,75,70,OMNI,,360,,0.2,,,3,3,0,,,,,,,,,,,,,,,,,,,xvi_bp,,,,,,,,
+B-20 Stormblade,mms_stormblade,Heavy Bomber,Battlegroup XVI,,10,350,100,100,,50,0,,350,500,550,550,1100,40,OMNI,,270,,0.6,,,2,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"EX-016 ""Moon Halo""",mms_ex_fighter,Heavy Fighter,Battlegroup XVI,displacer,12,850,120,500,,75,0,,550,1400,1400,750,1500,25,FRONT,,240,,0.6,,,1,1,0,,,,,,,,,,,,,,,,,,,xvi_bp,,,,,,,,5
+"SF-16 Siren ""Cyberfairy"" Type",mms_siren_cyberfairy,Fighter,Battlegroup XVI,maneuveringjets,10,500,100,170,,50,0,,400,700,600,400,800,30,FRONT,,270,,0.6,,,2,2,0,,,,,,,,,,,,,,,,,,,xvi_bp,,,,,,,,2
+Thunderbolt,mms_interceptor,Interceptor,Battlegroup XVI,canister_flak,10,250,50,170,,50,0,,500,600,700,550,1100,20,NONE,,,,,,,1,1,0,,,,,,,,,,,,,,,,,,,xvi_bp,,,,,,,,3
+Lightchaser,mms_xvi_lightchaser,Gunship,Battlegroup XVI,mms_drone_pd,10,850,200,1200,,120,0,,270,500,550,450,900,70,OMNI,,360,,0.5,,,3,3,0,,,,,,,,,,,,,,,,,,,xvi_bp,,,,,,,,
 Nebula Lantern,mms_xvi_drone,Combat Drone,Battlegroup XVI,,,500,100,200,,50,,,600,400,400,200,400,5,NONE,,360,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,xvi_bp,,,,0,,,,4
-Talon (XVI),mms_xvi_talon,,Battlegroup XVI,,,200,25,400,,100,0,,425,400,300,150,300,10,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,,,,,xvi_bp,,,,0,,,,100
-Lost Fleet point defense fighter,mms_lost_x1raider,Interceptor,Lost Fleet Tech,canister_flak,10,250,50,170,,50,0,,400,500,600,250,52,20,NONE,,,,,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,3
+Talon (XVI),mms_xvi_talon,,Battlegroup XVI,,,200,25,1000,,100,0,,425,400,300,150,300,10,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,,,,,xvi_bp,,,,0,,,,100
+Lost Fleet point defense fighter,mms_lost_x1raider,Interceptor,Lost Fleet Tech,canister_flak,10,250,50,170,,50,0,,400,500,600,250,500,20,NONE,,,,,,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,3
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-B-50 SkyFairy,mms_udf_bomber,Interceptor,United Council,canister_flak,10,250,50,400,,50,0,,500,600,700,550,52,20,FRONT,,240,,,,,0,0,0,,,,,,,,,,,,,,,,,,,udf_bp,,,,,,,,3
-F-31 Sylpheed,mms_udf_heavyfighter,Fighter Bomber,United Council,maneuveringjets,10,500,100,500,,50,0,,400,700,600,400,51,30,FRONT,,270,,0.3,,,0,0,0,,,,,,,,,,,,,,,,,,,udf_bp,,,,,,,,2
+B-50 SkyFairy,mms_udf_bomber,Interceptor,United Council,canister_flak,10,250,50,400,,50,0,,500,600,700,550,1100,20,FRONT,,240,,,,,0,0,0,,,,,,,,,,,,,,,,,,,udf_bp,,,,,,,,3
+F-31 Sylpheed,mms_udf_heavyfighter,Fighter Bomber,United Council,maneuveringjets,10,500,100,500,,50,0,,400,700,600,400,800,30,FRONT,,270,,0.5,,,0,0,0,,,,,,,,,,,,,,,,,,,udf_bp,,,,,,,,2
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Firemoth,mms_xvi_firemoth,Combat Drone,Battlegroup XVI,,,500,200,200,,50,,,300,400,400,200,400,5,NONE,,360,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,xvi_bp,,,,0,,,,4
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -61,9 +61,9 @@ Vesta's providence,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.1,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # Battlegrup XVI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Onslaught [Type II],mms_xvi_onslaught,Battleship,Battlegroup XVI,TypeII_Burn,28,20000,1750,22000,15000,1200,360,1,35,20,20,5,5,3500,OMNI,,180,0.4,0.6,,,550,1000,300,400,15,27,9,350000,3,12,720,0.25,40,40,,,,,,,,"rare_bp, xvi_bp",,,1,0.4,2,4,,500
+Onslaught [Type II],mms_xvi_onslaught,Battleship,Battlegroup XVI,OnrushDrive,28,20000,1750,22000,15000,1200,360,1,35,20,20,5,5,3500,OMNI,,180,0.4,0.6,,,550,1000,300,400,15,27,9,350000,3,12,720,0.25,40,40,,,,,,,,"rare_bp, xvi_bp",,,1,0.4,2,4,,500
 Ikazuchi,mms_xvi_beam_frigate,Positron Cannon Frigate,Battlegroup XVI,highenergyfocus,5,1500,150,2250,1875,250,55,,150,130,100,60,120,200,FRONT,,280,0.4,0.7,,,7,25,10,20,1,20,10,12000,10,20,180,0.25,5,5,,,,,,,,"rare_bp, xvi_bp",,,0.5,0.5,2,2,,200
-Raikou,mms_xvi_cruiser,Light Cruiser,Battlegroup XVI,plasmajets,12,6000,750,7500,8000,600,125,,80,70,50,20,25,650,OMNI,,270,0.4,0.7,,,100,180,120,100,3,33,9,80000,4,12,480,0.25,14,14,,,,,,,,"rare_bp, xvi_bp",,,0.7,0.5,2,3,,400
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Ryuuhou,mms_xvi_ryuuhou,Light Carrier,Battlegroup XVI,recalldevice,12,5000,350,4000,2500,200,115,2,60,60,25,20,15,500,OMNI,,270,0.4,0.6,,,0,0,40,60,2,30,10,50000,5,15,420,0.25,12,12,,,,,,,CARRIER,"rare_bp, xvi_bp",,,,0.5,2,3,,317
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -89,21 +89,27 @@ Legion (XVI),mms_legion,Battlecarrier,Battlegroup XVI,burndrive,28,18000,1650,12
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Alliance,mms_udf_alliance,Corvette,United Council,burndrive,10,1500,200,8000,,530,58,,140,150,140,60,120,200,OMNI,,300,0.5,0.8,,,10,70,1580,315,1,60,9,7000,4,20,370,0.35,5,10,,,,,,,,,,,0.1,0.2,3,5,,12
-Ixion,mms_udf_ixion,Repair Ship,United Council,recalldevice,11,4250,400,3000,2813,225,80,3,75,60,50,25,25,450,FRONT,,300,0.4,0.8,,,90,150,40,40,2,20,9,40000,5,15,360,0.25,12,12,,,,,,,CARRIER,udf_bp,,,0.5,0.5,2,3,,318
-Calabrian Pride,mms_udf_flagship,Flagship,United Council,plasma_strike,50,28000,2200,23000,,900,580,8,40,10,14,8,6,8000,OMNI,,360,0.3,0.8,,,715,9000,1780,3315,20,60,8,10000000,4,20,1100,0.35,100,60,,,,,,,"CARRIER, COMBAT",udf_bp,,,2,0.2,3,5,,12
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,udf_bp,,,,,,,,
+Alliance,mms_udf_alliance,Corvette,United Council,mms_microlayer,10,1500,200,8000,,530,58,,140,150,140,60,120,200,OMNI,,300,0.5,0.6,,,10,70,1580,315,1,60,9,7000,4,20,370,0.35,5,10,,,,,,,,udf_bp,,,0.1,0.2,3,5,,12
+Ixion,mms_udf_ixion,Repair Ship,United Council,recalldevice,11,4250,400,3000,2813,225,80,3,75,60,50,25,25,450,FRONT,,300,0.4,0.6,,,90,150,40,40,2,20,9,40000,5,15,360,0.25,12,12,,,,,,,"CARRIER, RENDER_ENGINES_BELOW_HULL",udf_bp,,,0.5,0.5,2,3,,318
+Calabrian Pride,mms_udf_flagship,Flagship,United Council,plasma_strike,50,28000,2200,23000,,900,580,8,40,10,14,8,6,8000,OMNI,,360,0.3,0.6,,,715,9000,1780,3315,20,60,8,10000000,4,20,1100,0.35,100,60,,,,,,,"CARRIER, COMBAT",udf_bp,,,2,0.2,3,5,,12
+Klyatva,mms_udf_klyatva,Battleship,United Council,microburn,25,10000,1000,12000,25000,1000,380,2,70,50,40,8,12,2500,OMNI,,180,0.25,0.6,,,400,800,400,450,8,56,8,330000,4,20,600,0.25,45,45,,,,,,,,udf_bp,,,,0.6,2,4,,505
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Chang Kong,mms_udf_changkong,Carrier,United Council,plasmajets,28,16000,1650,17000,,700,300,6,60,25,25,6,6,3500,OMNI,,180,0.4,0.6,,,700,1500,300,300,15,20,7,375000,3,12,720,0.25,40,40,,,,,,,"CARRIER, COMBAT",udf_bp,,,0.5,0.4,2,4,,507
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+I AM NOT A BATTLESHIP!!!,not_a_battleship,Battleship,Midline,highenergyfocus,30,17000,1500,14000,12500,500,365,,150,135,100,60,120,3000,FRONT,,270,0.4,0.8,,,500,600,400,300,10,30,7,400000,4,12,720,0.25,50,50,,,,,,,,"rare_bp, merc",,,,0.5,2,4,,512
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Helena,mms_xvi_cruiser,Light Cruiser,Battlegroup XVI,plasmajets,10,6000,750,7000,8000,600,125,1,120,150,150,50,100,650,FRONT,,280,0.2,0.6,,,100,180,120,100,3,33,9,80000,4,12,480,0.25,14,14,,,,,,,,"rare_bp, xvi_bp",,,0.7,0.5,2,3,,400
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Helena [META],mms_META_helena,Light Cruiser,Framework of Logic,shadow_wing_torch,10,6000,750,7000,8000,600,125,,170,200,200,70,140,650,FRONT,,280,0.2,0.6,,,100,180,120,100,3,33,9,80000,4,12,480,0.25,14,14,,,,,,,,META,,,0.7,0.5,2,3,,400
+Takao [META],mms_META_takao,Heavy Cruiser,Torch of Victory,SingularityDrive,22,13000,1250,12000,15000,1000,175,2,45,10,10,30,30,6400,OMNI,,180,0.3,0.4,,,70,150,160,150,3,50,8,250000,4,30,420,0.25,35,35,,,,,,,COMBAT,"META,ashes",,,0.7,0.5,2,3,,400
+Scharn [META],mms_META_scharn,Battlecruiser,Torch of Victory,maneuveringjets,29,16000,3000,15000,25000,1000,280,,70,50,40,8,12,3500,PHASE,damper,180,0.25,1,,,400,800,400,450,8,56,8,330000,4,20,600,0.25,45,45,,,,,,,,"META,ashes",,,,0.6,2,4,,505
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -117,15 +123,9 @@ Calabrian Pride,mms_udf_flagship,Flagship,United Council,plasma_strike,50,28000,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Rahksha,mms_rahksha,Supercarrier,Materia Systems,recalldevice,30,10000,900,12000,15000,600,270,6,30,15,10,7,4,3000,OMNI,,360,0.7,0.4,,,450,1200,250,200,10,20,7,400000,3,15,600,0.25,50,50,,,,,,,CARRIER,mms,,,,0.6,2,4,,1
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Hikari,mms_hikari_yo,Heavy Drone Carrier,Remnant,plasmajets,35,24000,2200,24000,,200,580,2,50,15,10,8,7,8000,OMNI,,360,0.7,0.6,,,0,0,400,600,20,60,8,10000000,3,20,1100,0.35,80,60,,,,,,,"SHIP_WITH_MODULES, UNBOARDABLE, CARRIER, COMBAT","remnant, auto_rec, codex_unlockable",,,0.7,0.2,3,5,,12
+Hikari,mms_hikari_yo,Heavy Drone Carrier,Remnant,plasmajets,35,24000,2200,24000,,200,580,2,37,15,10,8,7,8000,OMNI,,360,0.7,0.6,,,0,0,400,600,20,60,8,10000000,3,20,1100,0.35,80,60,,,,,,,"SHIP_WITH_MODULES, UNBOARDABLE, CARRIER, COMBAT","remnant, auto_rec, codex_unlockable",,,0.7,0.2,3,5,,12
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -151,5 +151,5 @@ Karalis,mms_cargo_ship1,Heavy Combat Hauler,Battlegroup XVI,microburn,9,10000,45
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # modules,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,mms_module_shield,Shield Module,High Tech,canister_flak,1,2500,1000,15000,25000,1000,0,,0,0,0,3,6,200,FRONT,,120,1,0.6,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",,,,,1,2,2,,2071
-,mms_hikari_hangar,Hikari Hangar Module,Remnant,recalldevice,0,5000,750,5000,7500,300,1000,8,0,0,0,10,10,600,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, ",,,,,0.5,2,2,,2240
-,mms_hikari_front,Hikari Bow Module,Remnant,acausaldisruptor,0,10000,1500,15000,25000,1000,1000,,0,0,0,10,10,800,FRONT,,180,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, ",,,,,0.5,2,2,,2220
+,mms_hikari_hangar,Hikari Hangar Module,Remnant,reservewing,0,5000,750,5000,7500,300,200,8,0,0,0,10,10,600,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, ",,,,,0.5,2,2,,2240
+,mms_hikari_front,Hikari Bow Module,Remnant,drone_strike,0,10000,1500,7000,25000,1000,400,,0,0,0,10,10,800,FRONT,,180,0,0.5,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, ",,,,,0.5,2,2,,2220

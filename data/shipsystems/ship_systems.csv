@@ -1,5 +1,13 @@
 name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
 Phase Diver,mirror_sea,,,,,,,,,,0.5,,0.5,2,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,TRUE,defensive,graphics/icons/hullsys/phase_cloak.png
 flux drain,flux_sink,,,,,,,,,,0.1,,0.1,2,TRUE,,TRUE,TRUE,,,,,,,,defensive,graphics/icons/hullsys/phase_cloak.png
-Onrush Drive,TypeII_Burn,50,,,200,,,,,,0.7,10,2,5,TRUE,,,,,,,,,,,movement,graphics/icons/hullsys/combat_burn.png
-Plasma Strike Cannon,plasma_strike,,,,,,0.1,,5,0.2,0.25,,0.25,,,,,,,,,,,,,offensive,
+Onrush Drive,OnrushDrive,50,,,200,,,,,,0.7,10,2,5,,,,,,,,,,,,movement,graphics/icons/hullsys/combat_burn.png
+Plasma Strike Cannon,plasma_strike,,,,,,0.1,,5,0.05,0.25,,5,,,,,,,,,,,,,offensive,
+Microlayer Medley,mms_microlayer,,,,20,,,,,,,,,15,,,,,,,,,,,,defensive,graphics/icons/hullsys/tenebrous_expulsion.png
+shadow Wing Torch,shadow_wing_torch,,,,,,0.25,,,,0.5,,1,20,,,,,,,,,,,,,graphics/icons/hullsys/emp_emitter.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Fortress Barrier,shielddamper,,,0.025,,,,,,,0.25,5,0.25,5,,,,TRUE,,,,,,,,defensive,graphics/icons/hullsys/fortress_shield.png
+,,,,,,,,,,,,,,30,,,,,,,,,,,,,
+Escort Drones,mms_drone_pd,,,,,,,,,,,,,10,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Singularity Drive,SingularityDrive,,,,,,,,2,0.1,0.5,0.001,0,1,,,,,,,,,,,,movement,graphics/icons/hullsys/nova_burst.png

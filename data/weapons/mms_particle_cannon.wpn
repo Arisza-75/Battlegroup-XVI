@@ -4,8 +4,9 @@
 	"type":"ENERGY",
 	"size":"MEDIUM",
 	"beamFireOnlyOnFullCharge":true,
+  	"hardpointGlowSprite":"graphics/weapons/mms_beamcannon_hardpoint_glow.png",
   	"turretGlowSprite":"graphics/weapons/mms_beamcannon_glow.png",
-	"hardpointSprite": "graphics/weapons/mms_beamcannon_base.png",
+	"hardpointSprite": "graphics/weapons/mms_beamcannon_hardpoint_base.png",
     "turretSprite": "graphics/weapons/mms_beamcannon_base.png",
 	#"turretOffsets":[32, 0],
 	#"turretAngleOffsets":[0],
@@ -19,7 +20,7 @@
     -3.5
   ],
 	"turretAngleOffsets":[0,0],
-	"hardpointOffsets":[ 
+	"hardpointOffsets":[ 	
 	27.5,
     3.5,
     27.5,

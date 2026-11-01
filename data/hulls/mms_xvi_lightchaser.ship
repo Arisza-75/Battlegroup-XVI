@@ -101,24 +101,46 @@
         },
         {
             "id": "WS 007",
-            "size": "SMALL",
-            "type": "MISSILE",
+            "size": "MEDIUM",
+            "type": "ENERGY",
             "mount": "HIDDEN",
-            "arc": 0,
-            "angle": 0,
+            "arc": 92,
+            "angle": 324.5,
             "locations": [
-                    -3.5,    -16.5
+                       4,    -19.5
             ]
         },
         {
             "id": "WS 008",
+            "size": "MEDIUM",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 92,
+            "angle": 35.5,
+            "locations": [
+                       4,     19.5
+            ]
+        },
+        {
+            "id": "WS 009",
             "size": "SMALL",
-            "type": "MISSILE",
+            "type": "SYSTEM",
             "mount": "HIDDEN",
             "arc": 0,
             "angle": 0,
             "locations": [
-                    -3.5,     16.5
+                      -7,      -17
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "SMALL",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      -7,       17
             ]
         }
     ],

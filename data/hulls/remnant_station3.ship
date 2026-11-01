@@ -1,0 +1,201 @@
+{
+    "hullName": "Remnant Super Nexus",
+    "hullId": "remnant_station3",
+    "hullSize": "CAPITAL_SHIP",
+    "style": "HIGH_TECH",
+    "spriteName": "graphics/ships/remnant/starfortress/mms_remnant_starfortress.png",
+    "height": 660,
+    "width": 560,
+    "center": [
+        280, 330
+    ],
+    "collisionRadius": 271,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 0,
+    "viewOffset": 0,
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 299,
+            "locations": [
+                     113,     -187
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 61,
+            "locations": [
+                     113,      187
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 225.5,
+            "locations": [
+                  -146.5,   -266.5
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 133.5,
+            "locations": [
+                  -146.5,    266.5
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 131,
+            "locations": [
+                    -241,    362.5
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 229,
+            "locations": [
+                    -241,   -362.5
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     264,        0
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0.5,
+            "locations": [
+                       0,        0
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 180,
+            "locations": [
+                       0,        0
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 269.5,
+            "locations": [
+                       0,        0
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 90,
+            "locations": [
+                       0,        0
+            ]
+        },
+        {
+            "id": "WS 011",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 180,
+            "locations": [
+                    -213,        0
+            ]
+        },
+        {
+            "id": "WS 012",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 305,
+            "locations": [
+                     252,     -277
+            ]
+        },
+        {
+            "id": "WS 013",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 55,
+            "locations": [
+                     252,      277
+            ]
+        },
+        {
+            "id": "WS 014",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 271.5,
+            "locations": [
+                    35.5,     -469
+            ]
+        },
+        {
+            "id": "WS 015",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 88.5,
+            "locations": [
+                    35.5,      469
+            ]
+        }
+    ],
+    "engineSlots": [],
+    "bounds": []
+}

@@ -1,0 +1,26 @@
+trail,projectile,sprite,minLength,fadeIn,duration,fadeOut,sizeIn,sizeOut,colorIn,colorOut,opacity,textLength,textScroll,distance,dispersion,drift,fadeOnFadeOut,angleAdjustment,additive,velocityIn,velocityOut,randomVelocity,angle,rotationIn,rotationOut,randomRotation,renderBelowExplosions
+UDF_yamato_sabot_fx,UDF_yamato_sabot,UDF_yamato_sabot_fx,20,0.05,0.1,0.5,10,7,"[100,100,255]","[100,100,255]",0.5,128,0,30,0,1,FALSE,FALSE,FALSE,100,0,0.2,0,0,0,TRUE,TRUE
+UDF_yamato_sabot_fx2,UDF_yamato_sabot,UDF_yamato_sabot_fx,20,0.05,0.1,0.5,10,2,"[100,100,255]","[100,100,255]",0,128,0,30,0,1,FALSE,FALSE,TRUE,100,0,2,0,200,200,TRUE,TRUE
+UDF_yamato_sabot_fx3,UDF_yamato_sabot,UDF_yamato_sabot_fx,20,0.05,0.1,0.5,30,7,"[100,100,255]","[100,100,255]",1,128,0,30,0,1,TRUE,FALSE,FALSE,100,0,0.2,0,0,0,TRUE,TRUE
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+warp_cannon_fx,mms_WarpCannon_proj,MMS_WarpCannon_FX,10,0,1,0.1,20,100,"[100,100,255]","[100,100,255]",0.7,150,20,10,0,1,TRUE,FALSE,TRUE,10,20,0.3,0,0,0,FALSE,FALSE
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+warp_cannon_fx3,mms_WarpCannon_proj,UDF_yamato_sabot_fx,20,0.05,0.9,0.5,10,5,"[100,100,255]","[100,100,255]",1,112,0,10,0,1,FALSE,FALSE,TRUE,100,0,0,0,0,100,TRUE,TRUE
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+plasma repater_fxGlitter,mms_blaster_shot,,20,0.05,0.9,0.1,10,0,"[69,255,255]","[69,255,255]",0,278,0,10,0,1,TRUE,FALSE,TRUE,100,0,1,0,700,700,TRUE,TRUE
+plasma repater_fxGlitter,mms_blaster_shot,UDF_yamato_sabot_fx,20,0.05,0.1,0.5,12,4,"[69,255,255]","[69,255,255]",0.5,128,0,0,0,1,TRUE,FALSE,TRUE,100,0,0.2,0,0,180,TRUE,TRUE
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+vajra1,plasma_bolt,base_trail_zapWithCore,20,0.05,0.001,0.1,60,30,"[9,56,169]","[9,56,169]",1,128,0,0,0,1,TRUE,FALSE,TRUE,0,0,1,0,0,0,TRUE,TRUE
+vajra2,,base_trail_smooth,20,0.05,0.001,0.1,20,20,"[159,255,255]","[9,56,169]",0.5,128,0,0,0,1,TRUE,FALSE,TRUE,100,0,0.2,0,0,0,TRUE,TRUE
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+vajra3,plasma_bolt,base_trail_heavyBurn,20,0.05,0.1,0.05,60,100,"[9,56,169]","[9,56,169]",1,128,100,0,0,1,TRUE,FALSE,TRUE,0,0,1,0,0,0,TRUE,TRUE
+,,,,,,,,,,"[159,255,255]",,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pulsar1,pulsar_bolt,base_trail_weave,20,0,0.01,0.5,60,10,"[84,28,255]","[28,84,255]",1,128,-2000,0,0,1,TRUE,FALSE,TRUE,0,0,1,0,0,0,TRUE,TRUE
+pulsar2,pulsar_bolt,base_trail_zapWithCore,20,0,0.01,0.5,20,5,"[183,237,255]","[183,237,255]",1,128,2000,0,0,1,TRUE,FALSE,TRUE,0,0,1,0,0,0,TRUE,TRUE
+pulsar3,pulsar_bolt,base_trail_weave,20,0,0.01,0.5,65,65,"[84,28,255]","[28,84,255]",1,148,1000,0,0,1,TRUE,FALSE,TRUE,0,0,1,0,0,0,TRUE,TRUE

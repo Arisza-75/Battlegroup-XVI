@@ -1,0 +1,35 @@
+{
+    "displayName": "World Spanning",
+    "fluxCapacitors": 35,
+    "fluxVents": 50,
+    "goalVariant": false,
+    "hullId": "mms_arclight",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_arclight_ws",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "ionbeam",
+                "WS 007": "ionbeam",
+                "WS 008": "gazerpod",
+                "WS 009": "gazerpod",
+                "WS 003": "pdburst",
+                "WS 002": "pdburst",
+                "WS 016": "pdlaser",
+                "WS 000": "reaper",
+                "WS 001": "reaper",
+                "WS 015": "tachyonlance",
+                "WS 014": "guardian",
+                "WS 005": "pdlaser",
+                "WS 004": "pdlaser",
+                "WS 010": "pdburst",
+                "WS 013": "taclaser",
+                "WS 012": "taclaser",
+                "WS 011": "pdburst"
+            }
+        }
+    ]
+}

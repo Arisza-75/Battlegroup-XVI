@@ -4,7 +4,7 @@
 	"spawnType":"BALLISTIC_AS_BEAM",
 	"collisionClass":"RAY",
 	"collisionClassByFighter":"RAY_FIGHTER",
-	"length":520.0,
+	"length":10.0,
 	"width":20.0,
 	"fadeTime":0.1,
 	"fringeColor":[28,84,255,255],
@@ -18,5 +18,5 @@
 	"passThroughFighters":false,
 	"passThroughFightersOnlyWhenDestroyed":true,
 	"textureType":["graphics/fx/beam_rough2_fringe.png","graphics/fx/emp_arcs.png"],
-	"bulletSprite":"graphics/missiles/shell_gauss_cannon.png",
+	#"bulletSprite":"graphics/missiles/shell_gauss_cannon.png",
 }
