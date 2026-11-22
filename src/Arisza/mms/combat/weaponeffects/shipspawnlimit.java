@@ -18,9 +18,9 @@ public class shipspawnlimit extends BaseEveryFrameCombatPlugin {
     private final IntervalUtil interval = new IntervalUtil(30f, 1f);
     private float timer = 0f;
 
-    private static final String ShipID = "mms_xvi_drone";
+    private static final String ShipID = "udf_microlayer_base";
     private static final String ProjectileID = "ship_constructor_shot";
-    private static final String TAG = "mms_drone_launcher";
+    private static final String TAG = "microlayer_tag";
 
     @Override
     public void advance(float amount, List<InputEventAPI> events) {

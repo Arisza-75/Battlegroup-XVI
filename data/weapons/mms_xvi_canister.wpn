@@ -12,6 +12,7 @@
 	"hardpointAngleOffsets":[0, 0, 0, 0, 0],
 	"turretAngleOffsets":[0, 0, 0, 0, 0],
 	"barrelMode":"ALTERNATING",
+	"renderHints":[RENDER_LOADED_MISSILES],
 	"glowColor":[69,225,255,255],
 	"animationType":"GLOW_AND_FLASH",
 	"autocharge":true,

@@ -1,0 +1,34 @@
+{
+    "displayName": "Standard Type",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "mms_xvi_skysplitter",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_xvi_skysplitter_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 007": "dragonpod",
+                "WS 006": "dragonpod",
+                "WS 004": "heavyneedler",
+                "WS 005": "heavyneedler",
+                "WS 002": "mms_xvi_canister",
+                "WS 003": "mms_xvi_canister",
+                "WS 013": "mms_xvi_pdburst",
+                "WS 012": "mms_xvi_pdburst",
+                "WS 015": "mms_xvi_pdburst",
+                "WS 014": "mms_xvi_pdburst",
+                "WS 009": "mms_xvi_blaster",
+                "WS 008": "mms_xvi_blaster",
+                "WS 011": "mms_xvi_blaster",
+                "WS 010": "mms_xvi_blaster",
+                "WS 000": "mms_xvi_heavy_pulsar",
+                "WS 001": "mms_xvi_heavy_pulsar"
+            }
+        }
+    ]
+}

@@ -1,15 +1,19 @@
 {
 "designTypeColors":{
-        "Materia Systems":[15,213,223,255],
-		"Lost Fleet Tech":[218,179,107,255],
+        #"Materia Systems":[15,213,223,255],
+		#"Lost Fleet Tech":[218,179,107,255],
+		"Framework of Logic":[54,66,247,255],
+		"Torch of Victory":[213,0,36,255],
+		"United Council":[249,107,72,255],
 		"Battlegroup XVI":[10,240,255,255],
     },
 "graphics":{
         "fx":{
             #Ship Lights
-            "mms_ayakashi_highlight":"graphics/ships/mms_ayakashi_glow1.png",
-            "mms_ayakashi_diffuse":"graphics/ships/mms_ayakashi_glow2.png",
-			"mms_UDFbeam_glow":"graphics/missiles/mms_UDFbeam_glow.png"
+#            "mms_ayakashi_highlight":"graphics/ships/mms_ayakashi_glow1.png",
+#           "mms_ayakashi_diffuse":"graphics/ships/mms_ayakashi_glow2.png",
+			"MMS_WarpCannon_FX":"graphics/fx/MMS_WarpCannon_FX.png",
+			"MMS_glitter_FX":"graphics/fx/mms_glitter_fx.png"
         },
 	}
 }	

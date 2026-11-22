@@ -21,7 +21,7 @@
   ],
   "hardpointSprite": "graphics/weapons/mms_missile_launcher_barrel.png",
   "id": "mms_swarm_fighter",
-  "projectileSpecId": "mms_itano_swarm",
+  "projectileSpecId": "mms_swarmer",
   "requiresFullCharge": false,
   "size": "SMALL",
   "specClass": "projectile",

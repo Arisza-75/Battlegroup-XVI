@@ -1,5 +1,5 @@
 {
-    "displayName": "base",
+    "displayName": "Combat",
     "fluxCapacitors": 0,
     "fluxVents": 0,
     "goalVariant": false,
@@ -10,9 +10,11 @@
     "weaponGroups": [
         {
             "autofire": false,
-            "mode": "LINKED",
+            "mode": "ALTERNATING",
             "weapons": {
-                "WS 000": "gravitonbeam"
+                "WS 001": "ioncannon",
+                "WS 000": "ioncannon",
+                "WS 002": "mms_neutronCannon"
             }
         }
     ]

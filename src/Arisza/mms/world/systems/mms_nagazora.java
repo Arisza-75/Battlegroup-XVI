@@ -107,7 +107,7 @@ public class mms_nagazora {
 
                 azuren_v, //what it's orbiting
                 "Malkuth", //name
-                "barren-bombarded", //the planet type (look in planets.json for more)
+                "tundra", //the planet type (look in planets.json for more)
                 100, //-
                 50f, //radius
                 600, //distance from star

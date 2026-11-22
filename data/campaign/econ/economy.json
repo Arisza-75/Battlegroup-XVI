@@ -1,6 +1,6 @@
 {
     "starSystems":[
-		"nagazora.json",		
-		"alaska.json"
+		"nagazora.json",
+		"TransitPoint.json",
     ],
 }

@@ -1,0 +1,114 @@
+{
+    "starSystem":"TP1_Star",
+    "markets":[
+	  {
+            "entities":["planet_aroriya"],
+            "faction":"independent",
+            "size":8,
+            "freePort":false,
+            "startingConditions":[			
+                "population_8",
+				"cold",
+				"habitable"
+            ],
+
+            "industries":[
+				"population",
+				"orbitalworks",
+                "starfortress_high",
+                "waystation",	
+				"megaport",
+				"commerce"
+            ],
+        },
+		
+        {
+            "entities":["mms_ignatia"],
+            "faction":"MMS_XVI",
+            "size":2,
+            "freePort":false,
+
+            "startingConditions":[			
+                "population_2",
+				"ruins_vast",
+				"no_atmosphere",
+				"very_hot",
+				"high_gravity",
+				"ore_ultrarich",
+				"rare_ore_ultrarich",
+				
+            ],
+			"industries":[
+				"population",
+				"spaceport",
+				["mining","mantle_bore"],
+				"orbitalworks",
+			],
+		},
+		
+        {
+            "entities":["mms_babylon"],
+            "faction":"MMS_XVI",
+            "size":6,
+            "freePort":false,
+
+            "startingConditions":[			
+                "population_6",
+				"habitable",
+				"no_atmosphere",
+				"ruins_vast",
+            ],
+
+            "industries":[
+				"population",
+                ["starfortress_high","alpha_core"],
+                "waystation",
+				"refining",
+				"spaceport",
+				"militarybase",
+	            "orbitalworks",
+				"heavybatteries",
+            ],
+        },
+		
+		
+		
+		{
+            "entities":["mms_hegStation2"],
+            "faction":"hegemony",
+            "size":3,
+            "freePort":false,
+
+            "startingConditions":[			
+                "population_3",
+				"habitable",
+            ],
+
+            "industries":[
+				"population",
+                "orbitalworks",
+				"patrolhq",
+                "spaceport",
+				"heavybatteries",
+            ],
+        },
+		
+		
+		{
+		"entities":["mms_hegFoB"],
+            "faction":"hegemony",
+            "size":2,
+            "freePort":false,
+
+            "startingConditions":[			
+                "population_2",
+				"habitable",
+            ],
+            "industries":[
+				"population",
+				"patrolhq",
+				"heavybatteries",
+            ],
+        },
+    ],
+}

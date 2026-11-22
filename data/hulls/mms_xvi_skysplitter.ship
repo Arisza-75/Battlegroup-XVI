@@ -1,0 +1,376 @@
+{
+    "hullName": "Skysplitter (XVI)",
+    "hullId": "mms_xvi_skysplitter",
+    "hullSize": "CAPITAL_SHIP",
+    "style": "MMS_XVI",
+    "spriteName": "graphics/ships/XVI/mms_xvi_skysplitter.png",
+    "height": 384,
+    "width": 186,
+    "center": [
+        93, 192
+    ],
+    "collisionRadius": 219.5,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 219.5,
+    "viewOffset": 0,
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "LARGE",
+            "type": "HYBRID",
+            "mount": "HARDPOINT",
+            "renderOrderMod": 50,
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      20,        0
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "LARGE",
+            "type": "HYBRID",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      45,        0
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "MEDIUM",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      30,       59
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "MEDIUM",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      30,      -59
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                     122,      -42
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                     122,       42
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 45,
+            "locations": [
+                   -53.5,     49.5
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 315,
+            "locations": [
+                   -53.5,    -49.5
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "MEDIUM",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 80,
+            "angle": -25,
+            "locations": [
+                      76,      -34
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "MEDIUM",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 80,
+            "angle": 25,
+            "locations": [
+                      76,       34
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "MEDIUM",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 99,
+            "angle": -30,
+            "locations": [
+                     -94,      -58
+            ]
+        },
+        {
+            "id": "WS 011",
+            "size": "MEDIUM",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 99,
+            "angle": 30,
+            "locations": [
+                     -94,       58
+            ]
+        },
+        {
+            "id": "WS 012",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 177,
+            "angle": 68,
+            "locations": [
+                       5,       37
+            ]
+        },
+        {
+            "id": "WS 013",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 177,
+            "angle": -68,
+            "locations": [
+                       5,      -37
+            ]
+        },
+        {
+            "id": "WS 014",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 130,
+            "angle": -129.5,
+            "locations": [
+                    -137,      -52
+            ]
+        },
+        {
+            "id": "WS 015",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 130,
+            "angle": 129.5,
+            "locations": [
+                    -137,       52
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -180.5, -10.5
+            ],
+            "length": 81.5,
+            "width": 32,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -180.5, 10.5
+            ],
+            "length": 81.5,
+            "width": 32,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -185, -29
+            ],
+            "length": 57,
+            "width": 26,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -185, 29
+            ],
+            "length": 57,
+            "width": 26,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -181.5, 45
+            ],
+            "length": 57,
+            "width": 26,
+            "angle": 173.5,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -181.5, -45
+            ],
+            "length": 57,
+            "width": 26,
+            "angle": -173.5,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -178.5, -61
+            ],
+            "length": 57,
+            "width": 26,
+            "angle": -172.5,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -178.5, 61
+            ],
+            "length": 57,
+            "width": 26,
+            "angle": 172.5,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -133.5, 68.5
+            ],
+            "length": 57,
+            "width": 26,
+            "angle": 155,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -133.5, -68.5
+            ],
+            "length": 57,
+            "width": 26,
+            "angle": 205,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -126, 80.5
+            ],
+            "length": 57,
+            "width": 26,
+            "angle": 155,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        },
+        {
+            "location": [
+                -126, -80.5
+            ],
+            "length": 57,
+            "width": 26,
+            "angle": 205,
+            "contrailSize": 12,
+            "style": "MMS_XVI_engine"
+        }
+    ],
+    "bounds": [
+          -180.5,     43.5,
+            -168,     72.5,
+            -131,     61.5,
+          -106.5,       90,
+             -58,     73.5,
+        
+           -38.5,       51,
+             -26,     47.5,
+             0.5,       65,
+            28.5,       67,
+            26.5,       49,
+        
+            58.5,     45.5,
+             123,     48.5,
+             131,       36,
+             190,       28,
+           189.5,     20.5,
+        
+           154.5,     12.5,
+           117.5,     11.5,
+           117.5,     -8.5,
+           106.5,     -9.5,
+             107,       10,
+        
+           100.5,       11,
+           100.5,    -10.5,
+            91.5,      -11,
+            91.5,       13,
+              57,       13,
+        
+              57,      -13,
+           117.5,    -11.5,
+           154.5,    -12.5,
+           189.5,    -20.5,
+             190,      -28,
+        
+             131,      -36,
+             123,    -48.5,
+            58.5,    -45.5,
+            26.5,      -49,
+            28.5,      -67,
+        
+             0.5,      -65,
+             -26,    -47.5,
+           -38.5,      -51,
+             -58,    -73.5,
+          -106.5,      -90,
+        
+            -131,    -61.5,
+            -168,    -72.5,
+          -180.5,    -43.5
+    # 43 points total.
+    ]
+}

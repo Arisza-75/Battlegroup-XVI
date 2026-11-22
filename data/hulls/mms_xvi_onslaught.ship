@@ -31,7 +31,7 @@
         {
             "id": "WS 000",
             "size": "LARGE",
-            "type": "SYNERGY",
+            "type": "ENERGY",
             "mount": "TURRET",
             "arc": 260,
             "angle": 0,
@@ -42,7 +42,7 @@
         {
             "id": "WS 001",
             "size": "LARGE",
-            "type": "SYNERGY",
+            "type": "ENERGY",
             "mount": "TURRET",
             "arc": 260,
             "angle": 0,
@@ -97,7 +97,7 @@
         {
             "id": "WS 006",
             "size": "MEDIUM",
-            "type": "SYNERGY",
+            "type": "ENERGY",
             "mount": "TURRET",
             "arc": 150,
             "angle": 101,
@@ -108,7 +108,7 @@
         {
             "id": "WS 007",
             "size": "MEDIUM",
-            "type": "SYNERGY",
+            "type": "ENERGY",
             "mount": "TURRET",
             "arc": 150,
             "angle": 259,
@@ -119,7 +119,7 @@
         {
             "id": "WS 008",
             "size": "MEDIUM",
-            "type": "SYNERGY",
+            "type": "ENERGY",
             "mount": "TURRET",
             "renderOrderMod": 3,
             "arc": 220,
@@ -131,7 +131,7 @@
         {
             "id": "WS 009",
             "size": "MEDIUM",
-            "type": "SYNERGY",
+            "type": "ENERGY",
             "mount": "TURRET",
             "renderOrderMod": 3,
             "arc": 220,

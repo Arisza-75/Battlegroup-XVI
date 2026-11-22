@@ -2,7 +2,7 @@
     "hullName": "Karalis",
     "hullId": "mms_cargo_ship1",
     "hullSize": "CAPITAL_SHIP",
-    "style": "MMS_UDF",
+    "style": "MMS_XVI",
     "spriteName": "graphics/ships/mms_cargo_ship.png",
     "height": 570,
     "width": 296,

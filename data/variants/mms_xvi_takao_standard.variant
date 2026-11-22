@@ -1,0 +1,54 @@
+{
+    "displayName": "",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "mms_xvi_takao",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_xvi_takao_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "mms_xvi_canister",
+                "WS 007": "mms_xvi_canister"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "mms_xvi_pdburst",
+                "WS 009": "mms_xvi_pdburst",
+                "WS 006": "mms_xvi_pdburst",
+                "WS 005": "mms_xvi_pdburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "mms_xvi_blaster",
+                "WS 002": "mms_xvi_blaster",
+                "WS 004": "mms_xvi_blaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "mms_particle_cannon",
+                "WS 000": "mms_particle_cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 014": "mms_HVC"
+            }
+        }
+    ]
+}

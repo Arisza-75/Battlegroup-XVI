@@ -1,0 +1,19 @@
+{
+    "displayName": "Automated Cargo Hauler",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "mms_hellborer_drone",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_hellborer_drone_mod",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "mms_hellborer"
+            }
+        }
+    ]
+}

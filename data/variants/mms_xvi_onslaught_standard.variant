@@ -57,6 +57,8 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
+                "WS 003": "mms_xvi_heavy_pulsar",
+                "WS 002": "mms_xvi_heavy_pulsar",
                 "WS 001": "mms_xvi_heavy_pulsar",
                 "WS 000": "mms_xvi_heavy_pulsar"
             }
@@ -64,10 +66,7 @@
         {
             "autofire": false,
             "mode": "ALTERNATING",
-            "weapons": {
-                "WS 002": "mms_spike_large",
-                "WS 003": "mms_spike_large"
-            }
+            "weapons": { }
         }
     ],
     "wings": [

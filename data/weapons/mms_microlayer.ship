@@ -1,0 +1,49 @@
+{
+    "hullName": "MicroLayer",
+    "hullId": "mms_microlayer",
+    "hullSize": "FIGHTER",
+    "style": "MMS_UDF",
+    "spriteName": "graphics/fx/mms_eye_flat.png",
+    "height": 1376,
+    "width": 1232,
+    "center": [
+        616, 688
+    ],
+    "collisionRadius": 985,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 945.5,
+    "viewOffset": 0,
+    "builtInMods": [
+        "mms_microlayer_effect",
+        "mms_droneEMP"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [],
+    "engineSlots": [
+        {
+            "location": [
+                -574, 461.5
+            ],
+            "length": 75,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 80,
+            "style": "DWELLER"
+        }
+    ],
+    "bounds": [
+            -639,    435.5,
+            -209,    595.5,
+             381,    595.5,
+             651,    375.5,
+             651,   -375.5,
+        
+             381,   -595.5,
+            -209,   -595.5,
+            -639,   -435.5
+    ]
+}

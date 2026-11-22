@@ -1,0 +1,36 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 0,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "mms_xvi_grendel",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_xvi_grendel_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 012": "mms_xvi_pdburst",
+                "WS 014": "mms_xvi_pdburst",
+                "WS 017": "mms_xvi_pdburst",
+                "WS 016": "mms_xvi_pdburst",
+                "WS 013": "mms_xvi_pdburst",
+                "WS 015": "mms_xvi_pdburst",
+                "WS 007": "mms_xvi_canister_S",
+                "WS 008": "mms_xvi_canister_S",
+                "WS 006": "mms_xvi_canister_S",
+                "WS 009": "mms_xvi_canister_S",
+                "WS 001": "mms_xvi_blaster",
+                "WS 003": "mms_xvi_blaster",
+                "WS 000": "mms_xvi_blaster",
+                "WS 002": "mms_xvi_blaster",
+                "WS 004": "mms_xvi_blaster",
+                "WS 005": "mms_xvi_blaster",
+                "WS 011": "mms_xvi_blaster",
+                "WS 010": "mms_xvi_blaster"
+            }
+        }
+    ]
+}

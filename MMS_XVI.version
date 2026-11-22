@@ -1,20 +1,19 @@
 {
  
-
   "masterVersionFile": "",
 
-  "modName": "",
+  "modName": "Battlegroup XVI",
 
   "modVersion":
     {
       "major": 1,
       "minor": 0,
-      "patch": 0 #
+      "patch": 3 #
     },
 
-  "modThreadId": 0, # eg 8181
+  "modThreadId": 35731, # eg 8181
 
-  "directDownloadURL": "",
+  "directDownloadURL": "https://github.com/Arisza-75/Battlegroup-XVI/releases/download/Version_1.0/Battlegroup.XVI.Version.1.0.zip",
 
   "changelogURL": "",
 }

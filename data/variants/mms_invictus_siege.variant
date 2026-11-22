@@ -1,0 +1,55 @@
+{
+    "displayName": "Siege",
+    "fluxCapacitors": 30,
+    "fluxVents": 25,
+    "goalVariant": true,
+    "hullId": "mms_invictus",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_invictus_siege",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 009": "plasma",
+                "WS 008": "plasma",
+                "WS 017": "mms_xvi_pdburst",
+                "WS 016": "mms_xvi_pdburst"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "plasma",
+                "WS 001": "plasma",
+                "WS 004": "plasma",
+                "WS 005": "plasma",
+                "WS 000": "plasma",
+                "WS 002": "plasma"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": { }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "plasma",
+                "WS 010": "plasma",
+                "WS 006": "autopulse",
+                "WS 007": "autopulse"
+            }
+        }
+    ],
+    "wings": [
+        "mms_xvi_talon_wing",
+        "mms_stormblade_wing",
+        "mms_stormblade_wing",
+        "mms_lightchaser_wing"
+    ]
+}

@@ -6,10 +6,9 @@
 	"displayArcRadius":450,
 	"turretGunSprite": "graphics/weapons/mms_xvi_naval_recoil.png",
 	"turretSprite": "graphics/weapons/mms_xvi_naval_gun_base.png",
-	"turretUnderSprite": "graphics/weapons/mms_xvi_naval_under.png",
-	"hardpointUnderSprite":"graphics/weapons/mms_xvi_naval_under.png",	
-	"hardpointSprite":"graphics/weapons/mms_xvi_naval_gun_base.png",
-	"hardpointGunSprite":"graphics/weapons/mms_xvi_naval_recoil.png",
+	"turretUnderSprite": "graphics/weapons/mms_xvi_naval_under.png",	
+	"hardpointSprite":"graphics/weapons/mms_xvi_naval_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/weapons/mms_xvi_naval_hardpoint_recoil.png",
 	"visualRecoil":10.0,  # the gun sprites are only used if this is non-0
 	"renderHints":[RENDER_BARREL_BELOW],
 	"glowColor":[255,185,215,215],

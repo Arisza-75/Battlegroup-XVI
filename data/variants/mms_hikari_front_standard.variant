@@ -21,7 +21,9 @@
                 "WS 008": "taclaser",
                 "WS 009": "taclaser",
                 "WS 004": "mms_ultraheavyburst",
-                "WS 005": "mms_ultraheavyburst"
+                "WS 005": "mms_ultraheavyburst",
+                "WS 010": "squall",
+                "WS 011": "squall"
             }
         }
     ],

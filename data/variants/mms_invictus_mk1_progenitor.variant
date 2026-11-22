@@ -1,0 +1,58 @@
+{
+    "displayName": "Progenitor",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "mms_invictus_mk1",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "mms_invictus_mk1_progenitor",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "hellbore",
+                "WS 002": "hellbore",
+                "WS 010": "hellbore",
+                "WS 009": "hellbore"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "devastator",
+                "WS 008": "devastator"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 026": "multineedler",
+                "WS 000": "multineedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "pilum_large",
+                "WS 004": "pilum_large"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "mark9",
+                "WS 006": "mark9"
+            }
+        }
+    ],
+    "modules": {
+        "WS 028": "module_onslaught_armor_left_Standard",
+        "WS 029": "module_onslaught_armor_right_Standard"
+    }
+}

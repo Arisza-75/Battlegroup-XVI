@@ -138,9 +138,9 @@
             "type": "MISSILE",
             "mount": "HARDPOINT",
             "arc": 5,
-            "angle": 271.5,
+            "angle": 270,
             "locations": [
-                     -29,      -77
+                   -27.5,      -84
             ]
         },
         {
@@ -149,9 +149,9 @@
             "type": "MISSILE",
             "mount": "HARDPOINT",
             "arc": 5,
-            "angle": 88.5,
+            "angle": 90,
             "locations": [
-                     -29,       77
+                   -27.5,       84
             ]
         },
         {

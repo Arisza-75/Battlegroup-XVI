@@ -1,0 +1,13 @@
+{
+ 	
+ 	# DEM missiles and related
+
+    "mms_targeting_laser_loop":
+    [
+            {"file":"sounds/missile/gigacannon_charge_01.ogg","pitch":1,"volume":0.35},
+    ],
+}
+
+
+
+
