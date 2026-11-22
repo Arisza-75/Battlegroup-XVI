@@ -7,7 +7,7 @@
 	"center":[4,7],
 	"collisionRadius":10,
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
-	"collisionClass":"MISSILE_NO_FF",
+	"collisionClass":"HITS_SHIPS_ONLY_NO_FF",
 	"explosionColor":[15,94,230,255], # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":50, # purely visual
 	#"alwaysAccelerate":true,
@@ -28,10 +28,10 @@
 	"passThroughFighters":false,	
 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
 					"range":35,			 
-					"explosionSpec":{"duration":20f, # not visual
-									 "radius":50,
-									 "coreRadius":25, # full damage within core radius
-									 "collisionClass":MISSILE_NO_FF,
+					"explosionSpec":{"duration":5f, # not visual
+									 "radius":150,
+									 "coreRadius":125, # full damage within core radius
+									 "collisionClass":HITS_SHIPS_ONLY_NO_FF,
 									 "collisionClassByFighter":PROJECTILE_FIGHTER,
 									 "particleSizeMin":5.0,
 									 "particleSizeRange":3.0,

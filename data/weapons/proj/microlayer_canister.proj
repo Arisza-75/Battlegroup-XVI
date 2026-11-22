@@ -7,7 +7,7 @@
 	"size":[6,10],	
 	"center":[3,5],
 	"collisionRadius":9,
-	"collisionClass":"MISSILE_NO_FF",
+	"collisionClass":"HITS_SHIPS_ONLY_NO_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
 	"explosionColor":[15,94,230,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":100, # purely visual
@@ -29,7 +29,7 @@
 					"explosionSpec":{"duration":10f,
 									 "radius":575,
 									 "coreRadius":575, # full damage within core radius - at least equal to proximity fuse range
-									 "collisionClass":MISSILE_NO_FF,
+									 "collisionClass":HITS_SHIPS_ONLY_NO_FF,
 									 "collisionClassByFighter":PROJECTILE_FIGHTER,
 									 "particleSizeMin":4.0,
 									 "particleSizeRange":4.0,
